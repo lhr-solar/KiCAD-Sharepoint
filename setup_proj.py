@@ -36,8 +36,8 @@ def create_pretty_and_lib_files(dest):
             print(f"Created {file_name}.lib file at {dest}")
 
 def main():
-    src_dir = '/Users/lakshaygupta/Documents/LHR/KiCAD-Bild'
-    dest_dir = '/path/to/outer/directory'  # Change this to the actual outer directory path
+    src_dir = os.path.dirname(os.path.abspath(__file__))
+    dest_dir = os.path.dirname(src_dir)
 
     copy_gitignore(src_dir, dest_dir)
     create_bom_folder(dest_dir)
