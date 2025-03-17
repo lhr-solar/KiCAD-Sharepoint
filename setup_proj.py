@@ -22,7 +22,6 @@ def copy_pull_request_template(src, dest):
         shutil.copy(src_template, dest_template)
         print(f"Copied PULL_REQUEST_TEMPLATE.md to {dest}")
 
-
 def main():
     parser = argparse.ArgumentParser(description="Copy project setup files to the destination directory.")
     parser.add_argument('dest_dir', nargs='?', default=None, help='The destination directory to copy files to')
