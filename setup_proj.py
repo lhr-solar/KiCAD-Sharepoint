@@ -22,18 +22,6 @@ def copy_pull_request_template(src, dest):
         shutil.copy(src_template, dest_template)
         print(f"Copied PULL_REQUEST_TEMPLATE.md to {dest}")
 
-def move_jobsets(src, dest):
-    src_jobsets = os.path.join(src, 'Jobsets')
-    dest_jobsets = os.path.join(dest, 'Jobsets')
-    if os.path.exists(src_jobsets):
-        if not os.path.exists(dest_jobsets):
-            os.makedirs(dest_jobsets)
-        for item in os.listdir(src_jobsets):
-            src_item = os.path.join(src_jobsets, item)
-            dest_item = os.path.join(dest_jobsets, item)
-            if os.path.isfile(src_item) and not os.path.exists(dest_item):
-                shutil.move(src_item, dest_item)
-                print(f"Moved {item} to {dest_jobsets}")
 
 def main():
     parser = argparse.ArgumentParser(description="Copy project setup files to the destination directory.")
@@ -46,7 +34,6 @@ def main():
     copy_gitignore(src_dir, dest_dir)
     create_bom_folder(dest_dir)
     copy_pull_request_template(src_dir, dest_dir)
-    move_jobsets(src_dir, dest_dir)
 
 if __name__ == "__main__":
     main()
