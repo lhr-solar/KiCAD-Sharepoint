@@ -15,6 +15,12 @@ def create_bom_folder(dest):
         os.makedirs(bom_folder)
         print(f"Created bom/ folder at {dest}")
 
+def create_docs_folder(dest):
+    docs_folder = os.path.join(dest, 'docs')
+    if not os.path.exists(docs_folder):
+        os.makedirs(docs_folder)
+        print(f"Created docs/ folder at {dest}")
+
 def copy_pull_request_template(src, dest):
     src_template = os.path.join(src, 'PULL_REQUEST_TEMPLATE.md')
     dest_template = os.path.join(dest, 'PULL_REQUEST_TEMPLATE.md')
@@ -32,6 +38,7 @@ def main():
 
     copy_gitignore(src_dir, dest_dir)
     create_bom_folder(dest_dir)
+    create_docs_folder(dest_dir)
     copy_pull_request_template(src_dir, dest_dir)
 
 if __name__ == "__main__":
