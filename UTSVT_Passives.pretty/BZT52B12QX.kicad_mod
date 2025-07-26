@@ -1,7 +1,7 @@
 (footprint "BZT52B12QX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "BZT52-B12-QX-2")
 	(tags "Zener Diode")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2076fe29-e489-4887-b712-91829ee7bb01")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -179,16 +167,17 @@
 	(pad "1" smd rect
 		(at -1.635 0)
 		(size 0.91 1.22)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "85388be3-f275-472c-af3c-26d89e745750")
 	)
 	(pad "2" smd rect
 		(at 1.635 0)
 		(size 0.91 1.22)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e016a73-91d5-439d-8eef-5bad7dcad38e")
 	)
-	(model "BZT52-B12-QX.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCAD-Bild/UTSVT_Passives.pretty/BZT52-B12-QX.stp"
 		(offset
 			(xyz 0 0 0)
 		)
