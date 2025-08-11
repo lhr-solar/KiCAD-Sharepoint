@@ -756,7 +756,7 @@
 			(pin power_out line
 				(at 7.62 2.54 180)
 				(length 5.08)
-				(name "+12V"
+				(name "+24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -870,7 +870,7 @@
 			(pin power_in line
 				(at 10.16 3.81 180)
 				(length 5.08)
-				(name "12V"
+				(name "24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -885,26 +885,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 1.27 180)
-				(length 5.08)
-				(name "GNDPWR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 10.16 -1.27 180)
+				(at 10.16 1.27 180)
 				(length 5.08)
 				(name "CAN_H"
 					(effects
@@ -922,7 +904,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -3.81 180)
+				(at 10.16 -1.27 180)
 				(length 5.08)
 				(name "CAN_L"
 					(effects
@@ -932,6 +914,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -3.81 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
