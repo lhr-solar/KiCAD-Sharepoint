@@ -45364,7 +45364,7 @@
 			)
 		)
 		(property "Value" "53307-2471"
-			(at 0 -1.524 0)
+			(at 12.7 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45401,7 +45401,7 @@
 		(symbol "PeripheralSOMConnector_0_1"
 			(polyline
 				(pts
-					(xy -11.43 -20.32) (xy -11.43 -12.7)
+					(xy -7.62 -20.32) (xy -7.62 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -45437,7 +45437,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 -23.622) (xy 4.318 -37.338)
+					(xy 4.572 -25.4) (xy 4.572 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -45449,7 +45449,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.636 -20.32) (xy 8.636 -12.7)
+					(xy 4.572 -29.972) (xy 4.572 -43.688)
 				)
 				(stroke
 					(width 0)
@@ -45463,7 +45463,7 @@
 		(symbol "PeripheralSOMConnector_1_1"
 			(rectangle
 				(start -19.05 -2.54)
-				(end 18.796 -55.88)
+				(end 19.05 -57.912)
 				(stroke
 					(width 0)
 					(type solid)
@@ -45473,7 +45473,7 @@
 				)
 			)
 			(text "CAN"
-				(at -9.144 -16.764 0)
+				(at -5.08 -16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45496,16 +45496,16 @@
 					)
 				)
 			)
-			(text "ADC"
-				(at 1.778 -30.48 0)
+			(text "I2C1"
+				(at 2.032 -21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "I2C1"
-				(at 6.096 -16.764 0)
+			(text "ADC"
+				(at 2.032 -36.83 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45693,25 +45693,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 0 270)
-				(length 2.54)
-				(name "+24V_In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 -58.42 90)
+				(at -5.08 -60.452 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -45729,7 +45711,25 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -58.42 90)
+				(at -3.81 0 270)
+				(length 2.54)
+				(name "+24V_In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -60.452 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -45746,8 +45746,26 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 0 0 270)
+				(length 2.54)
+				(name "+3.3v"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -5.08 -58.42 90)
+				(at 2.54 -60.452 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -45765,25 +45783,7 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 0 270)
-				(length 2.54)
-				(name "+3.3v"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 12.7 0 270)
+				(at 3.81 0 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -45801,7 +45801,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -58.42 90)
+				(at 6.35 -60.452 90)
 				(length 2.54)
 				(name "GNDA"
 					(effects
@@ -45819,7 +45819,7 @@
 				)
 			)
 			(pin output line
-				(at 21.336 -15.24 180)
+				(at 21.59 -20.32 180)
 				(length 2.54)
 				(name "I2C1_SCL"
 					(effects
@@ -45837,7 +45837,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 21.336 -17.78 180)
+				(at 21.59 -22.86 180)
 				(length 2.54)
 				(name "I2C1_SDA"
 					(effects
@@ -45855,7 +45855,7 @@
 				)
 			)
 			(pin input line
-				(at 21.336 -25.4 180)
+				(at 21.59 -31.75 180)
 				(length 2.54)
 				(name "OPAMP1_VINP"
 					(effects
@@ -45873,7 +45873,7 @@
 				)
 			)
 			(pin input line
-				(at 21.336 -27.94 180)
+				(at 21.59 -34.29 180)
 				(length 2.54)
 				(name "ADC1_IN7"
 					(effects
@@ -45891,7 +45891,7 @@
 				)
 			)
 			(pin input line
-				(at 21.336 -30.48 180)
+				(at 21.59 -36.83 180)
 				(length 2.54)
 				(name "ADC1_IN9"
 					(effects
@@ -45909,7 +45909,7 @@
 				)
 			)
 			(pin input line
-				(at 21.336 -33.02 180)
+				(at 21.59 -39.37 180)
 				(length 2.54)
 				(name "ADC1_IN10"
 					(effects
@@ -45927,7 +45927,7 @@
 				)
 			)
 			(pin input line
-				(at 21.336 -35.56 180)
+				(at 21.59 -41.91 180)
 				(length 2.54)
 				(name "ADC1_IN11"
 					(effects
