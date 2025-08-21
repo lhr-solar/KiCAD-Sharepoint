@@ -1,1 +1,3 @@
 timelines for each step - sch, part selection, layout/routing, bom/pos, order. reviewable progress weekly. don't be afraid to ask for reviews/help that's what we're here for....
+
+also how do reviews work + PR etiquette
