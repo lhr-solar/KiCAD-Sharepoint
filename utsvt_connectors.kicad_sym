@@ -37952,7 +37952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_Connectors:533072471"
+		(property "Footprint" "UTSVT_Connectors:PeripheralSOM"
 			(at 0 1.016 0)
 			(effects
 				(font
@@ -38108,7 +38108,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 -52.07 0)
+				(at -17.78 -46.99 0)
 				(length 2.54)
 				(name "GNDA"
 					(effects
@@ -38118,6 +38118,24 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -52.07 0)
+				(length 2.54)
+				(name "MNT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
