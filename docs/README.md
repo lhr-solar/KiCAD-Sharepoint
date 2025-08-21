@@ -1,3 +1,4 @@
 # Welcome to the KiCad Sharepoint Documentation
-
-blah blah
+Welcome to the LHRs KiCad Sharepoint! KiCad-Sharepoint contains the shared symbols, footprints, and design blocks used to develop our custom PCBs for our solar-powered vehicle. Additionally, this documentation contains helpful guides for setting up and using KiCad with our standardized design process.
+## Where to Start
+idk maybe figure it out...
