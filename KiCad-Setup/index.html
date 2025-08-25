@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../LHRs.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
@@ -723,10 +723,17 @@
 <p>This allows you to generate a convenient Bill of Materials (BOM) listing with the ability to visually correlate and easily search for components and their placements on the PCB. It's useful when hand-soldering boards, since you can quickly find the location of each component you're placing. Install from the PCM as shown below. Make sure to click "Apply Pending Changes."</p>
 <p><img alt="IBOM Installation" src="../img/IBOM-Install.png" /></p>
 <p>Once installed, you can launch the IBOM tool from pcbnew by clicking this icon in the top bar.</p>
-<p><img alt="IBOM Installation" src="../img/IBOM-Icon.png" /></p>
-<p>Then modify any relevant settings and generate the IBOM. By default, it will be saved in your project directory as <code>ibom.html</code></p>
-<p><img alt="IBOM Installation" src="../img/IBOM-Generate.png" /></p>
+<p><img alt="IBOM Icon" src="../img/IBOM-Icon.png" /></p>
+<p>Then modify any relevant settings and generate the IBOM. By default, it will be saved in your project directory as <code>ibom.html</code>.</p>
+<p><img alt="IBOM Generation" src="../img/IBOM-Generate.png" /></p>
 <h3 id="kicad-jlcpcb-tools">KiCAD JLCPCB Tools</h3>
+<p>This plugin is very useful for working with our PCBA fab, <a href="https://jlcpcb.com/">JLCPCB</a>. It allows for one-click generation of gerbers, BOM, and CPL (component placement list) files, along with assigning LCSC (JLC supplier) parts for assembly.</p>
+<p>Install this plugin by following the directions on <a href="https://github.com/Bouni/kicad-jlcpcb-tools#installation-">Github</a>.</p>
+<p>Once installed, you can launch the JLCPCB tool from pcbnew by clicking this icon in the top bar.</p>
+<p><img alt="JLC Icon" src="../img/JLC-Icon.png" /></p>
+<p>To assign LCSC part numbers, simply select a part from the list, click "Select alike parts" in the right sidebar and then "Assign LCSC number." Then you can search for the LCSC number (or use <a href="https://yaqwsx.github.io/jlcparts/#/">this website</a> for easy parametric search).</p>
+<p>Now to generate production files simply click the generate button. The files will be located in the <code>jlcpcb/production_files</code> folder within your project directory.</p>
+<p><img alt="JLC Generation" src="../img/JLC-Generate.png" /></p>
 
 
 
