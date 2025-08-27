@@ -4,20 +4,26 @@ Generally, we aim to follow this workflow when designing PCBs for the car. Stick
 idk
 ## Project Setup
 First create repo
+Then create branch
 Then setup shared libraries using guide at....
 Then create a new KiCad project within your repo
+Add pull request template
 ## Schematic
 
 ## Part Selection
 Do this before selecting footprints
-## Layout & Routing
 Select footprints
+## Layout & Routing
+Put stuff on board
+Edge cuts
+Mounting
+Planes/Stackup
 ## Generating Production Files
-
+To generate production files for JLC (Gerbers, BOM, and CPL), use the JLCPCB Tools plugin as described [here](./KiCad-Setup/#kicad-jlcpcb-tools).
 ## Ordering
 
 ## Review Process
-
+PCB reviews are handled through Github pull requests.
 timelines for each step - sch, part selection, layout/routing, bom/pos, order. reviewable progress weekly. don't be afraid to ask for reviews/help that's what we're here for....
 
 also how do reviews work + PR etiquette
