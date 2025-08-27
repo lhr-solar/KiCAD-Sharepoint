@@ -5,7 +5,7 @@ idk
 ## Project Setup
 First create repo
 Then create branch
-Then setup shared libraries using guide at....
+Then setup shared libraries by cloning submodule
 Then create a new KiCad project within your repo
 Add pull request template
 ## Schematic
