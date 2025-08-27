@@ -2,7 +2,7 @@ To start a PCB prototype order, go to [JLCPCB](https://jlcpcb.com/) and sign in 
 
 ![JLCPCB Upload](img/JLC-Home.png)
 
-You should see an order page like these. Check that the base material is FR-4 for rigid boards and that the layer count and dimensions match your design in KiCad.
+You should see an order page like this. Check that the base material is FR-4 for rigid boards and that the layer count and dimensions match your design in KiCad.
 
 ![JLCPCB Order](img/JLC-Order.png)
 
