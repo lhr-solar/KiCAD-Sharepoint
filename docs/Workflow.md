@@ -19,7 +19,7 @@ Edge cuts
 Mounting
 Planes/Stackup
 ## Generating Production Files
-To generate production files for JLC (Gerbers, BOM, and CPL), use the JLCPCB Tools plugin as described [here](./KiCad-Setup/#kicad-jlcpcb-tools).
+To generate production files for JLC (Gerbers, BOM, and CPL), use the JLCPCB Tools plugin as described [here](../KiCad-Setup/#kicad-jlcpcb-tools).
 ## Ordering
 
 ## Review Process
