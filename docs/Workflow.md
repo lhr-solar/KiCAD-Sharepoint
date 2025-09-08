@@ -8,6 +8,7 @@ First create repo
 Then create branch
 Then setup shared libraries by cloning submodule
 Then create a new KiCad project within your repo
+
 - Add our pull request (PR) template to the main directory of your repository. Now, whenever you create a PR, the template checklist will show up for you to fill out.
 ## Schematic
 
