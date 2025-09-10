@@ -20,7 +20,7 @@ All symbols must have the following fields populated to be merged into our share
 Example symbol fields would look something like this:
 ![Example symbol fields](img/Symbol-Fields.png)
 
-Additionally, symbol pins should be grouped intuitively as shown and assigned the proper functionality (power, input, output, etc.).
+Additionally, symbol pins should be grouped intuitively as shown and assigned the proper functionality (power, input, output, etc.). Please double check that the pins & pin numbers actually match the package shown on the datasheet.
 ![Example symbol pins](img/Symbol-Pins.png)
 ## Footprints
 ## Schematics
