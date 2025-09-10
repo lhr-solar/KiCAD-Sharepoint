@@ -726,11 +726,49 @@
 <li><code>Controls-DashboardPCB</code></li>
 </ul>
 <h2 id="symbols">Symbols</h2>
+<p>All symbols must have the following fields populated to be merged into our shared libraries or used in an LHRs schematic.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reference</td>
+<td><a href="https://en.wikipedia.org/wiki/Reference_designator#Designators">Type of component</a></td>
+</tr>
+<tr>
+<td>Value</td>
+<td>Component value (resistance, capacitance, etc.)</td>
+</tr>
+<tr>
+<td>Footprint</td>
+<td>Footprint library &amp; name (should be linked)</td>
+</tr>
+<tr>
+<td>Datasheet</td>
+<td>Link to the manufacturer's datasheet</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Summary of the component's functionality</td>
+</tr>
+<tr>
+<td>P/N</td>
+<td>Manufacturer's part number</td>
+</tr>
+</tbody>
+</table>
+<p>Example symbol fields would look something like this:
+<img alt="Example symbol fields" src="../img/Symbol-Fields.png" /></p>
+<p>Additionally, symbol pins should be grouped intuitively as shown and assigned the proper functionality (power, input, output, etc.).
+<img alt="Example symbol pins" src="../img/Symbol-Pins.png" /></p>
 <h2 id="footprints">Footprints</h2>
 <h2 id="schematics">Schematics</h2>
 <h2 id="layout">Layout</h2>
 <h2 id="routing">Routing</h2>
-<p>TODO(rshah): need to update PR template?</p>
 
 
 
