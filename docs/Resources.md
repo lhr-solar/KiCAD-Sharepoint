@@ -11,11 +11,9 @@ Some great resources to learn more about hardware design. Feel free to suggest m
 
 ## Communication Protocols
 - [CAN Overview](https://www.instagram.com/p/DHZdIr9MV8O/?hl=en)
-- CAN In-depth
+- [CAN In-depth](https://www.youtube.com/watch?v=JZSCzRT9TTo)
 - [I2C Overview](https://www.instagram.com/p/DGL_z1wAzmP/?hl=en)
-- I2C In-depth
 - SPI Overview
-- SPI In-depth
 - UART Overview
-- UART In-depth
+- [UART/I2C/SPI In-depth](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
