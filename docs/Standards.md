@@ -23,6 +23,26 @@ Example symbol fields would look something like this:
 Additionally, symbol pins should be grouped intuitively as shown and assigned the proper functionality (power, input, output, etc.). Please double check that the pins & pin numbers actually match the package shown on the datasheet.
 ![Example symbol pins](img/Symbol-Pins.png)
 ## Footprints
+Ensure the following for all footprints:
+- Fotprints should match the datasheet. Please double-check
+- All pins should correspond to the schematic
+- Pin 1 should be clearly labeled in silkscreen
+- Footprints should have accurate 3D models attached as embedded files
+- Courtyards should be defined such that the soldered component won't interfere with any others
+### Embedding 3D Models
+Open the footprint properties by hovering over a footprint and using the 'e' hotkey. Then navigate to the Embedded Files tab.
+![Embedded Files Tab](img/EmbeddedFilesTab.png)
+
+Now add the embedded file by clicking the file icon. You can usually find the step file by searching the component part number on [SnapMagic](https://www.snapeda.com/).
+![Embedded Files Icon](img/AddEmbeddedFile.png)
+
+Copy the reference to the embedded file as shown (double-click and ctrl-c).
+![Copying Embedded Reference](img/CopyEmbeddedReference.png)
+
+Finally, add the 3D Model by pasting the embedded reference in the 3D Models tab. Modify the Scale, Rotation, and Offset until the chip lines up properly with the pads. Ensure pin 1 of the model lines up with pin 1 of the footprint. If the model doesn't show up, close and reopen the footprint properties window to refresh.
+![Add 3D Model](img/Add3DModel.png)
 ## Schematics
+
 ## Layout
+
 ## Routing
