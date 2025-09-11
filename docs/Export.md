@@ -1,5 +1,5 @@
-using our docs jobset + how to make new ones
+TODO
 
-renders
-
-idk what else
+- using our docs jobset + how to make new ones
+- renders
+- idk what else

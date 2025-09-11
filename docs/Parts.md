@@ -1,5 +1,5 @@
-add common parts that require additional docs + usage guidelines
+TODO
 
-maybe standard connector pinouts and stuff as well
-
-SOMs
+- add common parts that require additional docs + usage guidelines
+- maybe standard connector pinouts and stuff as well
+- SOMs
