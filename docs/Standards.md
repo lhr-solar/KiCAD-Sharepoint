@@ -24,7 +24,8 @@ Additionally, symbol pins should be grouped intuitively as shown and assigned th
 ![Example symbol pins](img/Symbol-Pins.png)
 ## Footprints
 Ensure the following for all footprints:
-- Fotprints should match the datasheet. Please double-check
+
+- Footprints should match the datasheet. Please double-check
 - All pins should correspond to the schematic
 - Pin 1 should be clearly labeled in silkscreen
 - Footprints should have accurate 3D models attached as embedded files
