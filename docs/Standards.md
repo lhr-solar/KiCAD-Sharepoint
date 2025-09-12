@@ -4,7 +4,7 @@ All Github repositories for PCBs should be named as follows: `{System}-{BoardNam
 
 - `PS-ThermistorCollectorPCB`
 - `PS-PowerDistributionUnitPCB`
-- `Controls-DashboardPCB`
+- `VCAT-DashboardPCB`
 ## Symbols
 All symbols must have the following fields populated to be merged into our shared libraries or used in an LHRs schematic.
 
@@ -42,9 +42,3 @@ Copy the reference to the embedded file as shown (double-click and ctrl-c).
 
 Finally, add the 3D Model by pasting the embedded reference in the 3D Models tab. Modify the Scale, Rotation, and Offset until the chip lines up properly with the pads. Ensure pin 1 of the model lines up with pin 1 of the footprint. If the model doesn't show up, close and reopen the footprint properties window to refresh.
 ![Add 3D Model](img/Add3DModel.png)
-## Schematics
-TODO
-## Layout
-TODO
-## Routing
-TODO

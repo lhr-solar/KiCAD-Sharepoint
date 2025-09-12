@@ -4,7 +4,7 @@ We follow this workflow when designing PCBs for the car. Sticking to this will h
 Each step of the PCB design process should take approximately this much time (including reviews). Your timeline may vary based on board complexity and overall deadlines, and you'll get faster at iterating as you learn more, but try not to deviate too much from this.
 
 - Requirements & Setup - 1 day
-- Schematic - 1-2 weeks
+- Schematic & Part Selection - 1-2 weeks
 - Layout & Routing - 2 weeks
 - Production Files & Documentation - 1 day
 
