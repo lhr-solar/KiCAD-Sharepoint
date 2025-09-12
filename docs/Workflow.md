@@ -1,10 +1,14 @@
 ## Overview
-We follow this workflow when designing PCBs for the car. Sticking to this will help board development go a lot more smoothly
-TODO
-## General Expectations
-idk
-TODO: add timeline for each part...
-timelines for each step - sch, part selection, layout/routing, bom/pos, order. reviewable progress weekly. don't be afraid to ask for reviews/help that's what we're here for....
+We follow this workflow when designing PCBs for the car. Sticking to this will help you develop hardware smoothly while learning a lot in the process.
+## Timeline
+Each step of the PCB design process should take approximately this much time (including reviews). Your timeline may vary based on board complexity and overall deadlines, and you'll get faster at iterating as you learn more, but try not to deviate too much from this.
+
+- Requirements & Setup - 1 day
+- Schematic - 1-2 weeks
+- Layout & Routing - 2 weeks
+- Production Files & Documentation - 1 day
+
+The goal of this timeline is to ensure you have some kind of reviewable progress weekly. If you're blocked by another system/dependency, make sure they're aware so you can continue working. Don't be afraid to ask for reviews/help often to stay on track, that's what we're here for :P
 ## Project Setup
 TODO
 ### Github Repo Setup
@@ -18,6 +22,8 @@ TODO
 ### Creating a KiCad Project
 Then create a new KiCad project within your repo
 TODO
+### Documentation
+
 ## Schematic
 TODO
 ## Part Selection
@@ -39,4 +45,4 @@ Now copy the Github link to your PR and send it in the `#review-request` channel
 ## Generating Production Files
 To generate production files for JLC (Gerbers, BOM, and CPL), use the JLCPCB Tools plugin as described [here](../KiCad-Setup/#kicad-jlcpcb-tools).
 ## Ordering
-Follow the [ordering instructions](../Ordering) to order your PCB prototype using JLCPCB.
+Follow the [ordering instructions](../Ordering) to order your PCB prototype using JLCPCB. Usually we order in a couple of batches per revision cycle, so reach out to your lead to confirm your order timeline (you may need to speed up development to hit these dates).
