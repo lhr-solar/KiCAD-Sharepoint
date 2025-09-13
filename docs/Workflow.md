@@ -24,7 +24,9 @@ Now open KiCad and create a new project (Ctrl-N). Choose your repository folder 
 
 ![Moving KiCad Project Files](img/MoveKiCadProject.png)
 ### Documentation
+We all ~~hate~~ love documentation! To that end, we document all LHRs electrical projects using Confluence. For example, all Power Systems documentation can be found [here](https://cloud.wikis.utexas.edu/wiki/spaces/LHRSOLAR/folder/485753697?atlOrigin=eyJpIjoiNTVlN2Q0NWUyN2U5NGE0NmFkMWFlMjgwMmFmZjRjMTIiLCJwIjoiYyJ9). Create a new Confluence page for your board and place it under the correct system/subsystem folder. As you work on your design, fill out this [template](https://cloud.wikis.utexas.edu/wiki/spaces/LHRSOLAR/pages/484671489/Power+Systems+Documentation+Template?atl_f=PAGETREE) with your requirements, schematic/layout notes, firmware info, etc.
 
+In addition to your Confluence page, ensure your Github repository has a `Readme.md` file with relevant information about your project. This can simply be your name, project description, images of the schematic/pcb, and a brief application note. Please also link your Confluence documentation here.
 ## Schematic
 TODO
 ## Part Selection
