@@ -871,8 +871,9 @@
 <h3 id="github-repo-setup">Github Repo Setup</h3>
 <p>First, ask your lead to create a Github repository to store all your project files. If they don't follow the <a href="https://lhr-solar.github.io/KiCAD-Sharepoint/Standards/#naming-convention">naming convention</a>, they have to pay for your food next workday. Clone the repository <strong>using SSH</strong> and add our <a href="https://github.com/lhr-solar/KiCAD-Sharepoint/blob/main/PULL_REQUEST_TEMPLATE.md">pull request (PR) template</a> to the main directory. Open your terminal and use git to add, commit, and push this file to main. Now, whenever you create a PR, the template checklist will show up for you to fill out. Finally create and switch to a branch called "RevA" using the command <code>git switch -c RevA</code>. You'll do all your work for the first revision of your board on this branch.</p>
 <h3 id="shared-libraries">Shared Libraries</h3>
-<p>Then setup shared libraries by cloning submodule
-TODO</p>
+<p>We share several parts between our team's PCBs, including ICs, diodes, and more. This saves us from having to duplicate common symbols and footprints across projects, allowing for a single source of truth. These shared libraries can be found in <a href="https://github.com/lhr-solar/KiCAD-Sharepoint">KiCAD-Sharepoint</a>.</p>
+<p>To add the shared libraries to your project, open your repository in the terminal and type <code>git submodule add git@github.com:lhr-solar/KiCAD-Sharepoint.git</code>. In the next step, you'll find out how to associate these with your KiCad project.</p>
+<p>Note: if you're cloning a repository that already has KiCAD-Sharepoint added, you need to run <code>git submodule update --init --recursive</code> to pull the shared libraries.</p>
 <h3 id="creating-a-kicad-project">Creating a KiCad Project</h3>
 <p>Then create a new KiCad project within your repo
 TODO</p>
