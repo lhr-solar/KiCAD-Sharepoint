@@ -12,7 +12,7 @@ The goal of this timeline is to ensure you have some kind of reviewable progress
 ## Project Setup
 Follow these steps to set up a new hardware project.
 ### Github Repo Setup
-First, ask your lead to create a Github repository to store all your project files. If they don't follow the [naming convention](https://lhr-solar.github.io/KiCAD-Sharepoint/Standards/#naming-convention), they have to pay for your food next workday. Clone the repository **using SSH** and add our [pull request (PR) template](https://github.com/lhr-solar/KiCAD-Sharepoint/blob/main/PULL_REQUEST_TEMPLATE.md) to the main directory. Open your terminal and use git to add, commit, and push this file to main. Now, whenever you create a PR, the template checklist will show up for you to fill out. Finally create and switch to a branch called "RevA" using the command `git switch -c RevA`. You'll do all your work for the first revision of your board on this branch.
+First, ask your lead to create a Github repository to store all your project files. If they don't follow the [naming convention](https://lhr-solar.github.io/KiCAD-Sharepoint/Standards/#naming-convention), they have to pay for your food next workday. Clone the repository **using SSH** and add our [pull request (PR) template](https://github.com/lhr-solar/KiCAD-Sharepoint/blob/main/PULL_REQUEST_TEMPLATE.md) to the main directory. Also add a file called `.gitignore` with [these contents](https://github.com/lhr-solar/PS-LVCarrierPCB/blob/main/.gitignore) so git knows to ignore backup/temporary files. Open your terminal and use git to add, commit, and push these files to main. Now, whenever you create a PR, the template checklist will show up for you to fill out. Finally create and switch to a branch called "RevA" using the command `git switch -c RevA`. You'll do all your work for the first revision of your board on this branch.
 ### Shared Libraries
 We share several parts between our team's PCBs, including ICs, diodes, and more. This saves us from having to duplicate common symbols and footprints across projects, allowing for a single source of truth. These shared libraries can be found in [KiCAD-Sharepoint](https://github.com/lhr-solar/KiCAD-Sharepoint).
 
@@ -20,8 +20,9 @@ To add the shared libraries to your project, open your repository in the termina
 
 Note: if you're cloning a repository that already has KiCAD-Sharepoint added, you need to run `git submodule update --init --recursive` to pull the shared libraries.
 ### Creating a KiCad Project
-Then create a new KiCad project within your repo
-TODO
+Now open KiCad and create a new project (Ctrl-N). Choose your repository folder and name the KiCad project the same as your repository name. **Important**: KiCad puts all your files inside another folder, so close KiCad and move these files into the main directory as shown. Finally, delete the folder KiCad created. 
+
+![Moving KiCad Project Files](img/MoveKiCadProject.png)
 ### Documentation
 
 ## Schematic
