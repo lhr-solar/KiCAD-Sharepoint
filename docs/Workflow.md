@@ -10,12 +10,9 @@ Each step of the PCB design process should take approximately this much time (in
 
 The goal of this timeline is to ensure you have some kind of reviewable progress weekly. If you're blocked by another system/dependency, make sure they're aware so you can continue working. Don't be afraid to ask for reviews/help often to stay on track, that's what we're here for :P
 ## Project Setup
-TODO
+Follow these steps to set up a new hardware project.
 ### Github Repo Setup
-First create repo - follow naming conv
-Add our pull request (PR) template to the main directory of your repository. Now, whenever you create a PR, the template checklist will show up for you to fill out.
-Then create branch
-TODO
+First, ask your lead to create a Github repository to store all your project files. If they don't follow the [naming convention](https://lhr-solar.github.io/KiCAD-Sharepoint/Standards/#naming-convention), they have to pay for your food next workday. Clone the repository **using SSH** and add our [pull request (PR) template](https://github.com/lhr-solar/KiCAD-Sharepoint/blob/main/PULL_REQUEST_TEMPLATE.md) to the main directory. Open your terminal and use git to add, commit, and push this file to main. Now, whenever you create a PR, the template checklist will show up for you to fill out. Finally create and switch to a branch called "RevA" using the command `git switch -c RevA`. You'll do all your work for the first revision of your board on this branch.
 ### Shared Libraries
 Then setup shared libraries by cloning submodule
 TODO
