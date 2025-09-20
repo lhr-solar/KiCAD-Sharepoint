@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../LHRs.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -448,6 +448,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Schematic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#symbol-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Symbol Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heirarchical-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heirarchical Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#electrical-rules-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Electrical Rules Check
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -456,6 +489,21 @@
       Part Selection
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Part Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standardized-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standardized Components
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -790,6 +838,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Schematic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#symbol-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Symbol Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heirarchical-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heirarchical Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#electrical-rules-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Electrical Rules Check
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -798,6 +879,21 @@
       Part Selection
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Part Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standardized-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standardized Components
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -881,9 +977,31 @@
 <p>We all ~~hate~~ love documentation! To that end, we document all LHRs electrical projects using Confluence. For example, all Power Systems documentation can be found <a href="https://cloud.wikis.utexas.edu/wiki/spaces/LHRSOLAR/folder/485753697?atlOrigin=eyJpIjoiNTVlN2Q0NWUyN2U5NGE0NmFkMWFlMjgwMmFmZjRjMTIiLCJwIjoiYyJ9">here</a>. Create a new Confluence page for your board and place it under the correct system/subsystem folder. As you work on your design, fill out this <a href="https://cloud.wikis.utexas.edu/wiki/spaces/LHRSOLAR/pages/484671489/Power+Systems+Documentation+Template?atl_f=PAGETREE">template</a> with your requirements, schematic/layout notes, firmware info, etc.</p>
 <p>In addition to your Confluence page, ensure your Github repository has a <code>Readme.md</code> file with relevant information about your project. This can simply be your name, project description, images of the schematic/pcb, and a brief application note. Please also link your Confluence documentation here.</p>
 <h2 id="schematic">Schematic</h2>
-<p>TODO</p>
+<h3 id="symbol-table">Symbol Table</h3>
+<p>In order for your schematic to use the KiCAD-Sharepoint symbols, you need to add the symbol libraries to your schematic's symbol table, which defines the locations of all your symbols. Symbol libaries are stored in '.kicad_sym' files</p>
+<ul>
+<li>Open your schematic file from your KiCAD project</li>
+<li>Go to Preferences -&gt; Manage Symbol Libraries -&gt; Project Specific Libraries</li>
+<li>Press the + sign at the bottom</li>
+<li>In Library Path press the folder button add one of the .kicad_sym files in the KiCAD-Sharepoint submodule</li>
+<li>Set the nickname to be whatever is in the front of the .kicad_sym file, i.e if it's called <code>utsvt_connectors.kicad_sym</code>, make the nickname <code>utsvt_connectors</code>. </li>
+<li>Keep in mind that other people should be able to open your KiCAD-Project without the libraries being broken. So if the library path is <code>users/lakshay</code> then that link will be broken since they prolly don't have that path. All of your library paths should be relative to the KiCAD project, which KiCAD has that path stored in this variable: <code>${KIPRJMOD}</code></li>
+<li>Repeat these steps for the other .kicad_sym files in KiCAD-Sharepoint.  </li>
+</ul>
+<p>Once you start adding your own symbol libraries for your board, you also need to add that .kicad_sym to the the symbol table.</p>
+<p>This is what a finalized symbol table should look like:
+<img alt="Finalized Symbol Table" src="../img/FinalSymbolTable.png" /><br />
+Note that all of the paths use <code>${KIPRJMOD}</code>, so every path is relative to where the KiCAD Project is stored, which changes depending on the user.</p>
+<h3 id="heirarchical-design">Heirarchical Design</h3>
+<h3 id="electrical-rules-check">Electrical Rules Check</h3>
+<p>Before moving onto layout, make sure to run the Electrical Rules Checker (ERC). The ERC checks your schematic to see if anything is unconnected, or not following any of KiCAD's rules. This doesn't check electrical functionality, that's up to you :) </p>
+<p>To run an ERC go to Inspect -&gt; Electrical Rules Checker -&gt; Run ERC. 
+Some errors you can ignore like "output pin not driven by inputs", but usually it's better to just leave them and ask someone else to check your errors to see if they're actual errors as a sanity check. Once you're 100% sure those errors aren't actually errors you can right click the error and press "Exclude Violation".<br />
+After you run the ERC it leaves all of the markers there to indicate where the ERC error or warning is, if that gets annoying you can just press Delete All Markers in the ERC menu.</p>
 <h2 id="part-selection">Part Selection</h2>
-<p>Do this before selecting footprints
+<h3 id="standardized-components">Standardized Components</h3>
+<p>When selecting components, it's always prefferable to pick a component from our <a href="https://utexas.sharepoint.com/:x:/r/sites/ENGR-LonghornRacing/_layouts/15/doc.aspx?sourcedoc=%7B6c03da27-3760-468e-8615-db3cc3062e75%7D&amp;action=edit">Standardized Passive Components</a> list since this includes components we've bought before, have inventory of, or have proven worked before. <br />
+Do this before selecting footprints
 Select footprints
 TODO</p>
 <h2 id="layout-routing">Layout &amp; Routing</h2>
@@ -951,7 +1069,7 @@ TODO</p>
       <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
