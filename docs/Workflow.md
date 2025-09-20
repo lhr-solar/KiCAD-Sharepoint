@@ -28,8 +28,33 @@ We all ~~hate~~ love documentation! To that end, we document all LHRs electrical
 
 In addition to your Confluence page, ensure your Github repository has a `Readme.md` file with relevant information about your project. This can simply be your name, project description, images of the schematic/pcb, and a brief application note. Please also link your Confluence documentation here.
 ## Schematic
-TODO
+### Symbol Table
+In order for your schematic to use the KiCAD-Sharepoint symbols, you need to add the symbol libraries to your schematic's symbol table, which defines the locations of all your symbols. Symbol libaries are stored in '.kicad_sym' files
+
+- Open your schematic file from your KiCAD project
+- Go to Preferences -> Manage Symbol Libraries -> Project Specific Libraries
+- Press the + sign at the bottom
+- In Library Path press the folder button add one of the .kicad_sym files in the KiCAD-Sharepoint submodule
+- Set the nickname to be whatever is in the front of the .kicad_sym file, i.e if it's called `utsvt_connectors.kicad_sym`, make the nickname `utsvt_connectors`. 
+- Keep in mind that other people should be able to open your KiCAD-Project without the libraries being broken. So if the library path is `users/lakshay` then that link will be broken since they prolly don't have that path. All of your library paths should be relative to the KiCAD project, which KiCAD has that path stored in this variable: `${KIPRJMOD}`
+- Repeat these steps for the other .kicad_sym files in KiCAD-Sharepoint.  
+
+Once you start adding your own symbol libraries for your board, you also need to add that .kicad_sym to the the symbol table.
+
+This is what a finalized symbol table should look like:
+![Finalized Symbol Table](img/FinalSymbolTable.png)  
+Note that all of the paths use `${KIPRJMOD}`, so every path is relative to where the KiCAD Project is stored, which changes depending on the user.
+### Heirarchical Design
+### Electrical Rules Check
+Before moving onto layout, make sure to run the Electrical Rules Checker (ERC). The ERC checks your schematic to see if anything is unconnected, or not following any of KiCAD's rules. This doesn't check electrical functionality, that's up to you :) 
+
+To run an ERC go to Inspect -> Electrical Rules Checker -> Run ERC. 
+Some errors you can ignore like "output pin not driven by inputs", but usually it's better to just leave them and ask someone else to check your errors to see if they're actual errors as a sanity check. Once you're 100% sure those errors aren't actually errors you can right click the error and press "Exclude Violation".  
+After you run the ERC it leaves all of the markers there to indicate where the ERC error or warning is, if that gets annoying you can just press Delete All Markers in the ERC menu.
+
 ## Part Selection
+### Standardized Components
+When selecting components, it's always prefferable to pick a component from our [Standardized Passive Components](https://utexas.sharepoint.com/:x:/r/sites/ENGR-LonghornRacing/_layouts/15/doc.aspx?sourcedoc=%7B6c03da27-3760-468e-8615-db3cc3062e75%7D&action=edit) list since this includes components we've bought before, have inventory of, or have proven worked before.   
 Do this before selecting footprints
 Select footprints
 TODO
