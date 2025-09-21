@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6e11f257-45fd-4260-a695-75ef7fac1932")
+		(uuid "42a552d5-105f-4de6-9201-f887ad6050e9")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2d1f82c-0d5c-4401-b13d-d0276a3e1e3e")
+		(uuid "8bf4f9ef-211d-45aa-9ade-828fcfc257d7")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fd8cfb9-1287-400b-9409-ea0dcc859eb3")
+		(uuid "45bba84c-4c5a-4c82-af70-a321c7ed8ece")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bdee1a09-b9eb-4195-b97c-22271c80ef63")
+		(uuid "08b4029b-a4ad-4e13-bf02-9686eef52305")
 		(effects
 			(font
 				(size 1 1)
@@ -868,20 +868,6 @@
 			)
 		)
 	)
-	(fp_text user "second set of baseplate holes"
-		(at -48.81 196.08 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "b6093b1b-04bf-473d-9164-f175753c5a56")
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
@@ -988,44 +974,6 @@
 			(at 33.836605 121.64 0)
 			(layer "Dwgs.User")
 			(uuid "136f417f-1f8e-48bb-9fec-e45806d034fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "1b549280-9c12-493b-956b-d706bac2610a")
-		(pts
-			(xy 51.49 130.11) (xy 58.54 128.53)
-		)
-		(height 7.12)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "1.58"
-			(at 56.89 129.35 90)
-			(layer "Dwgs.User")
-			(uuid "1b549280-9c12-493b-956b-d706bac2610a")
 			(effects
 				(font
 					(size 1 1)
@@ -1455,44 +1403,6 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "c1bd6cb5-8860-47a1-af53-8131d6284f45")
-		(pts
-			(xy 51.49 125.61) (xy 58.54 128.53)
-		)
-		(height 7.06)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "2.92"
-			(at 60.46 126.96 90)
-			(layer "Dwgs.User")
-			(uuid "c1bd6cb5-8860-47a1-af53-8131d6284f45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
 		(uuid "c9408d13-a0b6-47f1-94d8-79a04d156ff7")
 		(pts
 			(xy 8.250024 31.05) (xy 15.95 23.43)
@@ -1571,7 +1481,7 @@
 		(layer "Dwgs.User")
 		(uuid "f4cff340-1bb4-4ca0-ace7-80f897f29710")
 		(pts
-			(xy 58.54 128.53) (xy 58.52 21.86)
+			(xy 57.8 128.42) (xy 58.52 21.86)
 		)
 		(height 21.92)
 		(orientation 1)
@@ -1592,8 +1502,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "106.67"
-			(at 79.31 75.195 90)
+		(gr_text "106.56"
+			(at 78.57 75.14 90)
 			(layer "Dwgs.User")
 			(uuid "f4cff340-1bb4-4ca0-ace7-80f897f29710")
 			(effects
@@ -1605,32 +1515,32 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at 8.28 24.86 180)
-		(size 1.71 1.71)
-		(drill 1.71)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "591b59e2-6775-46c5-8bd9-fc3989d181ec")
-	)
-	(pad "" np_thru_hole circle
-		(at 8.346365 131.55 180)
+		(at 9.54 131.6 180)
 		(size 1.71 1.71)
 		(drill 1.71)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "724217c5-47be-4cf5-94d6-0711b8a81f26")
 	)
 	(pad "" np_thru_hole circle
-		(at 58.52 21.86)
+		(at 9.63 25 180)
 		(size 1.71 1.71)
 		(drill 1.71)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "ea9fcbbb-ca55-440c-bad7-6070e7270c72")
+		(uuid "591b59e2-6775-46c5-8bd9-fc3989d181ec")
 	)
 	(pad "" np_thru_hole circle
-		(at 58.54 128.53)
+		(at 57.8 128.42)
 		(size 1.71 1.71)
 		(drill 1.71)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "3062cbf4-50f2-4c46-a551-a9aa07fa00d5")
+	)
+	(pad "" np_thru_hole circle
+		(at 57.91 21.84)
+		(size 1.71 1.71)
+		(drill 1.71)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ea9fcbbb-ca55-440c-bad7-6070e7270c72")
 	)
 	(pad "1" thru_hole circle
 		(at 51.51 23.43)
