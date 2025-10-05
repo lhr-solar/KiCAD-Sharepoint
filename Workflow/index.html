@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../LHRs.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.2a3383ac.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -514,6 +514,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Layout &amp; Routing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcb-contraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB Contraints
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -904,6 +919,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Layout &amp; Routing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcb-contraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB Contraints
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1010,6 +1040,22 @@ Edge cuts
 Mounting
 Planes/Stackup
 TODO</p>
+<h3 id="pcb-contraints">PCB Contraints</h3>
+<p>When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. The following are JLCPCB Manufacturing Capabilities.
+When creating the layout of your board, select File -&gt; Board Setup -&gt; Constraints and set them to the following values:
+* Minimum Clearance (2 layer): .127mm
+* Minimum Track Width (2 layer): .127mm
+* Minimum Clearance (4 layer): .09mm
+* Minimum Track Width (4 layer): .09mm
+* Minimum Connection Width: 0mm
+* Minimum Annular Width: .13mm
+* Minimum Via Diameter (2 layer): .5mm
+* Minimum Via Diameter (4 layer): .25mm
+* Copper to Hole Clearance: .254mm
+* Copper to Edge Clearance: .3mm
+* Minimum Through Hole: .3mm
+* Hole to Hole Clearance: .5mm
+* Minimum Item Clearance: .15mm</p>
 <h2 id="review-process">Review Process</h2>
 <p>PCB reviews are handled through Github pull requests. To create a PR, follow <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">these steps</a>. The PR template should automatically show up, with a checklist to fill out to make sure your PCB is up to standards. Assign reviewers using the sidebar as shown - make sure to assign at least 2 or 3 reviewers (usually your lead/sublead but can be any experienced member). Also ensure you're listed as the assignee for the PR.</p>
 <p><img alt="Assign Github Reviewers" src="../img/GH-Reviewers.png" /></p>
