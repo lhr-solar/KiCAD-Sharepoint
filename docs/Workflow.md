@@ -67,6 +67,7 @@ TODO
 ### PCB Contraints
 When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. The following are JLCPCB Manufacturing Capabilities.
 When creating the layout of your board, select File -> Board Setup -> Constraints and set them to the following values:
+
 * Minimum Clearance (2 layer): .127mm
 * Minimum Track Width (2 layer): .127mm
 * Minimum Clearance (4 layer): .09mm
@@ -80,6 +81,7 @@ When creating the layout of your board, select File -> Board Setup -> Constraint
 * Minimum Through Hole: .3mm
 * Hole to Hole Clearance: .5mm
 * Minimum Item Clearance: .15mm
+
 
 ## Review Process
 PCB reviews are handled through Github pull requests. To create a PR, follow [these steps](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). The PR template should automatically show up, with a checklist to fill out to make sure your PCB is up to standards. Assign reviewers using the sidebar as shown - make sure to assign at least 2 or 3 reviewers (usually your lead/sublead but can be any experienced member). Also ensure you're listed as the assignee for the PR.
