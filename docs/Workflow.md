@@ -64,7 +64,7 @@ Edge cuts
 Mounting
 Planes/Stackup
 TODO
-### PCB Contraints
+### PCB Constraints
 When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. The following are JLCPCB Manufacturing Capabilities.
 When creating the layout of your board, select File -> Board Setup -> Constraints and set them to the following values:
 
