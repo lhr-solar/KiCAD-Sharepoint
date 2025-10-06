@@ -19,7 +19,7 @@ Then modify any relevant settings and generate the IBOM. By default, it will be 
 ### KiCAD JLCPCB Tools
 This plugin is very useful for working with our PCBA fab, [JLCPCB](https://jlcpcb.com/). It allows for one-click generation of gerbers, BOM, and CPL (component placement list) files, along with assigning LCSC (JLC supplier) parts for assembly.
 
-Install this plugin by following the directions on [Github](https://github.com/Bouni/kicad-jlcpcb-tools#installation-).
+Install this plugin by following the directions on [Github](https://github.com/Bouni/kicad-jlcpcb-tools#installation).
 
 Once installed, you can launch the JLCPCB tool from pcbnew by clicking this icon in the top bar.
 
