@@ -41,5 +41,4 @@ To deploy your changes to main KiCad-Sharepoint site, push your changes to the m
 ```sh
 mkdocs build
 mkdocs serve
-mkdocs serve
 ```
