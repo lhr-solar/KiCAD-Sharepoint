@@ -1,27 +1,5 @@
 # PCB Design Workflow
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Timeline](#timeline)
-- [Project Setup](#project-setup)
-  - [Github Repo Setup](#github-repo-setup)
-  - [Shared Libraries](#shared-libraries)
-  - [Creating a KiCad Project](#creating-a-kicad-project)
-  - [Documentation](#documentation)
-- [Schematic](#schematic)
-  - [Symbol Table](#symbol-table)
-  - [Heirarchical Design](#heirarchical-design)
-  - [Electrical Rules Check](#electrical-rules-check)
-- [Part Selection](#part-selection)
-  - [Standardized Components](#standardized-components)
-- [Layout & Routing](#layout-routing)
-  - [PCB Constraints](#pcb-constraints)
-- [Review Process](#review-process)
-- [Generating Production Files](#generating-production-files)
-- [Ordering](#ordering)
-
 ## Overview
 We follow this workflow when designing PCBs for the car. Sticking to this will help you develop hardware smoothly while learning a lot in the process.
 ## Timeline
