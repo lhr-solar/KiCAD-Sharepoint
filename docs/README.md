@@ -28,7 +28,6 @@ mkdocs serve
 ```
 From there, mkdocs will host a preview of the documentation on a local port, usually ```http://127.0.0.1:8000/```. The specific link can be found where it says "Serving on"
 
-### Deplying the documentation
 ### Deploying the documentation
 To deploy your changes to main KiCad-Sharepoint site, push your changes to the main branch (through a pull request), which will run a github workflow to deploy the docs to our site. For test viewing your changes the best way to do it is to build and serve the docs
 ```sh
