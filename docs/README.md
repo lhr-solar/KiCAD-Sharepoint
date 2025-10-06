@@ -7,5 +7,5 @@ Install and set up KiCad according to these [instructions](./KiCad-Setup/). Befo
 In order to use KiCAD Sharepoint into your project you need to do these three things:
 
 - Add KiCAD Sharepoint as a submodule, instructions can be found here
-- Add KiCAD Sharepoint symbols to your symbol table, instructions can be found here
-- Add KiCAD Sharepoint footprints to your footprint table, instructions can be found here 
+- Add KiCAD Sharepoint symbols to your symbol table, instructions can be found [here](./Workflow/) in the symbol table section
+- Add KiCAD Sharepoint footprints to your footprint table, instructions can be found [here](./Workflow/)
