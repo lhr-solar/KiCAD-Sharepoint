@@ -31,7 +31,7 @@ We all ~~hate~~ love documentation! To that end, we document all LHRs electrical
 In addition to your Confluence page, ensure your Github repository has a `Readme.md` file with relevant information about your project. This can simply be your name, project description, images of the schematic/pcb, and a brief application note. Please also link your Confluence documentation here.
 ## Schematic
 ### Symbol Table
-In order for your schematic to use the KiCAD-Sharepoint symbols, you need to add the symbol libraries to your schematic's symbol table, which defines the locations of all your symbols. Symbol libaries are stored in '.kicad_sym' files
+In order for your schematic to use the KiCAD-Sharepoint symbols, you need to add the symbol libraries to your schematic's symbol table, which defines the locations of all your symbols. Symbol libraries are stored in '.kicad_sym' files
 
 - Open your schematic file from your KiCAD project
 - Go to Preferences -> Manage Symbol Libraries -> Project Specific Libraries
