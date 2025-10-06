@@ -305,15 +305,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#viewing-the-docs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Viewing the docs
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#deplying-the-documentation" class="md-nav__link">
     <span class="md-ellipsis">
       Deplying the documentation
@@ -700,15 +691,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#viewing-the-docs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Viewing the docs
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#deplying-the-documentation" class="md-nav__link">
     <span class="md-ellipsis">
       Deplying the documentation
@@ -763,16 +745,14 @@
 <p>We use <code>mkdocs</code> to host our documentation, which requires several python packages.<br />
 In your terminal and home directory of KiCAD-Sharepoint, run:</p>
 <pre><code class="language-sh">python3 -m venv .venv
-source .venv/bin/activate
+# On Windows, run: .venv\Scripts\activate
+# On Unix or MacOS, run: source .venv/bin/activate
 pip install -r requirements.txt
-</code></pre>
-<p>You only need to do this once to install the needed dependencies, after that you can run </p>
-<pre><code class="language-sh">source .venv/bin/activate
-</code></pre>
-<p>to enter your virtual environment.</p>
-<h3 id="viewing-the-docs">Viewing the docs</h3>
-<p>While in your python virtual environment (after running <code>source .venv/bin/activate</code>), run:</p>
-<pre><code class="language-sh">mkdocs serve
+
+### Viewing the docs
+While in your python virtual environment (after running ```source .venv/bin/activate```), run:
+```sh
+mkdocs serve
 </code></pre>
 <p>From there, mkdocs will host a preview of the documentation on a local port, usually <code>http://127.0.0.1:8000/</code>. The specific link can be found where it says "Serving on"</p>
 <h3 id="deplying-the-documentation">Deplying the documentation</h3>
