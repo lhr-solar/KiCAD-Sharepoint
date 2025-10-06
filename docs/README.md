@@ -17,15 +17,23 @@ We use ``mkdocs`` to host our documentation, which requires several python packa
 In your terminal and home directory of KiCAD-Sharepoint, run:
 ```sh
 python3 -m venv .venv
-# On Windows, run: .venv\Scripts\activate
-# On Unix or MacOS, run: source .venv/bin/activate
+
+# On Windows, run:
+.venv\Scripts\activate
+
+# On Linux or MacOS, run:
+source .venv/bin/activate
+
 pip install -r requirements.txt
+
+```
 
 ### Viewing the docs
 While in your python virtual environment (after running ```source .venv/bin/activate```), run:
 ```sh
 mkdocs serve
 ```
+
 From there, mkdocs will host a preview of the documentation on a local port, usually ```http://127.0.0.1:8000/```. The specific link can be found where it says "Serving on"
 
 ### Deploying the documentation
@@ -34,3 +42,4 @@ To deploy your changes to main KiCad-Sharepoint site, push your changes to the m
 mkdocs build
 mkdocs serve
 mkdocs serve
+```
