@@ -64,7 +64,7 @@ def parse_headings(lines: List[str]) -> List[Tuple[int, str, int]]:
     return headings
 
 
-def generate_toc(headings: List[Tuple[int, str, int]], min_level: int = 2, max_level: int = 3) -> List[str]:
+def generate_toc(headings: List[Tuple[int, str, int]], min_level: int = 2, max_level: int = 3, indent_size: int = 4) -> List[str]:
     """Generate markdown list lines for headings between min_level..max_level.
 
     Returns the list of TOC lines (without surrounding heading line).
@@ -79,7 +79,7 @@ def generate_toc(headings: List[Tuple[int, str, int]], min_level: int = 2, max_l
         slug = slug_base
         if counts[slug_base] > 1:
             slug = f"{slug_base}-{counts[slug_base]-1}"
-        indent = "  " * (level - min_level)
+        indent = " " * (indent_size * (level - min_level))
         toc_lines.append(f"{indent}- [{text}](#{slug})")
     return toc_lines
 
@@ -124,7 +124,10 @@ def update_file(path: str, max_level: int = 3, dry_run: bool = False, backup: bo
         return 1
 
     headings = parse_headings(lines)
-    toc_lines = generate_toc(headings, min_level=2, max_level=max_level)
+    # Use a 4-space indent by default for nested list items. Many Markdown
+    # renderers (including the one MkDocs uses) require 4 spaces to render
+    # nested lists correctly, otherwise subitems may appear at the same level.
+    toc_lines = generate_toc(headings, min_level=2, max_level=max_level, indent_size=opts_indent_size)
 
     new_lines = list(lines[:insert_at])
     # ensure a blank line after the heading
@@ -161,6 +164,7 @@ def main(argv: List[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Generate/update Table of Contents for a Markdown file")
     p.add_argument("file", help="Path to the markdown file to update")
     p.add_argument("--max-level", type=int, default=3, help="Maximum heading level to include (default: 3)")
+    p.add_argument("--indent-size", type=int, default=4, help="Number of spaces per indent level (default: 4)")
     p.add_argument("--dry-run", action="store_true", help="Print results to stdout instead of writing")
     p.add_argument("--no-backup", dest="backup", action="store_false", help="Don't write a .bak backup")
     args = p.parse_args(argv)
@@ -169,6 +173,9 @@ def main(argv: List[str] | None = None) -> int:
         print(f"File not found: {args.file}")
         return 2
 
+    # pass indent size through to the updater
+    global opts_indent_size
+    opts_indent_size = args.indent_size
     return update_file(args.file, max_level=args.max_level, dry_run=args.dry_run, backup=args.backup)
 
 
