@@ -20,6 +20,10 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Create table of contents
+        run: |
+          python scripts/generate_toc.py docs/Workflow.md docs/Workflow.md --max-level 3
+          python scripts/generate_toc.py docs/KiCAD-Setup.md docs/Workflow.md --max-level 3
 
       - name: Build MkDocs site
         run: mkdocs build

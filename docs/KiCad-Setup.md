@@ -1,3 +1,11 @@
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [KiCad Installation](#kicad-installation)
+- [Required Plugins](#required-plugins)
+  - [Interactive HTML BOM (IBOM)](#interactive-html-bom-ibom)
+  - [KiCAD JLCPCB Tools](#kicad-jlcpcb-tools)
+
 ## KiCad Installation
 For the 2025-2026 design cycle, LHRs Electrical members will use KiCad 9. Download the latest stable version [here](https://www.kicad.org/download/). 
 ## Required Plugins
