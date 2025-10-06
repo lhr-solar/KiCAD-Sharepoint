@@ -17,14 +17,9 @@ We use ``mkdocs`` to host our documentation, which requires several python packa
 In your terminal and home directory of KiCAD-Sharepoint, run:
 ```sh
 python3 -m venv .venv
-source .venv/bin/activate
+# On Windows, run: .venv\Scripts\activate
+# On Unix or MacOS, run: source .venv/bin/activate
 pip install -r requirements.txt
-``` 
-You only need to do this once to install the needed dependencies, after that you can run 
-```sh
-source .venv/bin/activate
-``` 
-to enter your virtual environment.
 
 ### Viewing the docs
 While in your python virtual environment (after running ```source .venv/bin/activate```), run:
