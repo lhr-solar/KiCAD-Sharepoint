@@ -94,4 +94,4 @@ Now copy the Github link to your PR and send it in the `#review-request` channel
 ## Generating Production Files
 When your schematic and layout have been approved, there's one last step before ordering it - generating production files. These files tell the fabrication house how to actually cut the board edges, drill vias, and deposit copper onto the board. To generate production files for JLC (Gerbers, BOM, and CPL), use the JLCPCB Tools plugin as described [here](../KiCad-Setup.md/#kicad-jlcpcb-tools).
 ## Ordering
-Follow the [ordering instructions](./Ordering.md) to order your PCB prototype using JLCPCB. Usually we order in a couple of batches per revision cycle, so reach out to your lead to confirm your order timeline (you may need to speed up development to hit these dates).
+Follow the [ordering instructions](./Ordering.md) to order your PCB prototype using JLCPCB. Usually we order in a couple of batches per revision cycle, so reach out to your lead to confirm your order timeline.
