@@ -71,7 +71,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [ ] Footprints are consistent across the PCB: *i.e. all 0603 for Resistors/Capacitors*
 - [ ] Pin 1 of the footprint is labeled in some way. 
 - [ ] Footprints have accurate 3D models attached as embedded files.
-- [ ] Are LED's in easy to see places? 
+- [ ] Are LEDs in easy to see places? 
 - [ ] Are test points in easy to reach places?  
 - [ ] Are critical paths of switching converters as small as possible?  
 
