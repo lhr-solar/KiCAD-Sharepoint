@@ -56,7 +56,7 @@ After you run the ERC it leaves all of the markers there to indicate where the E
 
 ## Part Selection
 ### Standardized Components
-When selecting components, it's always prefferable to pick a component from our [Standardized Passive Components](https://utexas.sharepoint.com/:x:/r/sites/ENGR-LonghornRacing/_layouts/15/doc.aspx?sourcedoc=%7B6c03da27-3760-468e-8615-db3cc3062e75%7D&action=edit) list since this includes components we've bought before, have inventory of, or have proven worked before.   
+When selecting components, it's always preferable to pick a component from our [Standardized Passive Components](https://utexas.sharepoint.com/:x:/r/sites/ENGR-LonghornRacing/_layouts/15/doc.aspx?sourcedoc=%7B6c03da27-3760-468e-8615-db3cc3062e75%7D&action=edit) list since this includes components we've bought before, have inventory of, or have proven worked before.   
 Do this before selecting footprints
 Select footprints
 TODO
