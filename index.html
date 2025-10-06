@@ -305,6 +305,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#viewing-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing the docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#deploying-the-documentation" class="md-nav__link">
     <span class="md-ellipsis">
       Deploying the documentation
@@ -682,6 +691,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#viewing-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing the docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#deploying-the-documentation" class="md-nav__link">
     <span class="md-ellipsis">
       Deploying the documentation
@@ -727,22 +745,27 @@
 <p>We use <code>mkdocs</code> to host our documentation, which requires several python packages.<br />
 In your terminal and home directory of KiCAD-Sharepoint, run:</p>
 <pre><code class="language-sh">python3 -m venv .venv
-# On Windows, run: .venv\Scripts\activate
-# On Unix or MacOS, run: source .venv/bin/activate
+
+# On Windows, run:
+.venv\Scripts\activate
+
+# On Linux or MacOS, run:
+source .venv/bin/activate
+
 pip install -r requirements.txt
 
-### Viewing the docs
-While in your python virtual environment (after running ```source .venv/bin/activate```), run:
-```sh
-mkdocs serve
+</code></pre>
+<h3 id="viewing-the-docs">Viewing the docs</h3>
+<p>While in your python virtual environment (after running <code>source .venv/bin/activate</code>), run:</p>
+<pre><code class="language-sh">mkdocs serve
 </code></pre>
 <p>From there, mkdocs will host a preview of the documentation on a local port, usually <code>http://127.0.0.1:8000/</code>. The specific link can be found where it says "Serving on"</p>
 <h3 id="deploying-the-documentation">Deploying the documentation</h3>
-<p>To deploy your changes to main KiCad-Sharepoint site, push your changes to the main branch (through a pull request), which will run a github workflow to deploy the docs to our site. For test viewing your changes the best way to do it is to build and serve the docs
-```sh
-mkdocs build
+<p>To deploy your changes to main KiCad-Sharepoint site, push your changes to the main branch (through a pull request), which will run a github workflow to deploy the docs to our site. For test viewing your changes the best way to do it is to build and serve the docs</p>
+<pre><code class="language-sh">mkdocs build
 mkdocs serve
-mkdocs serve</p>
+mkdocs serve
+</code></pre>
 
 
 
