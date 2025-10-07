@@ -70,19 +70,19 @@ TODO
 When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. The following are JLCPCB Manufacturing Capabilities.
 When creating the layout of your board, select File -> Board Setup -> Constraints and set them to the following values:
 
-* Minimum Clearance (2 layer): .127mm
-* Minimum Track Width (2 layer): .127mm
-* Minimum Clearance (4 layer): .09mm
-* Minimum Track Width (4 layer): .09mm
-* Minimum Connection Width: 0mm
-* Minimum Annular Width: .13mm
-* Minimum Via Diameter (2 layer): .5mm
-* Minimum Via Diameter (4 layer): .25mm
-* Copper to Hole Clearance: .254mm
-* Copper to Edge Clearance: .3mm
-* Minimum Through Hole: .3mm
-* Hole to Hole Clearance: .5mm
-* Minimum Item Clearance: .15mm
+* Minimum Clearance (2 layer): 0.127mm
+* Minimum Track Width (2 layer): 0.127mm
+* Minimum Clearance (4 layer): 0.09mm
+* Minimum Track Width (4 layer): 0.09mm
+* Minimum Connection Width: 0.0mm
+* Minimum Annular Width: 0.13mm
+* Minimum Via Diameter (2 layer): 0.5mm
+* Minimum Via Diameter (4 layer): 0.25mm
+* Copper to Hole Clearance: 0.254mm
+* Copper to Edge Clearance: 0.3mm
+* Minimum Through Hole: 0.3mm
+* Hole to Hole Clearance: 0.5mm
+* Minimum Item Clearance: 0.15mm
 
 
 ## Review Process
