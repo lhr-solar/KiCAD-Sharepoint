@@ -104,6 +104,6 @@ Make sure the following properties are set:
 
 * `Format` is STEP
 * `Coordinates` is Board Centered Origin
-* `Export Bord Body` is checked
+* `Export Board Body` is checked
 
 Press `Export` to export the STEP file. Make sure it is pushed to your repo with a clear name!
