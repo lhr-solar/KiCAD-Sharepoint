@@ -97,7 +97,7 @@ When your schematic and layout have been approved, there's one last step before 
 Follow the [ordering instructions](./Ordering.md) to order your PCB prototype using JLCPCB. Usually we order in a couple of batches per revision cycle, so reach out to your lead to confirm your order timeline.
 
 ## Exporting PCB 3D Models
-You can export a STEP file (a 3D file) with all of your componenents for mechanical to integrate.  
+You can export a STEP file (a 3D file) with all of your components for integration with mechanical designs.  
 
 In the PCB editor go to File -> Export -> STEP
 Make sure the following properties are set:
