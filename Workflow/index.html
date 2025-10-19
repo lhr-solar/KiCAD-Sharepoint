@@ -562,6 +562,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#exporting-pcb-3d-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting PCB 3D Models
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -969,6 +978,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#exporting-pcb-3d-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting PCB 3D Models
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1071,6 +1089,16 @@ When creating the layout of your board, select File -&gt; Board Setup -&gt; Cons
 <p>When your schematic and layout have been approved, there's one last step before ordering it - generating production files. These files tell the fabrication house how to actually cut the board edges, drill vias, and deposit copper onto the board. To generate production files for JLC (Gerbers, BOM, and CPL), use the JLCPCB Tools plugin as described <a href="../KiCad-Setup/#kicad-jlcpcb-tools">here</a>.</p>
 <h2 id="ordering">Ordering</h2>
 <p>Follow the <a href="../Ordering/">ordering instructions</a> to order your PCB prototype using JLCPCB. Usually we order in a couple of batches per revision cycle, so reach out to your lead to confirm your order timeline.</p>
+<h2 id="exporting-pcb-3d-models">Exporting PCB 3D Models</h2>
+<p>You can export a STEP file (a 3D file) with all of your components for integration with mechanical designs.  </p>
+<p>In the PCB editor go to File -&gt; Export -&gt; STEP
+Make sure the following properties are set:</p>
+<ul>
+<li><code>Format</code> is STEP</li>
+<li><code>Coordinates</code> is Board Centered Origin</li>
+<li><code>Export Board Body</code> is checked</li>
+</ul>
+<p>Press <code>Export</code> to export the STEP file. Make sure it is pushed to your repo with a clear name!</p>
 
 
 
