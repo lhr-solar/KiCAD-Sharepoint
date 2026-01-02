@@ -137,7 +137,7 @@
 		(at -2.89 -2.605)
 		(size 0.65 0.65)
 		(drill 0.65)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0)
 		(uuid "c2810e37-f823-4d81-8fdd-734b628f9ddd")
 	)
@@ -145,7 +145,7 @@
 		(at 2.89 -2.605)
 		(size 0.65 0.65)
 		(drill 0.65)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0)
 		(uuid "b4a3e62e-4f1b-42b0-a669-310a7a6cc976")
 	)
@@ -270,16 +270,7 @@
 		(remove_unused_layers no)
 		(uuid "f5592606-4e9d-4b62-afac-565ec9879275")
 	)
-	(pad "S1" thru_hole oval
-		(at -4.32 1.075)
-		(size 1 1.8)
-		(drill oval 0.6 1.4)
-		(property pad_prop_heatsink)
-		(layers "*.Cu" "*.Mask" "F.Paste")
-		(remove_unused_layers no)
-		(uuid "35603db2-7858-452d-90f0-c991ba6d7717")
-	)
-	(pad "S1" thru_hole oval
+	(pad "S2" thru_hole oval
 		(at 4.32 -3.105)
 		(size 1 2.1)
 		(drill oval 0.6 1.7)
@@ -288,7 +279,7 @@
 		(remove_unused_layers no)
 		(uuid "6a8af92a-66ec-4429-b364-6c69de6a7f23")
 	)
-	(pad "S1" thru_hole oval
+	(pad "S3" thru_hole oval
 		(at 4.32 1.075)
 		(size 1 1.8)
 		(drill oval 0.6 1.4)
@@ -296,6 +287,15 @@
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "78dd2ee1-deea-4d54-83ce-33895a8fe3a2")
+	)
+	(pad "S4" thru_hole oval
+		(at -4.32 1.075)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "35603db2-7858-452d-90f0-c991ba6d7717")
 	)
 	(embedded_fonts no)
 	(embedded_files
