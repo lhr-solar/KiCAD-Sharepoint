@@ -123,6 +123,7 @@
 			(justify mirror)
 		)
 	)
+	(attr smd)
 	(fp_line
 		(start -15.103978 7.515)
 		(end -13.833978 8.15)
@@ -410,8 +411,8 @@
 		(uuid "8a21c3b4-6580-4a2e-8f3f-7b74ad521aa9")
 	)
 	(fp_circle
-		(center -24.589921 5.449999)
-		(end -21.589921 5.449999)
+		(center -24.59 5.45)
+		(end -21.39 5.45)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -422,7 +423,7 @@
 	)
 	(fp_circle
 		(center -24.589921 39.949999)
-		(end -21.589921 39.949999)
+		(end -21.389921 39.949999)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -432,8 +433,8 @@
 		(uuid "52a91dfd-997b-49a4-be2a-be2d8fb02b1f")
 	)
 	(fp_circle
-		(center 24.910079 5.449999)
-		(end 27.910079 5.449999)
+		(center 24.91 5.45)
+		(end 28.11 5.45)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -443,8 +444,8 @@
 		(uuid "4d043340-cbfc-43a2-9f14-85546eafd20d")
 	)
 	(fp_circle
-		(center 24.910079 39.949999)
-		(end 27.910079 39.949999)
+		(center 24.91 39.95)
+		(end 28.11 39.95)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -534,8 +535,8 @@
 		(uuid "c8bbf990-bcc8-4a53-87ce-a174bacfe6e5")
 	)
 	(fp_circle
-		(center -24.589921 5.449999)
-		(end -21.339921 5.449999)
+		(center -24.59 5.45)
+		(end -21.14 5.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -545,8 +546,8 @@
 		(uuid "d0ffc8da-1430-46e1-bb71-dd8c656a3c43")
 	)
 	(fp_circle
-		(center -24.589921 39.949999)
-		(end -21.339921 39.949999)
+		(center -24.59 39.95)
+		(end -21.14 39.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -556,8 +557,8 @@
 		(uuid "5213daaf-6427-4d8e-a264-7ef4232c2f90")
 	)
 	(fp_circle
-		(center 24.910079 5.449999)
-		(end 28.160079 5.449999)
+		(center 24.91 5.45)
+		(end 28.36 5.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -567,8 +568,8 @@
 		(uuid "cc660a91-9c22-4505-8557-a5c6b3d845d5")
 	)
 	(fp_circle
-		(center 24.910079 39.949999)
-		(end 28.160079 39.949999)
+		(center 24.91 39.95)
+		(end 28.36 39.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -999,34 +1000,6 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at -24.589921 5.449999)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "40277c4e-4503-4a8b-bf9e-ee1aabd7d067")
-	)
-	(pad "" np_thru_hole circle
-		(at -24.589921 39.949999)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "b6c107e7-f10a-4e85-b13d-b8eb2520c4b4")
-	)
-	(pad "" np_thru_hole circle
-		(at 24.910079 5.449999)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "3b29a1ca-0d4e-4cc1-999c-ff998fb3636b")
-	)
-	(pad "" np_thru_hole circle
-		(at 24.910079 39.949999)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "43d19398-f8e6-443f-b9dd-f51241eea146")
-	)
 	(pad "1" smd rect
 		(at 3.47399 8.200001 180)
 		(size 0.55 1.8)
@@ -1315,16 +1288,100 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0679f454-5ab8-432f-a7ac-6fb8c80b56bd")
 	)
+	(pad "49" thru_hole circle
+		(at -24.59 5.45)
+		(size 3.6 3.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40277c4e-4503-4a8b-bf9e-ee1aabd7d067")
+	)
+	(pad "49" connect circle
+		(at -24.59 5.45)
+		(size 6.4 6.4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2d9e88b5-0f7d-4898-8e99-3b897cb9066e")
+	)
+	(pad "49" connect circle
+		(at -24.59 5.45)
+		(size 6.4 6.4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "29d34041-1401-46df-8064-912293fd7cc4")
+	)
+	(pad "50" thru_hole circle
+		(at 24.91 5.45)
+		(size 3.6 3.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b29a1ca-0d4e-4cc1-999c-ff998fb3636b")
+	)
+	(pad "50" connect circle
+		(at 24.91 5.45)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "762b369e-67d6-4e74-aeaf-8e6938566aeb")
+	)
+	(pad "50" connect circle
+		(at 24.91 5.45)
+		(size 6.2 6.2)
+		(layers "B.Cu" "B.Mask")
+		(uuid "9dcb417e-916c-410e-9f4b-c153e2c6c68e")
+	)
+	(pad "51" thru_hole circle
+		(at 24.91 39.95)
+		(size 3.6 3.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43d19398-f8e6-443f-b9dd-f51241eea146")
+	)
+	(pad "51" connect circle
+		(at 24.91 39.95)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "097df198-b9c8-434e-a15d-de5b5374a3d3")
+	)
+	(pad "51" connect circle
+		(at 24.91 39.95)
+		(size 6.2 6.2)
+		(layers "B.Cu" "B.Mask")
+		(uuid "1d9ba11b-e767-4ecb-9bdc-a6f1029b5513")
+	)
+	(pad "52" thru_hole circle
+		(at -24.59 39.95)
+		(size 3.6 3.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6c107e7-f10a-4e85-b13d-b8eb2520c4b4")
+	)
+	(pad "52" connect circle
+		(at -24.59 39.95)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4fa96090-5ae0-4625-b5af-e917f0011384")
+	)
+	(pad "52" connect circle
+		(at -24.59 39.95)
+		(size 6.4 6.4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "df4b9ad2-cb6b-47d2-b04a-e8692b575951")
+	)
 	(group ""
 		(uuid "28ac8bae-d53f-4aec-9df5-4f6dd27b3320")
-		(members "1caac3b1-6d0a-4af3-9d7e-05c4ccb2fb63" "1df93429-333f-44c5-abe0-58b1c23a9ba2"
+		(members "097df198-b9c8-434e-a15d-de5b5374a3d3" "1caac3b1-6d0a-4af3-9d7e-05c4ccb2fb63"
+			"1d9ba11b-e767-4ecb-9bdc-a6f1029b5513" "1df93429-333f-44c5-abe0-58b1c23a9ba2"
+			"29d34041-1401-46df-8064-912293fd7cc4" "2d9e88b5-0f7d-4898-8e99-3b897cb9066e"
 			"3b29a1ca-0d4e-4cc1-999c-ff998fb3636b" "40277c4e-4503-4a8b-bf9e-ee1aabd7d067"
 			"43d19398-f8e6-443f-b9dd-f51241eea146" "4d043340-cbfc-43a2-9f14-85546eafd20d"
-			"5213daaf-6427-4d8e-a264-7ef4232c2f90" "52a91dfd-997b-49a4-be2a-be2d8fb02b1f"
-			"54ca9ac9-5065-4207-88dc-d5d5572be421" "87e98003-911d-4c09-8e04-083455f0dd82"
-			"acd8f709-ba07-4e2b-9097-a5b813f50888" "b6c107e7-f10a-4e85-b13d-b8eb2520c4b4"
-			"b8105eae-781d-42ee-89c6-07990928c403" "c9857d7e-90fd-4505-81c9-5049fd241069"
-			"cc660a91-9c22-4505-8557-a5c6b3d845d5" "d0ffc8da-1430-46e1-bb71-dd8c656a3c43"
+			"4fa96090-5ae0-4625-b5af-e917f0011384" "5213daaf-6427-4d8e-a264-7ef4232c2f90"
+			"52a91dfd-997b-49a4-be2a-be2d8fb02b1f" "54ca9ac9-5065-4207-88dc-d5d5572be421"
+			"762b369e-67d6-4e74-aeaf-8e6938566aeb" "87e98003-911d-4c09-8e04-083455f0dd82"
+			"9dcb417e-916c-410e-9f4b-c153e2c6c68e" "acd8f709-ba07-4e2b-9097-a5b813f50888"
+			"b6c107e7-f10a-4e85-b13d-b8eb2520c4b4" "b8105eae-781d-42ee-89c6-07990928c403"
+			"c9857d7e-90fd-4505-81c9-5049fd241069" "cc660a91-9c22-4505-8557-a5c6b3d845d5"
+			"d0ffc8da-1430-46e1-bb71-dd8c656a3c43" "df4b9ad2-cb6b-47d2-b04a-e8692b575951"
 		)
 	)
 	(group ""
