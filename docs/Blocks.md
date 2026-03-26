@@ -4,4 +4,21 @@ Design Blocks are a KiCAD feature that allows you to create easily replicable sc
 ## Adding the LHRs Design Block Library
 For each project, you'll have to add the design block library just like you add the symbol and footprint libraries. To add the LHRs design blocks, follow these steps:
 
-TODO: steps to add blocks
+First, open your project schematic and navigate to Preferences -> Manage Design Block Libraries.
+![Design Block Preferences](img/Design-Block-Prefs.png)
+
+![Design Block Folder](img/Design-Block-Folder.png)
+
+![Design Block Added](img/Design-Block-Added.png)
+
+![Design Block View](img/Design-Block-View.png)
+
+![Design Block Place](img/Design-Block-Place.png)
+
+![Design Block Subsheet](img/Design-Block-Subsheet.png)
+
+## Creating a New Design Block
+
+TODO: add creation guide
+
+TODO: modify workflow to point here to add design blocks...
