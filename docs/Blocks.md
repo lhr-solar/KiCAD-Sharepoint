@@ -33,5 +33,3 @@ In the popup window, add fields for Date Modified and Author, along with a name 
 
 To modify an existing block, simply save the current sheet with the same name as the existing one and click Overwrite.
 ![alt text](img/Design-Block-Overwrite.png)
-
-TODO: modify workflow to point here to add design blocks...
