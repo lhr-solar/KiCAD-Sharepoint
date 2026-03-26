@@ -46,6 +46,10 @@ Once you start adding your own symbol libraries for your board, you also need to
 This is what a finalized symbol table should look like:
 ![Finalized Symbol Table](img/FinalSymbolTable.png)  
 Note that all of the paths use `${KIPRJMOD}`, so every path is relative to where the KiCAD Project is stored, which changes depending on the user.
+
+### Design Blocks
+Add the LHRs design block library to your project as shown on the [design blocks page](./Blocks).
+
 ### Hierarchical Design
 ### Electrical Rules Check
 Before moving onto layout, make sure to run the Electrical Rules Checker (ERC). The ERC checks your schematic to see if anything is unconnected, or not following any of KiCAD's rules. This doesn't check electrical functionality, that's up to you :) 
