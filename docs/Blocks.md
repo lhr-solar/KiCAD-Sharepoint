@@ -23,7 +23,7 @@ Finally, double click the name of the design block and drag to create the hierar
 ![Design Block Subsheet](img/Design-Block-Subsheet.png)
 
 ## Creating a New Design Block
-To add a new design block to the LHRs library, follow these steps:
+When working on a design block, you should be saving your schematic into the design block and pushing changes often to keep track of progress. To add/save a design block to the LHRs library, follow these steps:
 
 First, create the schematic you want to save as a design block. Make sure to follow all design standards and ensure all components have correct datasheets, footprints, and 3D models linked. Then, right click on the LHRs design block library and select "Save Current Sheet as Design Block..."
 ![alt text](img/Design-Block-Save.png)
