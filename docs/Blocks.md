@@ -7,14 +7,19 @@ For each project, you'll have to add the design block library just like you add 
 First, open your project schematic and navigate to Preferences -> Manage Design Block Libraries.
 ![Design Block Preferences](img/Design-Block-Prefs.png)
 
+Then, switch to Project Specific Libraries at the top and click the folder icon. Navigate to the KiCAD-Sharepoint folder in your project and select the folder called "UTSVT_Design_Blocks.kicad_blocks"
 ![Design Block Folder](img/Design-Block-Folder.png)
 
+This is what the library will look like once added. Make sure it's using "${KIPRJMOD}" instead of an absolute directory so your libraries load on other computers. Finally, click OK to confirm adding the library.
 ![Design Block Added](img/Design-Block-Added.png)
 
+To see the design blocks available in our library, navigate to View -> Panels -> Design Blocks.
 ![Design Block View](img/Design-Block-View.png)
 
+You'll now see this panel on the right side of the schematic editor. Each design block will be listed under our library. Select a design block to see more information, including a brief description, usage instructions, and a preview of the schematic. Make sure the checkbox for "Place as sheet" is checked so the block inserts as a new subsheet instead of directly into your main sheet.
 ![Design Block Place](img/Design-Block-Place.png)
 
+Finally, double click the name of the design block and drag to create the hierarchical sheet. Then, right click on the new subsheet and click "Place Sheet Pins" to place each hierarchical pin. Now you can double click on the subsheet and see what's inside the design block :P
 ![Design Block Subsheet](img/Design-Block-Subsheet.png)
 
 ## Creating a New Design Block
