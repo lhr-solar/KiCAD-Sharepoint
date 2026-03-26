@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../Parts/">
+        <link rel="prev" href="../Workflow/">
       
       
         <link rel="next" href="../Ordering/">
@@ -76,6 +76,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#whats-a-design-block" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -382,88 +387,29 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Shared Components
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Shared Components
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Parts/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Common Parts
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Blocks
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -482,13 +428,55 @@
 
       </a>
       
-    </li>
-  
+        
 
-              
-            
-          </ul>
-        </nav>
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whats-a-design-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's a Design Block?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-the-lhrs-design-block-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding the LHRs Design Block Library
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-new-design-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a New Design Block
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -620,6 +608,47 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whats-a-design-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's a Design Block?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-the-lhrs-design-block-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding the LHRs Design Block Library
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-new-design-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating a New Design Block
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -637,11 +666,30 @@
 
   <h1>Design Blocks</h1>
 
-<p>TODO</p>
-<ul>
-<li>every design block documented here</li>
-<li>script to pull docs from each block folder</li>
-</ul>
+<h2 id="whats-a-design-block">What's a Design Block?</h2>
+<p>Design Blocks are a KiCAD feature that allows you to create easily replicable schematics that stay updated across several projects. These can be imported into your project schematics as hierarchical subsheets, so you can interact with them without modifying the underlying block. LHRs uses design blocks to share common circuitry, such as MCU, power distribution, USB, etc.</p>
+<h2 id="adding-the-lhrs-design-block-library">Adding the LHRs Design Block Library</h2>
+<p>For each project, you'll have to add the design block library just like you add the symbol and footprint libraries. To add the LHRs design blocks, follow these steps:</p>
+<p>First, open your project schematic and navigate to Preferences -&gt; Manage Design Block Libraries.
+<img alt="Design Block Preferences" src="../img/Design-Block-Prefs.png" /></p>
+<p>Then, switch to Project Specific Libraries at the top and click the folder icon. Navigate to the KiCAD-Sharepoint folder in your project and select the folder called "UTSVT_Design_Blocks.kicad_blocks"
+<img alt="Design Block Folder" src="../img/Design-Block-Folder.png" /></p>
+<p>This is what the library will look like once added. Make sure it's using "${KIPRJMOD}" instead of an absolute directory so your libraries load on other computers. Finally, click OK to confirm adding the library.
+<img alt="Design Block Added" src="../img/Design-Block-Added.png" /></p>
+<p>To see the design blocks available in our library, navigate to View -&gt; Panels -&gt; Design Blocks.
+<img alt="Design Block View" src="../img/Design-Block-View.png" /></p>
+<p>You'll now see this panel on the right side of the schematic editor. Each design block will be listed under our library. Select a design block to see more information, including a brief description, usage instructions, and a preview of the schematic. Make sure the checkbox for "Place as sheet" is checked so the block inserts as a new subsheet instead of directly into your main sheet.
+<img alt="Design Block Place" src="../img/Design-Block-Place.png" /></p>
+<p>Finally, double click the name of the design block and drag to create the hierarchical sheet. Then, right click on the new subsheet and click "Place Sheet Pins" to place each hierarchical pin. Now you can double click on the subsheet and see what's inside the design block :P
+<img alt="Design Block Subsheet" src="../img/Design-Block-Subsheet.png" /></p>
+<h2 id="creating-a-new-design-block">Creating a New Design Block</h2>
+<p>When working on a design block, you should be saving your schematic into the design block and pushing changes often to keep track of progress. To add/save a design block to the LHRs library, follow these steps:</p>
+<p>First, create the schematic you want to save as a design block. Make sure to follow all design standards and ensure all components have correct datasheets, footprints, and 3D models linked. Then, right click on the LHRs design block library and select "Save Current Sheet as Design Block..."
+<img alt="alt text" src="../img/Design-Block-Save.png" /></p>
+<p>In the popup window, add fields for Date Modified and Author, along with a name and description as shown. Click OK to save.
+<img alt="alt text" src="../img/Design-Block-Properties.png" /></p>
+<p>To modify an existing block, simply save the current sheet with the same name as the existing one and click Overwrite.
+<img alt="alt text" src="../img/Design-Block-Overwrite.png" /></p>
 
 
 
