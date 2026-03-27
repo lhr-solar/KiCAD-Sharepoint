@@ -4,10 +4,11 @@ Welcome to the LHRs KiCad Sharepoint! KiCad-Sharepoint contains the shared symbo
 Install and set up KiCad according to these [instructions](./KiCad-Setup.md/). Before starting a PCB project, make sure to review our expectations for design [standards](./Standards.md/) and [workflow](./Workflow.md/). If you have any questions, don't hesitate to ask your leads. Happy building :)
 
 ## How to use KiCAD Sharepoint
-In order to use KiCAD Sharepoint into your project you need to do these three things:
+In order to use KiCAD Sharepoint into your project you need to do these four things:
 
 - Add KiCAD Sharepoint as a submodule, instructions can be found here
 - Add KiCAD Sharepoint symbols to your symbol table, instructions can be found [here](Workflow.md#Symbol-Table)
+- Add the KiCAD Sharepoint design block library to your project, instructions can be found [here](./Blocks.md)
 - Add KiCAD Sharepoint footprints to your footprint table, instructions can be found [here](./Workflow.md)
 
 ## Contributing to the docs
