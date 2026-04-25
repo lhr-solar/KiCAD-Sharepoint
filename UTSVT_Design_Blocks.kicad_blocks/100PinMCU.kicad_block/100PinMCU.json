@@ -1,8 +1,8 @@
 {
-"description": "A high-density MCU core designed for peripheral standardization and direct USB integration. It replaces legacy L4/G4 split designs with a unified, high-performance STM32G491VET6 platform, offering superior cost-efficiency and JLC-availability.",
+"description": "This design block handles the critical power filtering, clocking, and hardware boot logic required for stable operation, allowing the user to focus on peripheral-specific routing. It features an STM32G491VET6 MCU with a slide switch for hardware boot selection between system memory and main flash. When implementing this block, user should take note that decoupling capacitors and crystal oscillators must be placed immediately adjacent to their respective pins to maintain stability. ",
 "keywords": "",
 "fields": {
-"Date Modified": "3/29/2026",
+"Date Modified": "4/25/2026",
 "Author": "Jolyn Jiang"
 }
 }
