@@ -605,6 +605,12 @@
 		(uuid "8da27b7f-3810-429b-8c5d-0d9b191ea7c9")
 	)
 	(junction
+		(at 90.17 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a778a065-fd56-4b26-ba1e-20ca1549fe11")
+	)
+	(junction
 		(at 49.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -778,7 +784,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 88.9 78.74)
+			(xy 86.36 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -795,6 +801,16 @@
 			(type default)
 		)
 		(uuid "85ce9613-e700-4aab-9a0b-717bc906d9a8")
+	)
+	(wire
+		(pts
+			(xy 90.17 63.5) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f63dda9-279c-41c0-b719-6c3b2ccb39e1")
 	)
 	(wire
 		(pts
@@ -933,17 +949,6 @@
 		)
 		(uuid "b0920619-b3d7-4684-8c1d-564204ed310e")
 	)
-	(hierarchical_label "VIN_1"
-		(shape input)
-		(at 88.9 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6df34e0-e3d3-4dfe-9e5f-dcbc2df11010")
-	)
 	(hierarchical_label "M_GND"
 		(shape input)
 		(at 99.06 69.85 0)
@@ -984,7 +989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "10uF"
 			(at 102.0572 65.913 0)
 			(effects
 				(font
@@ -1020,7 +1025,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -1076,6 +1081,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -1105,7 +1111,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" ""
 			(at 41.91 67.31 90)
 			(effects
 				(font
@@ -1131,7 +1137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 74.93 0)
+		(at 90.17 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1139,7 +1145,7 @@
 		(dnp no)
 		(uuid "2b5b7fd6-b1a2-49bf-aab6-5b1c87c9f917")
 		(property "Reference" "R3"
-			(at 91.694 73.914 0)
+			(at 92.964 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1153,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 92.202 75.946 0)
+			(at 93.472 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1161,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.122 74.93 90)
+			(at 88.392 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 74.93 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +1179,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 74.93 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1188,7 @@
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI "
-			(at 88.9 74.93 90)
+			(at 90.17 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,6 +1543,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -1566,7 +1573,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" ""
 			(at 41.91 74.93 90)
 			(effects
 				(font
