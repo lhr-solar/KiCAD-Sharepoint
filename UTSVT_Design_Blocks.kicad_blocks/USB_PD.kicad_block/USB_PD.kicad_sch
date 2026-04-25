@@ -716,174 +716,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESD122:ESD122DMYR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D4"
-				(at 15.24 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD122DMYR"
-				(at 15.24 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ESD122DMYR"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.4"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-ESD122DMYR"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESD122DMYR"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ESD122DMYR_1_1"
-				(rectangle
-					(start 16.002 2.54)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 10.922 0 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_USB:CYPD3177-24LQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2186,6 +2018,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPD2EUSB30:TPD2EUSB30DRTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TPD2EUSB30DRTR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOTFL35P100X50-3N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-11/sf-000234749.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments TPD2EUSB30DRTR Dual Bi-Directional TVS Diode Array, 45W peak, 3-Pin SOT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TPD2EUSB30DRTR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2EUSB30DRTR?qs=%2Fqzd9s%252BcLd6bPJi5HXCDvw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPD2EUSB30DRTR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TPD2EUSB30DRTR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1"
 			(pin_names
 				(offset 0)
@@ -3175,7 +3177,7 @@
 		)
 		(uuid "2947bd04-8020-4928-b70a-e8e7100c9984")
 	)
-	(text "TVS:\n24V working\n26.7 breakdown"
+	(text "24V working\n26.7V breakdown\n38.9V clamping"
 		(exclude_from_sim no)
 		(at 40.386 53.34 0)
 		(effects
@@ -3189,7 +3191,7 @@
 	)
 	(text "USB Protection"
 		(exclude_from_sim no)
-		(at 22.86 92.71 0)
+		(at 24.384 92.71 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3223,18 +3225,6 @@
 			)
 		)
 		(uuid "3b035169-6301-4309-a3ab-d06396a445a6")
-	)
-	(text "10V working\n17V clamping"
-		(exclude_from_sim no)
-		(at 94.488 187.96 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(thickness 0.1588)
-			)
-			(justify left top)
-		)
-		(uuid "43b5e4f4-9e2e-4a73-b339-69e713d63646")
 	)
 	(text "Max VBUS for CYP is 30V\nMax PD input should be 21.5V"
 		(exclude_from_sim no)
@@ -3288,7 +3278,7 @@
 	)
 	(text "CCx Pulldown"
 		(exclude_from_sim no)
-		(at 22.86 67.31 0)
+		(at 23.622 67.31 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3311,9 +3301,9 @@
 		)
 		(uuid "6a057497-19fa-4b56-8c25-2d3723b5c3a9")
 	)
-	(text "3.6V working\n5.1V breakdown"
+	(text "5.5V working\n7V breakdown\n8V clamping"
 		(exclude_from_sim no)
-		(at 29.21 112.268 0)
+		(at 29.21 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3336,12 +3326,12 @@
 		)
 		(uuid "762b6d58-218e-4d1a-9023-c89322ff9a25")
 	)
-	(text "10V working\n17V clamping"
+	(text "10V working\n11.1V breakdown\n17V clamping"
 		(exclude_from_sim no)
-		(at 97.028 153.162 0)
+		(at 97.028 152.4 0)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.016 1.016)
 				(thickness 0.1588)
 			)
 			(justify left top)
@@ -3466,6 +3456,18 @@
 			(justify left top)
 		)
 		(uuid "cb3e3f90-de0a-4240-baf1-84955ade13f2")
+	)
+	(text "10V working\n11.1V breakdown\n17V clamping"
+		(exclude_from_sim no)
+		(at 93.218 186.69 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "d17eb4ef-7367-432c-a548-0fcc86e3827d")
 	)
 	(text "Status: ON if good"
 		(exclude_from_sim no)
@@ -3957,6 +3959,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 104.14) (xy 22.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327a8102-82a9-4375-abd2-7f1477d92681")
+	)
+	(wire
+		(pts
 			(xy 185.42 140.97) (xy 190.5 140.97)
 		)
 		(stroke
@@ -4157,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 104.14) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513e6344-020b-4c50-b32c-77af65d7ac71")
+	)
+	(wire
+		(pts
 			(xy 25.4 139.7) (xy 48.26 139.7)
 		)
 		(stroke
@@ -4164,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "52b36d52-d28f-49ed-84d7-0b100160d2b7")
+	)
+	(wire
+		(pts
+			(xy 21.59 106.68) (xy 22.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56316baf-b218-4341-ae11-e1bf74cb876f")
 	)
 	(wire
 		(pts
@@ -4277,16 +4309,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 109.22) (xy 21.59 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6893674f-7208-41e9-9e37-95d7f63f9679")
-	)
-	(wire
-		(pts
 			(xy 38.1 72.39) (xy 36.83 72.39)
 		)
 		(stroke
@@ -4324,16 +4346,6 @@
 			(type default)
 		)
 		(uuid "6ace7664-1be4-4df3-9704-269f09902c76")
-	)
-	(wire
-		(pts
-			(xy 42.418 106.68) (xy 44.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b687a25-8f1c-4adb-81ff-a2377944a40c")
 	)
 	(wire
 		(pts
@@ -4484,16 +4496,6 @@
 			(type default)
 		)
 		(uuid "8c82a79a-d129-4411-9e41-5663c0e246b5")
-	)
-	(wire
-		(pts
-			(xy 42.418 104.14) (xy 44.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cea3af1-ff77-4180-b9c4-b4c708d9d84f")
 	)
 	(wire
 		(pts
@@ -5017,16 +5019,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 104.14) (xy 22.86 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f474bb-4b53-4d47-8734-b8898a8dd610")
-	)
-	(wire
-		(pts
 			(xy 91.44 173.99) (xy 91.44 175.26)
 		)
 		(stroke
@@ -5054,6 +5046,16 @@
 			(type default)
 		)
 		(uuid "ea453904-62ff-4a1c-97dc-b058d6f3ba3f")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf9173e-36a4-409b-a8ca-643819bdbc3c")
 	)
 	(wire
 		(pts
@@ -8446,12 +8448,12 @@
 	)
 	(hierarchical_label "D-"
 		(shape input)
-		(at 44.45 106.68 0)
+		(at 21.59 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8fcb618e-84f3-433e-84c4-e8237bbd29a3")
 	)
@@ -8490,12 +8492,12 @@
 	)
 	(hierarchical_label "D+"
 		(shape input)
-		(at 44.45 104.14 0)
+		(at 21.59 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c9a28ccf-0739-46bc-9bea-2974d594bd63")
 	)
@@ -8560,7 +8562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 240.03 87.63 0)
 			(effects
 				(font
@@ -8606,128 +8608,6 @@
 			(project ""
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESD122:ESD122DMYR")
-		(at 11.938 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "093d60be-2446-4d3b-a776-91baee73af00")
-		(property "Reference" "D4"
-			(at 33.02 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESD122DMYR"
-			(at 33.02 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ESD122DMYR"
-			(at 38.608 199.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/esd122.pdf"
-			(at 38.608 299.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0"
-			(at 11.938 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 38.608 499.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-ESD122DMYR"
-			(at 38.608 599.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD122DMYR?qs=gt1LBUVyoHmaYVD%2FzEv1ew%3D%3D"
-			(at 38.608 699.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 38.608 799.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD122DMYR"
-			(at 38.608 899.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45566e1d-e6ce-47c2-85c4-7d049314ed91")
-		)
-		(pin "1"
-			(uuid "261221f8-e9b6-4b8c-99fe-252f795df762")
-		)
-		(pin "3"
-			(uuid "f44d9c7f-2d97-482f-abe9-daca244c41f8")
-		)
-		(instances
-			(project ""
-				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8926,6 +8806,129 @@
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPD2EUSB30:TPD2EUSB30DRTR")
+		(at 22.86 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13917584-5970-453a-ad0d-42f2e8ed94a9")
+		(property "Reference" "D4"
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD2EUSB30DRTR"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOTFL35P100X50-3N"
+			(at 44.45 199.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf?ts=1777140529890&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(at 44.45 299.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments TPD2EUSB30DRTR Dual Bi-Directional TVS Diode Array, 45W peak, 3-Pin SOT"
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 44.45 499.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPD2EUSB30DRTR"
+			(at 44.45 599.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2EUSB30DRTR?qs=%2Fqzd9s%252BcLd6bPJi5HXCDvw%3D%3D"
+			(at 44.45 699.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 44.45 799.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPD2EUSB30DRTR"
+			(at 44.45 899.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53146773-825b-48d6-83cc-1345d5c902d1")
+		)
+		(pin "1"
+			(uuid "6d6bfb4f-b62d-4251-a238-59335f4d4219")
+		)
+		(pin "3"
+			(uuid "47018f95-8b94-4be4-a17d-930ea5d09015")
+		)
+		(instances
+			(project ""
+				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9241,7 +9244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.73 148.59 0)
 			(effects
 				(font
@@ -9278,128 +9281,6 @@
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMBJ10A:SMBJ10A-E3_52")
-		(at 95.25 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3397aa28-acfc-401b-a826-a62c01b9cc33")
-		(property "Reference" "D2"
-			(at 99.06 146.8119 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ10A-E3_52"
-			(at 99.06 149.3519 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DIOM5436X244N"
-			(at 1.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88392/smbj.pdf"
-			(at -98.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SMBJ10A-E3/52, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 95.25 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.44"
-			(at -298.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-SMBJ10A-E3"
-			(at -398.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ10A-E3-52?qs=3qLEwsAJF5Qd1Nfqyp7fhg%3D%3D"
-			(at -498.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -598.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SMBJ10A-E3/52"
-			(at -698.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7b2a3c4-a86b-4368-ae00-98e1a5667f3d")
-		)
-		(pin "2"
-			(uuid "c7656ed9-cd24-4d2c-886d-2c345c836889")
-		)
-		(instances
-			(project ""
-				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9692,7 +9573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SI7288DPT1GE3"
+		(property "Footprint" "Components:SI7288DPT1GE3"
 			(at 257.81 233.35 0)
 			(effects
 				(font
@@ -9843,7 +9724,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 148.59 0)
 			(effects
 				(font
@@ -10104,6 +9985,127 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ10A:SMBJ10A-E3_52")
+		(at 95.25 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5037914e-0b06-4b36-b07b-091ec916cebc")
+		(property "Reference" "D5"
+			(at 99.06 146.8119 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ10A-E3_52"
+			(at 91.44 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DIOM5436X244N"
+			(at 1.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88392/smbj.pdf"
+			(at -98.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay SMBJ10A-E3/52, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at -298.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-SMBJ10A-E3"
+			(at -398.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ10A-E3-52?qs=3qLEwsAJF5Qd1Nfqyp7fhg%3D%3D"
+			(at -498.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -598.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ10A-E3/52"
+			(at -698.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3698d963-a2af-49af-80c0-3ce43b66fe98")
+		)
+		(pin "2"
+			(uuid "00febd49-5c0d-4960-80a5-7fc524e5f5f7")
+		)
+		(instances
+			(project ""
+				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB:CYPD3177-24LQ")
 		(at 153.67 81.28 0)
 		(unit 1)
@@ -10131,7 +10133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm"
+		(property "Footprint" "Components:CYPD3177-24LQXQ"
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -10268,7 +10270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -10337,7 +10339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.28 62.23 0)
 			(effects
 				(font
@@ -10406,7 +10408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -10539,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SI7288DPT1GE3"
+		(property "Footprint" "Components:SI7288DPT1GE3"
 			(at 214.63 233.35 0)
 			(effects
 				(font
@@ -10771,7 +10773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -10841,7 +10843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 55.88 148.59 0)
 			(effects
 				(font
@@ -10911,7 +10913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.61 45.72 0)
 			(effects
 				(font
@@ -10979,7 +10981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -11244,7 +11246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Components:DIOM5436X244N"
 			(at 121.59 52.07 0)
 			(effects
 				(font
@@ -11364,7 +11366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 57.15 0)
 			(effects
 				(font
@@ -11473,7 +11475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 109.22 0)
+		(at 50.8 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11481,7 +11483,7 @@
 		(dnp no)
 		(uuid "a78cec01-539a-4b99-91f9-ddfaba052920")
 		(property "Reference" "#PWR05"
-			(at 21.59 115.57 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +11492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 113.538 0)
+			(at 50.8 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,7 +11500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 109.22 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11507,7 +11509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 109.22 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 109.22 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +11631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 186.69 69.85 0)
 			(effects
 				(font
@@ -11697,7 +11699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 157.48 0)
 			(effects
 				(font
@@ -11918,7 +11920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -12118,7 +12120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 182.88 0)
 			(effects
 				(font
@@ -12188,7 +12190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 240.03 80.01 0)
 			(effects
 				(font
@@ -12231,128 +12233,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMBJ10A:SMBJ10A-E3_52")
-		(at 91.44 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2836a65-f1f3-485b-850f-d4e7e500240b")
-		(property "Reference" "D1"
-			(at 95.25 181.1019 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ10A-E3_52"
-			(at 95.25 183.6419 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DIOM5436X244N"
-			(at -2.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88392/smbj.pdf"
-			(at -102.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay SMBJ10A-E3/52, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 91.44 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.44"
-			(at -302.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-SMBJ10A-E3"
-			(at -402.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ10A-E3-52?qs=3qLEwsAJF5Qd1Nfqyp7fhg%3D%3D"
-			(at -502.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -602.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SMBJ10A-E3/52"
-			(at -702.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "438d2b34-486d-43e1-adfd-e04c5fd7abb5")
-		)
-		(pin "2"
-			(uuid "c28a2ff1-7afc-4438-8fc8-45fa24fae7bc")
-		)
-		(instances
-			(project "USB_PD"
-				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 191.77 45.72 0)
 		(unit 1)
@@ -12380,7 +12260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 45.72 0)
 			(effects
 				(font
@@ -12505,6 +12385,127 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ10A:SMBJ10A-E3_52")
+		(at 91.44 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da1eae81-8552-4927-abcb-c554c9057728")
+		(property "Reference" "D2"
+			(at 95.25 181.1019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ10A-E3_52"
+			(at 87.63 175.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DIOM5436X244N"
+			(at -2.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88392/smbj.pdf"
+			(at -102.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay SMBJ10A-E3/52, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at -302.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-SMBJ10A-E3"
+			(at -402.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ10A-E3-52?qs=3qLEwsAJF5Qd1Nfqyp7fhg%3D%3D"
+			(at -502.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -602.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ10A-E3/52"
+			(at -702.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35518e48-5985-45c0-a1da-cdf312629fd1")
+		)
+		(pin "2"
+			(uuid "d0ba3af1-8bae-419e-b8d7-b0ae51c614d9")
+		)
+		(instances
+			(project "USB_PD"
+				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 86.36 148.59 0)
 		(mirror x)
@@ -12532,7 +12533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.36 148.59 0)
 			(effects
 				(font
@@ -12830,7 +12831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -12898,7 +12899,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 90.17 0)
 			(effects
 				(font
