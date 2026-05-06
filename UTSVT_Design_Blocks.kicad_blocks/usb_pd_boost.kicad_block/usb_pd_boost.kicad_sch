@@ -1441,7 +1441,7 @@
 		)
 		(uuid "e2e4fd54-1fb0-4da8-9888-3c66c9d20d2f")
 	)
-	(text "Ven = 8V\nVen = Vin * Rbot/(Rtop+Rbottom)\nRatio of Rbottom/(Rtop+Rbottom)=1.08/8≈0.135\n\nStandardized Passives:\nratio = 45.3k / (300k + 45.3k) = 45.3k / 300k ≈ 0.131\n\nVin,on = 1.08 / 0.131 ≈ 8.24V\n\nVin,off = 0.92/0.131 = 7V\n\nR4 as a DNP 0 ohm resistor to force \nboost off in some cases"
+	(text "Ven = 8V\nVen = Vin * Rbot/(Rtop+Rbottom)\nRatio of Rbottom/(Rtop+Rbottom)=1.08/8≈0.135\n\nStandardized Passives:\nratio = 51.1k / (300k + 51.1k) = 0.145\n\nVin,on = 1.08 / 0.145 ≈ 7.42V\n\nVin,off = 0.92/0.131 = 7V\n\nR4 as a DNP 0 ohm resistor to force \nboost off in some cases"
 		(exclude_from_sim no)
 		(at 18.796 126.746 0)
 		(effects
@@ -6913,7 +6913,7 @@
 		(uuid "59c8ac4d-18e2-4253-b28c-4d6263eaa299")
 	)
 	(hierarchical_label "+24V"
-		(shape input)
+		(shape output)
 		(at 237.49 55.88 0)
 		(effects
 			(font
@@ -7275,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 66.04 67.31 0)
 			(effects
 				(font
@@ -8176,7 +8176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 161.29 74.93 0)
 			(effects
 				(font
@@ -8567,7 +8567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 62.23 69.85 0)
 			(effects
 				(font
@@ -8719,7 +8719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 231.14 55.88 0)
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -9708,7 +9708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
 			(at 121.92 55.88 0)
 			(effects
 				(font
