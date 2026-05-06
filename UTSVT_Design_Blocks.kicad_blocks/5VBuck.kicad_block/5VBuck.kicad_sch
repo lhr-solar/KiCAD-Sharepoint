@@ -3859,7 +3859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -3886,7 +3886,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C1607"
+		(property "LCSC P/N" "C1771"
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -3895,7 +3895,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "581-0603YC225MAT2A"
+		(property "P/N" "963-T21GCB7225MTPA1J"
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -4107,94 +4107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 175.26 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d760d7-f630-40d0-976e-79c0a8870d3e")
-		(property "Reference" "C9"
-			(at 177.8 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33u"
-			(at 177.8 95.2562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "581-TACR336K004X"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C342635"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ee8bf0f-370d-4461-85ed-10b3bd9e90ff")
-		)
-		(pin "2"
-			(uuid "1ab3bf9e-7d54-4507-a40b-e57a9de63951")
-		)
-		(instances
-			(project "PS-Buck"
-				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/fd0ad9ec-55a0-4daf-b550-9a7f2436753f"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 153.67 85.09 0)
 		(unit 1)
@@ -4256,6 +4168,94 @@
 			(project "PS-Buck"
 				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/fd0ad9ec-55a0-4daf-b550-9a7f2436753f"
 					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9397b22a-9016-444d-92df-aeef08b040d9")
+		(property "Reference" "C8"
+			(at 189.23 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 189.23 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "963-MLAST32MAB5476MP"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C77101"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cefa0e5c-bc6f-4c80-8f4b-8426e614b555")
+		)
+		(pin "2"
+			(uuid "5d5e65c7-2189-4395-92c6-ce10ec9d0f25")
+		)
+		(instances
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/fd0ad9ec-55a0-4daf-b550-9a7f2436753f"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4417,16 +4417,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 186.69 93.98 0)
+		(at 175.26 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf9195e3-c092-4cdb-a150-dcd5443520af")
-		(property "Reference" "C10"
-			(at 189.23 92.7162 0)
+		(uuid "cd112dfd-7b8d-4d77-beee-5f7198135a8a")
+		(property "Reference" "C5"
+			(at 177.8 92.7162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,8 +4434,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33u"
-			(at 189.23 95.2562 0)
+		(property "Value" "47u"
+			(at 177.8 95.2562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,8 +4443,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 186.69 93.98 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 93.98 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 186.69 93.98 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,8 +4470,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "581-TACR336K004X"
-			(at 186.69 93.98 0)
+		(property "P/N" "963-MLAST32MAB5476MP"
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,8 +4479,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C342635"
-			(at 186.69 93.98 0)
+		(property "LCSC P/N" "C77101"
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,15 +4489,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cb508fd-0dcd-4898-8d4f-40d3ea88c68a")
+			(uuid "f7eb9894-e1ca-4d33-9f51-c30ab9795138")
 		)
 		(pin "2"
-			(uuid "0e1c55e0-dfde-4982-b6b0-19206cc558fb")
+			(uuid "cd0c61c0-04ee-4a71-9cfc-ac673663e574")
 		)
 		(instances
 			(project "PS-Buck"
 				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/fd0ad9ec-55a0-4daf-b550-9a7f2436753f"
-					(reference "C10")
+					(reference "C5")
 					(unit 1)
 				)
 			)
