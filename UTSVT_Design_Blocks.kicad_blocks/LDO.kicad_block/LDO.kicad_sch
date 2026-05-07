@@ -18612,11 +18612,12 @@
 	)
 	(text "Input Nominal: 5V\nDiode Forward Voltage: 500-600 mV\nLDO Dropout Voltage Max: 400 mV\n-> ~0.7V headroom on input"
 		(exclude_from_sim no)
-		(at 196.85 117.475 0)
+		(at 172.72 116.205 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "20fcf12d-e42d-4e91-bc16-98c52dd9bf36")
 	)
@@ -19921,7 +19922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 167.005 66.6685 0)
 			(effects
 				(font
@@ -19966,6 +19967,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 163.83 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C440198"
+			(at 163.83 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
 		)
@@ -19975,7 +19994,7 @@
 		(instances
 			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -19997,7 +20016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc13a9e-47cd-4785-a2ad-c862cf5178c2")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 150.495 55.88 0)
 			(effects
 				(font
@@ -20049,7 +20068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "MCP1826S-3302E/DB"
+		(property "P/N" "MCP1826S-3302E/DB"
 			(at 150.495 58.42 0)
 			(effects
 				(font
@@ -20091,7 +20110,7 @@
 		(instances
 			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20209,7 +20228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 132.334 55.88 0)
 			(effects
 				(font
@@ -20261,7 +20280,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C191023"
+		(property "P/N" "SBA130CH-AU_R1_000A1 "
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -20297,7 +20316,7 @@
 		(instances
 			(project ""
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20313,7 +20332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 139.7 66.0335 0)
 			(effects
 				(font
@@ -20358,6 +20377,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
+			(at 136.525 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C440198"
+			(at 136.525 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c088605-de17-491b-a92c-48312011ee9b")
 		)
@@ -20367,7 +20404,7 @@
 		(instances
 			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
