@@ -5,6 +5,113 @@
 	(uuid "8ff43370-8d10-4d2c-b1a3-81d1c2934a98")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -128,6 +235,158 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18343,13 +18602,33 @@
 	)
 	(text "5V Nominal"
 		(exclude_from_sim no)
-		(at 127 59.69 0)
+		(at 123.825 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "080652ce-fa5b-4fa4-90cd-bc7b1e214aaa")
+	)
+	(text "Input Nominal: 5V\nDiode Forward Voltage: 500-600 mV\nLDO Dropout Voltage Max: 400 mV\n-> ~0.7V headroom on input"
+		(exclude_from_sim no)
+		(at 196.85 117.475 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20fcf12d-e42d-4e91-bc16-98c52dd9bf36")
+	)
+	(text "VR=regulated output voltage=3.3V"
+		(exclude_from_sim no)
+		(at 261.62 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2521f693-c22c-47f1-8edd-1e443d04261c")
 	)
 	(text "3.3V Nominal"
 		(exclude_from_sim no)
@@ -18381,7 +18660,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 62.23) (xy 136.525 62.23)
+			(xy 125.73 62.23) (xy 129.54 62.23)
 		)
 		(stroke
 			(width 0)
@@ -18488,6 +18767,16 @@
 			(type default)
 		)
 		(uuid "e7286968-3af3-41ed-b981-124a47cc05fa")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 136.525 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff9f236-786b-4ed3-ac40-bc778fae385f")
 	)
 	(image
 		(at 208.915 56.515)
@@ -18716,6 +19005,879 @@
 			"AQNsAAAAAElFTkSuQmCC"
 		)
 	)
+	(table
+		(column_count 5)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 29.845 10.795 11.43 11.43 8.255)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Parameters"
+				(exclude_from_sim no)
+				(at 172.72 85.09 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a6e8fd0e-3576-4779-b729-7befa489c342")
+			)
+			(table_cell "Min"
+				(exclude_from_sim no)
+				(at 202.565 85.09 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "9ee70065-fde7-45be-a3e2-a66e0c6e6c23")
+			)
+			(table_cell "Nominal"
+				(exclude_from_sim no)
+				(at 213.36 85.09 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "46bf88f8-e932-4723-ab0d-d4976aab6bcb")
+			)
+			(table_cell "Max"
+				(exclude_from_sim no)
+				(at 224.79 85.09 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "ae0389d2-2dfd-423b-8f09-6bb8bedaee49")
+			)
+			(table_cell "Unit"
+				(exclude_from_sim no)
+				(at 236.22 85.09 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "c9b1510d-309a-4bf0-ab83-9c7a04f40002")
+			)
+			(table_cell "Input Operating Voltage"
+				(exclude_from_sim no)
+				(at 172.72 87.63 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "adf923a8-9d4c-4644-bb9c-cd0cc4822d2c")
+			)
+			(table_cell "2.3"
+				(exclude_from_sim no)
+				(at 202.565 87.63 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "496e84be-1337-4678-a47f-fac49076a1fe")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 213.36 87.63 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "49508d99-bed2-4f63-bc5f-29eb02895c90")
+			)
+			(table_cell "6.0"
+				(exclude_from_sim no)
+				(at 224.79 87.63 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "3f499eec-7c50-4cc7-8cac-241ec9e0a250")
+			)
+			(table_cell "V"
+				(exclude_from_sim no)
+				(at 236.22 87.63 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "6d4eb525-567c-4027-9bc5-92a582481b64")
+			)
+			(table_cell "Input Quiescent Current"
+				(exclude_from_sim no)
+				(at 172.72 90.17 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0f244f37-360c-4f34-9816-3f123e170af0")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 202.565 90.17 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e9ee0702-8a9a-4713-9fe0-a4b818dc2e15")
+			)
+			(table_cell "120"
+				(exclude_from_sim no)
+				(at 213.36 90.17 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "26f11da2-ead8-437a-a71d-07f2e8bb8262")
+			)
+			(table_cell "220"
+				(exclude_from_sim no)
+				(at 224.79 90.17 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "b8fe434f-a09f-45b0-8e4a-4382c17e82b7")
+			)
+			(table_cell "uA"
+				(exclude_from_sim no)
+				(at 236.22 90.17 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "3eb4f254-bb1c-4df6-95a5-d159ad3c5391")
+			)
+			(table_cell "Max Ouput Current"
+				(exclude_from_sim no)
+				(at 172.72 92.71 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b555d0c0-e383-49a2-acad-d790e998e904")
+			)
+			(table_cell "1000"
+				(exclude_from_sim no)
+				(at 202.565 92.71 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "d61c976a-acf9-4f4f-9b15-925cb072714c")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 213.36 92.71 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "a2f50648-8278-4b19-83ae-d6ca4a4032ec")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 224.79 92.71 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "858d83f8-3e97-470a-9547-187b70276f59")
+			)
+			(table_cell "mA"
+				(exclude_from_sim no)
+				(at 236.22 92.71 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e884e88b-9a99-4ea9-8374-cef06103c9cf")
+			)
+			(table_cell "Line Regulation"
+				(exclude_from_sim no)
+				(at 172.72 95.25 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "57fac0eb-96b1-4b68-8786-b12cd9eb7b40")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 202.565 95.25 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "cc848c56-651e-4cef-901a-7dc52a800d4b")
+			)
+			(table_cell "+-0.05"
+				(exclude_from_sim no)
+				(at 213.36 95.25 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "1f65e527-2159-425e-b53a-6bca193a15a1")
+			)
+			(table_cell "+-0.20"
+				(exclude_from_sim no)
+				(at 224.79 95.25 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "a6fd91f1-6820-4b8d-842f-a7665e18246f")
+			)
+			(table_cell "%/V"
+				(exclude_from_sim no)
+				(at 236.22 95.25 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "03101cfe-05a7-4596-96dc-bc1ab0c754f7")
+			)
+			(table_cell "Load Regulation "
+				(exclude_from_sim no)
+				(at 172.72 97.79 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "09608017-80f7-4129-a279-e78b75261955")
+			)
+			(table_cell "-1.0"
+				(exclude_from_sim no)
+				(at 202.565 97.79 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "4e5b4c12-7065-408b-a1c7-eda70e7d4f9b")
+			)
+			(table_cell "+-0.5"
+				(exclude_from_sim no)
+				(at 213.36 97.79 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "f78c049d-b6e8-4c3c-b107-7fd35ac69232")
+			)
+			(table_cell "1.0"
+				(exclude_from_sim no)
+				(at 224.79 97.79 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "34bc6caf-6092-428f-a686-8a02e2d2f9c3")
+			)
+			(table_cell "%"
+				(exclude_from_sim no)
+				(at 236.22 97.79 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "3cf97020-62ec-4a36-9001-2b46281b0efc")
+			)
+			(table_cell "Voltage Regulation"
+				(exclude_from_sim no)
+				(at 172.72 100.33 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4f9ea5ff-0b5d-470a-ae00-4d758e22f5b1")
+			)
+			(table_cell "VR-2.5%"
+				(exclude_from_sim no)
+				(at 202.565 100.33 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "ea9e23a0-d9a6-466b-adec-65825f6568c5")
+			)
+			(table_cell "VR+-0.5%"
+				(exclude_from_sim no)
+				(at 213.36 100.33 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "f81722a4-589d-4458-8a73-8865020517b1")
+			)
+			(table_cell "VR+2.5%"
+				(exclude_from_sim no)
+				(at 224.79 100.33 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "2b89b491-cc39-40fe-8b7e-16e6ef8bf349")
+			)
+			(table_cell "V"
+				(exclude_from_sim no)
+				(at 236.22 100.33 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "2bf35786-aa89-4d08-bc95-8d8e39e35e0d")
+			)
+			(table_cell "Output Short Circuit Current "
+				(exclude_from_sim no)
+				(at 172.72 102.87 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9495989a-f570-4760-a195-3d3986097380")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 202.565 102.87 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "3891c940-bd60-4773-ba58-736ce2338617")
+			)
+			(table_cell "2.2"
+				(exclude_from_sim no)
+				(at 213.36 102.87 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e0b7c185-472d-4376-9f18-1eede7c9d72a")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 224.79 102.87 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8174b26a-39cb-47df-ae66-b500917ad3d2")
+			)
+			(table_cell "A"
+				(exclude_from_sim no)
+				(at 236.22 102.87 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "59ddc948-4de2-423a-822d-8e61931401df")
+			)
+			(table_cell "Dropout Voltage"
+				(exclude_from_sim no)
+				(at 172.72 105.41 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "96f4c5c0-100c-4ec7-84a4-89e80ceb2472")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 202.565 105.41 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "55968032-6345-4fa1-901a-c6ab991693ee")
+			)
+			(table_cell "250"
+				(exclude_from_sim no)
+				(at 213.36 105.41 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7ba4a513-750d-4113-b259-162e14a800e9")
+			)
+			(table_cell "400"
+				(exclude_from_sim no)
+				(at 224.79 105.41 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5747c091-ac0b-4ba1-bcf7-7e0365f5fab0")
+			)
+			(table_cell "mV"
+				(exclude_from_sim no)
+				(at 236.22 105.41 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "65560f12-686c-4be1-8492-d7bec692fa5f")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 172.72 107.95 0)
+				(size 29.845 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "03240cc0-2ad0-497c-85ec-f600a136250a")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 202.565 107.95 0)
+				(size 10.795 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b1b0cb13-a5ef-436d-8dbe-9a04856a7016")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 213.36 107.95 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "606f1e2b-91a3-4089-979c-bde7d9225acb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 224.79 107.95 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "48c9380f-8035-4308-995f-d6c490aa4afc")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 236.22 107.95 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dcb27599-ab2c-4f38-8019-a20361cf8613")
+			)
+		)
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 150.495 76.835 270)
@@ -18729,7 +19891,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 128.905 62.23 180)
+		(at 125.73 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18936,6 +20098,206 @@
 			(project ""
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
+		(property "Reference" "TP_3.3V1"
+			(at 165.354 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 162.814 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
+		)
+		(instances
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "TP_3.3V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 132.08 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
+		(property "Reference" "D?"
+			(at 132.334 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBA130CH-AU_R1_000A1"
+			(at 132.334 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 132.08 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/3736/1/11145663EF9055F8C188C22CC003165FC5A818A8439A953D3A6E1D8FCBF51DA1.pdf"
+			(at 132.08 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C191023"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C191023"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Old P/N" "BAT760-7"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Old LCSC P/N" "C124187"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
+		)
+		(pin "2"
+			(uuid "92239788-8b6a-4474-afbc-db272288e943")
+		)
+		(instances
+			(project ""
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "D?")
 					(unit 1)
 				)
 			)
