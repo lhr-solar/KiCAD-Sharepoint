@@ -1,8 +1,8 @@
 {
-"description": "24V application schematic for USB Power Delivery. Negotiates for 9V-20V @ 3A and outputs on PD_VBUS_OUT; otherwise, negotiates for 5V and outputs on PD_5V_OUT.",
+"description": "24V application schematic for USB Power Delivery. Negotiates for 9V-20V @ 3A via VBUS and ISINK voltage dividers.\n- If negotiation successful, outputs on PD_VBUS_OUT \n- Otherwise, negotiates for 5V and outputs on PD_5V_OUT",
 "keywords": "",
 "fields": {
-"Date Modified": "5/11/26",
+"Date Modified": "5/12/26",
 "Author": "Michael Adeluyi"
 }
 }
