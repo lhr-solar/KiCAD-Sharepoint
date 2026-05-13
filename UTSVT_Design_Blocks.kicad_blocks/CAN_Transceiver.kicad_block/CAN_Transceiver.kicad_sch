@@ -33561,7 +33561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11fc3897-418c-456a-8fd5-75858f7bdad9")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -33570,7 +33570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1u"
 			(at 75.946 75.946 0)
 			(effects
 				(font
@@ -33606,6 +33606,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62490040-1afe-4ec9-9fdd-5ae650351c74")
 		)
@@ -33620,7 +33638,7 @@
 				)
 			)
 			(project "CAN_Transceiver"
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "C2")
 					(unit 1)
 				)
@@ -33636,7 +33654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "269c1b14-22dd-4a9f-bc64-46d9c4d23a1e")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 194.564 88.646 0)
 			(effects
 				(font
@@ -33644,7 +33662,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1u"
 			(at 194.564 91.186 0)
 			(effects
 				(font
@@ -33652,7 +33670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.2648 85.09 0)
 			(effects
 				(font
@@ -33679,6 +33697,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b0d596f-f884-4807-ad90-b5139a0a7756")
 		)
@@ -33689,6 +33725,12 @@
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -33704,7 +33746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418918ed-79a5-4844-a068-77984ff1998e")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -33766,6 +33808,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33777,7 +33825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7484bcdc-1ddf-4a31-9ac2-deff0b8d2fc5")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 88.138 73.66 0)
 			(effects
 				(font
@@ -33786,7 +33834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1u"
 			(at 88.138 76.2 0)
 			(effects
 				(font
@@ -33822,6 +33870,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85aa2bda-d2f7-4634-9149-c3a03f575c6e")
 		)
@@ -33836,7 +33902,7 @@
 				)
 			)
 			(project "CAN_Transceiver"
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "C3")
 					(unit 1)
 				)
@@ -33852,7 +33918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 65.278 73.66 0)
 			(effects
 				(font
@@ -33861,7 +33927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10u"
 			(at 65.278 76.2 0)
 			(effects
 				(font
@@ -33897,6 +33963,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C440198"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43K"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "931d7d00-34c0-432f-b957-5973964ff07a")
 		)
@@ -33916,6 +34000,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33927,7 +34017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R23"
+		(property "Reference" "R2"
 			(at 201.93 80.01 90)
 			(effects
 				(font
@@ -33970,6 +34060,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C166918"
+			(at 201.93 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "RTT0360R0FTP"
+			(at 201.93 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bcdf47c-1070-4824-954d-f11fc9f517da")
 		)
@@ -33980,6 +34088,12 @@
 			(project "kk36984"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -33995,7 +34109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bbf058-1019-472a-b210-c9dc6eda02c8")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -34011,7 +34125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P230X117-3N"
+		(property "Footprint" "UTSVT_Passives:SOT95P230X117-3N"
 			(at 204.47 149.53 0)
 			(effects
 				(font
@@ -34115,6 +34229,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -34143,7 +34263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "UTSVT_Passives:SOIC127P600X175-8N"
 			(at 140.97 166.04 0)
 			(effects
 				(font
@@ -34262,6 +34382,12 @@
 					(unit 1)
 				)
 			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -34273,7 +34399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R22"
+		(property "Reference" "R1"
 			(at 176.53 80.01 90)
 			(effects
 				(font
@@ -34316,6 +34442,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C166918"
+			(at 176.53 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "RTT0360R0FTP"
+			(at 176.53 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86d33648-15d7-4302-99c9-26ba60e42db7")
 		)
@@ -34335,6 +34479,18 @@
 					(unit 1)
 				)
 			)
+			(project "CAN_Transceiver"
+				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
