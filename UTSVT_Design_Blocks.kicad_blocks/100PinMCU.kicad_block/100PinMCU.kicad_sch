@@ -3831,6 +3831,18 @@
 		(color 0 0 0 0)
 		(uuid "f8b254a5-77a2-4efc-bff5-7bfa729a2bfd")
 	)
+	(no_connect
+		(at 128.905 164.465)
+		(uuid "700551e3-2605-4ea5-ad16-2591347947fd")
+	)
+	(no_connect
+		(at 128.905 167.005)
+		(uuid "83c3e998-feee-4916-a942-ca1441805de0")
+	)
+	(no_connect
+		(at 128.905 161.925)
+		(uuid "bd1283b7-7132-4e4a-b4cc-efe5c23cf8da")
+	)
 	(wire
 		(pts
 			(xy 29.845 64.135) (xy 57.785 64.135)
@@ -9221,17 +9233,6 @@
 		)
 		(uuid "1d62d082-ce24-4dec-9bb0-9fadfddd21c8")
 	)
-	(hierarchical_label "PC14-OSC32_IN"
-		(shape bidirectional)
-		(at 128.905 164.465 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ff76bba-3df8-4246-9692-51e873e3509f")
-	)
 	(hierarchical_label "PE3"
 		(shape bidirectional)
 		(at 57.785 88.265 180)
@@ -9451,17 +9452,6 @@
 			(justify right)
 		)
 		(uuid "43b23dcc-ae63-445c-bf1c-2ffb4707e518")
-	)
-	(hierarchical_label "PC13"
-		(shape bidirectional)
-		(at 128.905 161.925 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4772f539-defe-4cd3-870e-7cb9bf2e0b25")
 	)
 	(hierarchical_label "PD1"
 		(shape bidirectional)
@@ -9968,17 +9958,6 @@
 			(justify left)
 		)
 		(uuid "bc4411c6-b422-44e7-b97f-706580fd6051")
-	)
-	(hierarchical_label "PC15-OSC32_OUT"
-		(shape bidirectional)
-		(at 128.905 167.005 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3af1bf6-73b3-4de0-ae0f-bb923531735b")
 	)
 	(hierarchical_label "VDDA"
 		(shape input)
