@@ -57219,16 +57219,6 @@
 		)
 		(uuid "1bf9965d-c902-4b56-b3b0-319b98a18aab")
 	)
-	(text "gate"
-		(exclude_from_sim no)
-		(at 72.39 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "23258871-fed2-4fda-97b5-6dafe8ffb6de")
-	)
 	(text "Overvoltage Protection: 29.03V\nVovr = (R2 * Vov)/(R1 + R2)\nVov = Vovr * (R1 + R2) / R2\n28.875 = 1.25 * (221k + 10k) / 10k"
 		(exclude_from_sim no)
 		(at 134.62 74.93 0)
@@ -57238,16 +57228,6 @@
 			)
 		)
 		(uuid "2f56d245-4f37-489f-b68c-88da17fd28d2")
-	)
-	(text "source"
-		(exclude_from_sim no)
-		(at 78.74 39.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f095c3c1-b1ac-4558-be77-6f607426d79b")
 	)
 	(junction
 		(at 25.4 40.64)
@@ -59910,6 +59890,17 @@
 			"AIGQSQUbAAAAAAEAAQBbAgQAqAoEcgEgCgoFEAUQcAFEAKCKAQAFckZaAA=="
 		)
 	)
+	(hierarchical_label "gate"
+		(shape output)
+		(at 72.39 48.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c830dea-0429-4620-9c94-6bc1310f6d6f")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 113.03 82.55 270)
@@ -59975,6 +59966,17 @@
 			(justify right)
 		)
 		(uuid "5cab5f5b-0835-4fce-b37f-add97d1d6188")
+	)
+	(hierarchical_label "source"
+		(shape passive)
+		(at 78.74 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80a5d0c7-faa4-4d09-a1dd-0aac6063ae3b")
 	)
 	(hierarchical_label "GND"
 		(shape input)
