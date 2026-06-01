@@ -60366,34 +60366,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 102.87 95.25 180)
+		(at 97.79 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4200c9c3-4407-484d-bd03-607c0325b9b3")
 		(property "Reference" "R7"
-			(at 105.41 93.9799 0)
+			(at 97.79 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 105.41 96.5199 0)
+			(at 97.79 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 101.854 94.996 90)
+			(at 98.044 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60402,7 +60399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 95.25 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60411,7 +60408,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 102.87 95.25 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60420,7 +60417,7 @@
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI"
-			(at 102.87 95.25 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60429,7 +60426,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
-			(at 102.87 95.25 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60541,7 +60538,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 97.79 88.9 90)
+		(at 102.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -60549,7 +60546,7 @@
 		(dnp no)
 		(uuid "567d7981-59ef-48a7-b328-3993477ab495")
 		(property "Reference" "R6"
-			(at 97.79 86.741 90)
+			(at 100.584 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60557,7 +60554,7 @@
 			)
 		)
 		(property "Value" "137k"
-			(at 97.282 91.059 90)
+			(at 105.664 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60565,7 +60562,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 98.044 87.884 90)
+			(at 103.886 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60574,7 +60571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 88.9 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60583,7 +60580,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 97.79 88.9 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60592,7 +60589,7 @@
 			)
 		)
 		(property "P/N" "CRCW0603137KFKEA"
-			(at 97.79 88.9 90)
+			(at 102.87 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60601,7 +60598,7 @@
 			)
 		)
 		(property "LCSC P/N" "C2090646"
-			(at 97.79 88.9 90)
+			(at 102.87 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60616,7 +60613,7 @@
 			(uuid "2f08210f-5a67-40ff-a1ae-dec6c31957be")
 		)
 		(instances
-			(project ""
+			(project "PowerProtection"
 				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "R6")
 					(unit 1)
