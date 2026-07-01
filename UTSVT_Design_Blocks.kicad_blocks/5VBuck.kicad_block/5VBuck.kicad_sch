@@ -3887,7 +3887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09b8345d-8918-4267-ae46-9429646200dd")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 106.68 48.514 90)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C354639"
+		(property "LCSC P/N" "C54563397"
 			(at 106.68 46.99 90)
 			(effects
 				(font
@@ -3939,7 +3939,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CKCS8040-10uH/M"
+		(property "P/N" "SRN8040-101M"
 			(at 106.68 46.99 90)
 			(effects
 				(font
@@ -3967,12 +3967,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "L2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3985,7 +3979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a82137d-8871-44a3-ab21-ce47721f3f56")
-		(property "Reference" "R33"
+		(property "Reference" "R2"
 			(at 170.18 49.5299 0)
 			(effects
 				(font
@@ -4067,12 +4061,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "R33")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4085,7 +4073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1968d22c-1f78-4f77-9dd3-42d14dfd1316")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 40.64 45.7262 0)
 			(effects
 				(font
@@ -4167,12 +4155,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "C12")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4184,7 +4166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a05fa4d-69b8-4025-a5e1-b9eaf2e07e09")
-		(property "Reference" "TP15"
+		(property "Reference" "TP?"
 			(at 184.15 80.5179 0)
 			(effects
 				(font
@@ -4234,6 +4216,12 @@
 			(uuid "16b24b4e-ea22-4704-a0b4-5ebfda8280e5")
 		)
 		(instances
+			(project "5VBuck"
+				(path "/1a7db697-3478-4f8f-a838-af5608c43196"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
 					(reference "TP15")
@@ -4251,7 +4239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3878a141-21e0-43f9-ad59-f707dea32310")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 100.838 40.64 0)
 			(effects
 				(font
@@ -4333,12 +4321,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "C13")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4351,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39cf9a7e-6653-47e4-a5ee-edf6ac47a9a5")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 73.66 31.75 0)
 			(effects
 				(font
@@ -4445,12 +4427,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "U4")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4462,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "550d6821-9bdf-4eca-b477-5cc866df1ecf")
-		(property "Reference" "TP13"
+		(property "Reference" "TP?"
 			(at 171.45 80.5179 0)
 			(effects
 				(font
@@ -4512,6 +4488,12 @@
 			(uuid "604139f8-1aea-448d-9051-15364e895672")
 		)
 		(instances
+			(project "5VBuck"
+				(path "/1a7db697-3478-4f8f-a838-af5608c43196"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
 					(reference "TP13")
@@ -4530,7 +4512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9a423a-0e34-4ded-a4b1-4212ade0f564")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG01"
 			(at 93.98 40.005 0)
 			(effects
 				(font
@@ -4591,12 +4573,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4608,7 +4584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a9a8dd-edb3-41d3-83e8-254a53afc325")
-		(property "Reference" "TP16"
+		(property "Reference" "TP?"
 			(at 184.15 93.2179 0)
 			(effects
 				(font
@@ -4658,6 +4634,12 @@
 			(uuid "7ce99e8c-679a-436d-a98f-ffbb8a741835")
 		)
 		(instances
+			(project "5VBuck"
+				(path "/1a7db697-3478-4f8f-a838-af5608c43196"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
 					(reference "TP16")
@@ -4676,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9397b22a-9016-444d-92df-aeef08b040d9")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 129.54 49.5362 0)
 			(effects
 				(font
@@ -4758,12 +4740,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "C15")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4775,7 +4751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c11cb379-7aea-4b99-9233-bc7cdd9f23b5")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG02"
 			(at 93.98 45.085 0)
 			(effects
 				(font
@@ -4836,12 +4812,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "#FLG011")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4854,7 +4824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22156a2-b827-4f79-bec6-44d42ccd9b29")
-		(property "Reference" "R32"
+		(property "Reference" "R1"
 			(at 170.18 41.9099 0)
 			(effects
 				(font
@@ -4936,12 +4906,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "R32")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4954,7 +4918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd112dfd-7b8d-4d77-beee-5f7198135a8a")
-		(property "Reference" "C14"
+		(property "Reference" "C3"
 			(at 118.11 49.5362 0)
 			(effects
 				(font
@@ -5036,12 +5000,6 @@
 					(unit 1)
 				)
 			)
-			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "C14")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5053,7 +5011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ae4365-a578-40b2-aaa3-5063f3e55771")
-		(property "Reference" "TP14"
+		(property "Reference" "TP?"
 			(at 171.45 93.2179 0)
 			(effects
 				(font
@@ -5103,6 +5061,12 @@
 			(uuid "a2f5ef80-5291-4d20-9e27-e8670f780ccf")
 		)
 		(instances
+			(project "5VBuck"
+				(path "/1a7db697-3478-4f8f-a838-af5608c43196"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
 					(reference "TP14")
@@ -5111,4 +5075,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
