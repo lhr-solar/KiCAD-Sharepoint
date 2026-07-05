@@ -73,8 +73,8 @@
 		(uuid "d62ea559-6fc5-48b0-af74-6f8f420dbe34")
 	)
 	(fp_line
-		(start -2.15 -2.13)
-		(end -2.15 -0.21)
+		(start -2.15 5.24)
+		(end -2.15 7.16)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -123,8 +123,8 @@
 		(uuid "5b3d8aba-e1ef-44db-a184-e4cfb521d874")
 	)
 	(fp_line
-		(start 0 -2.13)
-		(end -2.15 -2.13)
+		(start 0 7.2)
+		(end -2.15 7.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -193,7 +193,7 @@
 		(uuid "4751dd02-172e-4f38-bee4-32264b84503a")
 	)
 	(fp_line
-		(start -2.25 -2.22)
+		(start -2.25 -3.7)
 		(end -2.25 -0.61)
 		(stroke
 			(width 0.05)
@@ -223,7 +223,7 @@
 		(uuid "7e68fb80-ec72-4a20-85bd-b72a723a1ff5")
 	)
 	(fp_line
-		(start -2.25 7.22)
+		(start -2.25 8.7)
 		(end -2.25 5.61)
 		(stroke
 			(width 0.05)
@@ -233,8 +233,8 @@
 		(uuid "b4d0f92e-5bd2-4af6-9d77-396052589438")
 	)
 	(fp_line
-		(start 2.25 -2.22)
-		(end -2.25 -2.22)
+		(start 2.25 -3.7)
+		(end -2.25 -3.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -244,7 +244,7 @@
 	)
 	(fp_line
 		(start 2.25 2.5)
-		(end 2.25 -2.22)
+		(end 2.25 -3.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -254,7 +254,7 @@
 	)
 	(fp_line
 		(start 2.25 2.5)
-		(end 2.25 7.22)
+		(end 2.25 8.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -263,8 +263,8 @@
 		(uuid "1c40ed80-f575-4331-b523-c7c137dc439a")
 	)
 	(fp_line
-		(start 2.25 7.22)
-		(end -2.25 7.22)
+		(start 2.25 8.7)
+		(end -2.25 8.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -451,7 +451,7 @@
 		(uuid "8272bb26-db86-4089-a330-09e57243291b")
 	)
 	(pad "1" thru_hole custom
-		(at 0 0)
+		(at 0 5)
 		(size 1.417157 1.417157)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -463,13 +463,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.85 -0.6) (xy 0.85 -0.6) (xy 0.85 0.6) (xy -0.596447 0.6) (xy -0.85 0.346447)
+					(xy -0.85 0.6) (xy 0.85 0.6) (xy 0.85 -0.6) (xy -0.596447 -0.6) (xy -0.85 -0.346447)
 				)
 				(width 0.5)
 				(fill yes)
 			)
 		)
-		(uuid "e68db77f-1cdf-4eee-bc84-25445daa416c")
+		(uuid "59180902-3e20-49c6-9069-b07e59653c9e")
 	)
 	(pad "2" thru_hole oval
 		(at 0 2.5)
@@ -480,12 +480,12 @@
 		(uuid "8b5b8fc5-571a-4cd0-a9cb-971ba91cc28e")
 	)
 	(pad "3" thru_hole oval
-		(at 0 5)
+		(at 0 0)
 		(size 2.2 1.7)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ac53cd85-a7e8-4189-8aa7-598f51ee2cc2")
+		(uuid "233d3469-e932-4031-834c-49b40e3fa631")
 	)
 	(embedded_fonts no)
 	(embedded_files
