@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "02fa0742-bcc4-4cef-b130-c1bb630f4b62")
+	(uuid "2f494eb6-ab80-4f24-88a6-d7325241b4c5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -434,7 +434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -445,15 +445,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -461,7 +461,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -478,7 +478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -505,61 +505,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -567,7 +518,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1594,6 +1545,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 111.76) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1a642f-90ff-4e6c-9f66-49a03e9c999c")
+	)
+	(wire
+		(pts
 			(xy 208.28 91.44) (xy 208.28 93.98)
 		)
 		(stroke
@@ -1661,16 +1622,6 @@
 			(type default)
 		)
 		(uuid "84ae6bdd-aadf-443c-850b-22b91b797b3e")
-	)
-	(wire
-		(pts
-			(xy 83.82 111.76) (xy 83.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1ffdb8-d22a-4b0e-9b4e-dccf3f00e685")
 	)
 	(wire
 		(pts
@@ -1982,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02f0dee6-7e3c-493a-8375-f31bcc07f187")
-		(property "Reference" "D32"
+		(property "Reference" "D?"
 			(at 85.09 86.6774 90)
 			(effects
 				(font
@@ -2070,106 +2021,15 @@
 			(uuid "46866aa8-d914-4450-a2ed-2d9488603f73")
 		)
 		(instances
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
-					(reference "D32")
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "D?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 83.82 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05cbe6f3-4cd6-4561-b38a-d07c63c0d03b")
-		(property "Reference" "R12"
-			(at 86.36 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 86.36 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 82.804 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 83.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 83.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuerer" "Vishay "
-			(at 83.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 83.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 86.36 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bdb8d7b8-bd1b-4818-975e-2412f7ceeff1")
-		)
-		(pin "1"
-			(uuid "42d49699-c1b5-4214-89e1-9ada305ecf21")
-		)
-		(instances
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
-					(reference "R12")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -2260,6 +2120,12 @@
 			(uuid "ad5c694d-0a68-461f-8cf3-7328b728a0d5")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "J?")
@@ -2277,7 +2143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2274c30b-9046-4d33-bf39-09911eebebbc")
-		(property "Reference" "Q1"
+		(property "Reference" "Q?"
 			(at 100.838 103.886 0)
 			(effects
 				(font
@@ -2353,6 +2219,12 @@
 			(uuid "c3b74318-564c-492b-9440-3ee7e0d00893")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "Q1")
@@ -2371,7 +2243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38815026-8280-4073-874c-edc1e7ac5201")
-		(property "Reference" "TP4"
+		(property "Reference" "TP?"
 			(at 72.39 93.98 0)
 			(effects
 				(font
@@ -2429,6 +2301,12 @@
 			(uuid "e43fd4a5-fe87-4017-a796-1010dd898157")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "TP4")
@@ -2438,42 +2316,102 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 218.44 91.44 270)
+		(lib_id "Device:R")
+		(at 233.68 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dd951dc-f40f-4d79-94e7-2d2eb757c784")
+		(property "Reference" "R?"
+			(at 233.68 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 233.68 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a3b379-c44b-446b-ae40-38607a7c47cd")
+		)
+		(pin "2"
+			(uuid "01bf6367-9d9e-44ff-b0ee-814e3a3ab298")
+		)
+		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4abf81f7-66c4-49f5-a4d0-f4a602dcc73f")
+		(uuid "4779135d-c2a5-4dfc-8ef6-364dba6f59c4")
 		(property "Reference" "R?"
-			(at 218.44 85.09 90)
+			(at 195.58 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 218.44 87.63 90)
+		(property "Value" "10k"
+			(at 195.58 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 218.186 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 218.44 91.44 0)
+		(property "Footprint" ""
+			(at 194.818 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,8 +2419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 218.44 91.44 0)
+		(property "Datasheet" "~"
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,42 +2428,24 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
-			(at 218.44 91.44 0)
+		(property "Description" "Resistor"
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 217.1699 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfa1ebc8-574e-40b6-b390-df08e61abdf0")
 		)
 		(pin "1"
-			(uuid "dc7a2082-aa4d-48b6-b410-42ad31cfe16d")
+			(uuid "bf80e6a0-c742-4fd9-8fb6-3721bde4f771")
+		)
+		(pin "2"
+			(uuid "b929ae1d-2c85-494c-be38-9844dc128b71")
 		)
 		(instances
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
 					(reference "R?")
 					(unit 1)
 				)
@@ -2542,7 +2462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c1d231-b74d-431b-b238-57569cb3f015")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR?"
 			(at 237.49 82.55 0)
 			(effects
 				(font
@@ -2590,6 +2510,12 @@
 			(uuid "1931fd96-fd5d-472a-962e-ddaf913a9a91")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "#PWR057")
@@ -2599,17 +2525,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 193.04 104.14 180)
+		(lib_id "Device:R")
+		(at 83.82 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e42ad73-6d2d-4ba6-a6c0-6dd51fd96ea7")
+		(uuid "67c65f19-870d-451d-8cf6-63941f8da502")
 		(property "Reference" "R?"
-			(at 195.58 102.8699 0)
+			(at 86.36 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2544,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 195.58 105.4099 0)
+			(at 86.36 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,8 +2552,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 192.024 103.886 90)
+		(property "Footprint" ""
+			(at 85.598 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,8 +2561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 193.04 104.14 0)
+		(property "Datasheet" "~"
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,51 +2570,93 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 193.04 104.14 0)
+		(property "Description" "Resistor"
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufactuerer" "Vishay "
-			(at 193.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 193.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 195.58 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd1da418-792e-4552-a7a5-972a346ae764")
 		)
 		(pin "1"
-			(uuid "cc806f79-377d-42dd-9a91-0741653c6e3e")
+			(uuid "167d0411-ff00-403e-ac6b-04d516d3eea3")
+		)
+		(pin "2"
+			(uuid "98a4bc61-9d28-412c-bafc-fb5982c825ef")
 		)
 		(instances
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dfbd1b5-b2db-4c1f-8033-ef5f9f22e3b6")
+		(property "Reference" "R?"
+			(at 222.25 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 222.25 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.108 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b58f5042-66d8-4ad9-8826-9d06d1d13eb8")
+		)
+		(pin "2"
+			(uuid "763ca8dd-989a-4e0b-85cb-0bd7a6ebbc50")
+		)
+		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
 					(reference "R?")
 					(unit 1)
 				)
@@ -2706,7 +2674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbba772-3ccd-4b64-a1be-b8501e90a45b")
-		(property "Reference" "C14"
+		(property "Reference" "C?"
 			(at 180.975 102.8699 0)
 			(effects
 				(font
@@ -2785,6 +2753,12 @@
 			(uuid "4366c1a3-11b3-4d57-bfed-172363d5450f")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "C14")
@@ -2794,136 +2768,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 233.68 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70f75e57-db52-479b-bbcd-a26bf4625710")
-		(property "Reference" "R?"
-			(at 233.68 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 233.68 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 233.426 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuerer" "Vishay "
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 232.4099 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4cfc22cc-9da1-4427-acf2-2561f2f06d46")
-		)
-		(pin "1"
-			(uuid "8ba4fcb0-511d-47c0-9e5c-7f8318faaa97")
-		)
-		(instances
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 88.9 80.01 90)
+		(lib_id "Device:R")
+		(at 218.44 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86c871ec-ab5c-498f-919f-7f8dda94842b")
-		(property "Reference" "R15"
-			(at 88.9 74.295 90)
+		(uuid "7034512f-31d9-4804-bfa5-8c55e199f925")
+		(property "Reference" "R?"
+			(at 218.44 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.3k"
-			(at 88.9 76.835 90)
+		(property "Value" "1k"
+			(at 218.44 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 89.154 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 88.9 80.01 0)
+		(property "Footprint" ""
+			(at 218.44 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,8 +2802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 88.9 80.01 0)
+		(property "Datasheet" "~"
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,43 +2811,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
-			(at 88.9 80.01 90)
+		(property "Description" "Resistor"
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "P/N" "CRCW06034K30FKEA"
-			(at 88.9 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2907165"
-			(at 88.9 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43fd24dc-5f97-4cc5-9ed1-dabdf12a1dce")
 		)
 		(pin "1"
-			(uuid "19ea9307-3b3a-44a1-991e-f6514f4d1d46")
+			(uuid "350bcb45-92d5-4569-b989-d8a9f377fb3d")
+		)
+		(pin "2"
+			(uuid "660fd4a5-5871-44f9-b81b-898ee3ff07b9")
 		)
 		(instances
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
-					(reference "R15")
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2992,7 +2845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c36f549-48e2-40b7-a776-f4632cb0f1fc")
-		(property "Reference" "C15"
+		(property "Reference" "C?"
 			(at 212.09 99.0601 0)
 			(effects
 				(font
@@ -3071,6 +2924,12 @@
 			(uuid "76305dcf-1899-4525-89f2-9f54d6bc1870")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "C15")
@@ -3089,7 +2948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afbfb841-b3bd-4d4c-9ddf-cfc539973ca5")
-		(property "Reference" "Q3"
+		(property "Reference" "Q?"
 			(at 200.914 93.726 0)
 			(effects
 				(font
@@ -3165,6 +3024,12 @@
 			(uuid "ff97ea81-ac7d-4305-b7b9-ba7532cf0d4d")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "Q3")
@@ -3183,7 +3048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5cb0885-fdbc-4bca-8263-1489a116d9a9")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR?"
 			(at 243.84 111.76 0)
 			(effects
 				(font
@@ -3231,6 +3096,12 @@
 			(uuid "381740ab-7133-491d-97e1-5d8baff75f7b")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "#PWR058")
@@ -3240,44 +3111,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 227.33 97.79 180)
+		(lib_id "Device:R")
+		(at 88.9 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d62ab29a-f452-47a0-bd5b-60bddcadb537")
+		(uuid "cd75bfe6-d69a-452a-8ce1-2ce4961c4d42")
 		(property "Reference" "R?"
-			(at 229.87 96.5199 0)
+			(at 88.9 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 229.87 99.0599 0)
+		(property "Value" "4.3k"
+			(at 88.9 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 226.314 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 227.33 97.79 0)
+		(property "Footprint" ""
+			(at 88.9 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,8 +3145,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 227.33 97.79 0)
+		(property "Datasheet" "~"
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,42 +3154,24 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactuerer" "Vishay "
-			(at 227.33 97.79 0)
+		(property "Description" "Resistor"
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 227.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 229.87 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69922d48-90c7-44c7-a6a7-ec50d04c9677")
 		)
 		(pin "1"
-			(uuid "17e5b9c1-df77-4dae-9c0b-9b09be7e9745")
+			(uuid "10160c3b-d6b6-4c57-951a-6c94ef1bb72c")
+		)
+		(pin "2"
+			(uuid "579c7774-a97d-4470-93c8-21cf388a217e")
 		)
 		(instances
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
+			(project ""
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
 					(reference "R?")
 					(unit 1)
 				)
@@ -3345,7 +3187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d84b2ae7-8b71-4629-b5ce-3d225faf02ae")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 99.06 83.82 90)
 			(effects
 				(font
@@ -3424,6 +3266,12 @@
 			(uuid "501ea5d7-2162-4c2f-a72f-95de83633881")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "D5")
@@ -3442,7 +3290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4a0f28f-575e-4d92-98e7-eed4342a9c13")
-		(property "Reference" "TP7"
+		(property "Reference" "TP?"
 			(at 185.674 89.916 0)
 			(effects
 				(font
@@ -3500,6 +3348,12 @@
 			(uuid "3580e112-7e9e-4794-8e28-bdc0406e0e06")
 		)
 		(instances
+			(project "contactor"
+				(path "/2f494eb6-ab80-4f24-88a6-d7325241b4c5"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/af6ba53b-6cff-4c8d-93c5-0f8403a14a02"
 					(reference "TP7")
@@ -3508,4 +3362,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
