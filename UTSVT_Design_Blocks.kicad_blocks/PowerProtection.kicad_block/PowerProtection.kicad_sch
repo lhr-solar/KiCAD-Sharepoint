@@ -19261,6 +19261,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ECE319H:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ECE319K:C_Axial_200mil"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PSMN012-100YS_1"
 			(pin_numbers
 				(hide yes)
@@ -70332,6 +70471,12 @@
 		(uuid "4388180a-b57a-4cc6-be50-953f71979e49")
 	)
 	(junction
+		(at 72.39 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e6aa5a-b8c1-4ab4-afc3-a7efaaca1b67")
+	)
+	(junction
 		(at 34.29 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -70469,6 +70614,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a291319-3f12-4c65-aded-7d3a127b1252")
+	)
+	(wire
+		(pts
 			(xy 87.63 41.91) (xy 83.82 41.91)
 		)
 		(stroke
@@ -70489,13 +70644,33 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 52.07) (xy 72.39 69.85)
+			(xy 72.39 57.15) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3042d6a4-c126-4ba0-8ab9-c162ceb99787")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 72.39 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31ae8354-1bd7-40a1-86ef-acc8f08023be")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337eba05-736d-45d9-b0f8-e60a04f8013c")
 	)
 	(wire
 		(pts
@@ -70529,6 +70704,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 67.31) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f24f69-2ebf-48c9-8feb-7d7ea03996d8")
+	)
+	(wire
+		(pts
 			(xy 78.74 44.45) (xy 83.82 44.45)
 		)
 		(stroke
@@ -70556,6 +70741,16 @@
 			(type default)
 		)
 		(uuid "598575bc-3048-42fa-a1e1-914413ea14b9")
+	)
+	(wire
+		(pts
+			(xy 60.96 59.69) (xy 60.96 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1edcc6-e02b-4a70-a838-d5cd3df2c5e5")
 	)
 	(wire
 		(pts
@@ -73182,6 +73377,17 @@
 			"AIGQSQUbAAAAAAEAAQBbAgQAqAoEcgEgCgoFEAUQcAFEAKCKAQAFckZaAA=="
 		)
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 60.96 68.58 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "059216cd-1ded-4c32-9f18-13b3db375266")
+	)
 	(hierarchical_label "OV"
 		(shape input)
 		(at 92.71 81.28 0)
@@ -73833,6 +74039,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f8c95be-4bec-4715-b67b-6a9afc6a3131")
+		(property "Reference" "R3"
+			(at 67.31 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 67.31 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 67.564 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW060333R0FKEA"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MCT06030C2003FP5"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C844927"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9111c358-2dea-4039-ab9b-bd8826055118")
+		)
+		(pin "2"
+			(uuid "29791019-0f69-4fe6-ba20-4a5478f060fc")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UTSVT_ICs:LM74502HDDFR")
 		(at 58.42 77.47 0)
 		(unit 1)
@@ -74191,6 +74491,93 @@
 			(project ""
 				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE319H:C")
+		(at 60.96 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b1ddc4f-24aa-46be-8d1e-e07bf585137f")
+		(property "Reference" "C4"
+			(at 54.864 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 54.61 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "MSASH168SB5103KTNA01"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816aa9b1-27e4-4872-93e3-95afb7ebca4b")
+		)
+		(pin "2"
+			(uuid "309f94e3-54a5-4810-bdad-3dd52cc5ab36")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C4")
 					(unit 1)
 				)
 			)
