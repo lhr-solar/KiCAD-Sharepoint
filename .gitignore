@@ -37,6 +37,10 @@ fp-info-cache
 # JLCPCB Production Files
 Production/
 
+# Whitelist production files directory
+!**/jlcpcb/production_files/
+!**/jlcpcb/production_files/**
+
 # Backups
 *-backups/*
 

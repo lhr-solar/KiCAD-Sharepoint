@@ -7,7 +7,7 @@ For each project, you'll have to add the design block library just like you add 
 First, open your project schematic and navigate to Preferences -> Manage Design Block Libraries.
 ![Design Block Preferences](img/Design-Block-Prefs.png)
 
-Then, switch to Project Specific Libraries at the top and click the folder icon. Navigate to the KiCAD-Sharepoint folder in your project and select the folder called "UTSVT_Design_Blocks.kicad_blocks"
+Then, switch to Project Specific Libraries at the top and click the folder icon. Navigate to the KiCAD-Sharepoint folder in your project and select the folder called "LHRS_Design_Blocks.kicad_blocks"
 ![Design Block Folder](img/Design-Block-Folder.png)
 
 This is what the library will look like once added. Make sure it's using "${KIPRJMOD}" instead of an absolute directory so your libraries load on other computers. Finally, click OK to confirm adding the library.

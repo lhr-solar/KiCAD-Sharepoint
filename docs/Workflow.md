@@ -37,7 +37,7 @@ In order for your schematic to use the KiCAD-Sharepoint symbols, you need to add
 - Go to Preferences -> Manage Symbol Libraries -> Project Specific Libraries
 - Press the + sign at the bottom
 - In Library Path press the folder button add one of the .kicad_sym files in the KiCAD-Sharepoint submodule
-- Set the nickname to be whatever is in the front of the .kicad_sym file, i.e if it's called `utsvt_connectors.kicad_sym`, make the nickname `utsvt_connectors`. 
+- Set the nickname to be whatever is in the front of the .kicad_sym file, i.e if it's called `lhrs_connectors.kicad_sym`, make the nickname `lhrs_connectors`. 
 - Keep in mind that other people should be able to open your KiCAD-Project without the libraries being broken. So if the library path is `users/lakshay` then that link will be broken since they probably don't have that path. All of your library paths should be relative to the KiCAD project, which KiCAD has that path stored in this variable: `${KIPRJMOD}`
 - Repeat these steps for the other .kicad_sym files in KiCAD-Sharepoint.  
 
