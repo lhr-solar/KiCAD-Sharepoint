@@ -2360,9 +2360,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -43.18 90)
+					(at 8.89 -43.18 90)
 					(length 5.08)
-					(hide yes)
 					(name "VSS"
 						(effects
 							(font
@@ -2577,9 +2576,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -43.18 90)
+					(at 11.43 -43.18 90)
 					(length 5.08)
-					(hide yes)
 					(name "VSS"
 						(effects
 							(font
@@ -2709,7 +2707,7 @@
 	)
 	(text "Main Flash\n(user code)"
 		(exclude_from_sim no)
-		(at 220.472 93.726 0)
+		(at 219.964 109.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2771,7 +2769,7 @@
 	)
 	(text "Sys Memory\n(bootloader)"
 		(exclude_from_sim no)
-		(at 219.71 110.49 0)
+		(at 219.964 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,6 +2856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3825ac3b-a6c3-4cbb-a1a0-956ea8b2077a")
+	)
+	(junction
+		(at 97.79 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f7714d-c082-49d6-a9af-c1e5fe361df2")
 	)
 	(junction
 		(at 220.218 41.148)
@@ -3163,6 +3167,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 114.3) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19582756-d24e-4444-b462-79da31d8652a")
+	)
+	(wire
+		(pts
 			(xy 182.118 105.918) (xy 183.642 105.918)
 		)
 		(stroke
@@ -3430,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "4d2ad5cc-20b6-402a-a26b-4c60104dc17b")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 97.79 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed36439-14b7-4f41-ac82-4aa3cb475f8a")
 	)
 	(wire
 		(pts
@@ -4133,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 110.49) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc0c1ee-3176-4079-b86c-1876be0c8a19")
+	)
+	(wire
+		(pts
 			(xy 232.156 27.432) (xy 243.078 27.432)
 		)
 		(stroke
@@ -4340,6 +4374,16 @@
 			(type default)
 		)
 		(uuid "f428376a-3552-4147-bafa-a727dbc7687b")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 97.79 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c987d1-ac31-44a1-808c-083aa248b085")
 	)
 	(wire
 		(pts
@@ -8135,8 +8179,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24916197-2f7a-4e03-839c-f0c49e9c9e5b")
-		(property "Reference" "kicad-embed://stm32g473cb.pdf"
-			(at 89.408 64.77 0)
+		(property "Reference" "kicad-embed://stm32g473cb.pdf1"
+			(at 88.392 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8147,7 +8192,7 @@
 			)
 		)
 		(property "Value" "STM32G473CET6"
-			(at 82.55 67.31 0)
+			(at 83.312 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8157,7 +8202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:48PinMCU"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 73.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8169,7 +8214,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "kicad-embed://stm32g473cb.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g473cb.pdf"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8360,7 +8405,7 @@
 		(instances
 			(project "48PinMCU"
 				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "kicad-embed://stm32g473cb.pdf")
+					(reference "kicad-embed://stm32g473cb.pdf1")
 					(unit 1)
 				)
 			)
