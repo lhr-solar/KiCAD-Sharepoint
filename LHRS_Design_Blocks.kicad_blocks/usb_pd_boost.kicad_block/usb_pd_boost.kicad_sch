@@ -8297,7 +8297,7 @@
 		)
 		(uuid "253b99f8-2676-45a8-b401-49047f871a28")
 	)
-	(text "ΔIL = 9*0.6625/(10µH*600kHz)\nΔIL = 5.9625 / 6\nΔIL ≈ 0.994A (9V)\nΔIL ≈ 0.833A (20V)"
+	(text "ΔIL = 9*0.6625/(10µH*600kHz)\nΔIL = 5.9625 / 6\nΔIL ≈ 0.994A (9V)\nΔIL ≈ 0.552A (5V)"
 		(exclude_from_sim no)
 		(at 102.87 167.894 0)
 		(effects
@@ -8359,7 +8359,7 @@
 		)
 		(uuid "5115d4c8-e7ff-493e-9eb1-b5396b6df085")
 	)
-	(text "9V:\nIOUT_MAX = 9*(5.25-0.994/2)*0.9/24\nIOUT_MAX ≈ 1.60A (IC Limit)\nIOUT (90% efficient) = 1A\n\n20V:\nIOUT_MAX ≈ 3.62A (IC Limit)\nReal (90% efficient) = 2.25A\nIOUT = 54W / 24V\nIOUT ≈ 2.25A\n95% → 57W out → 24V @ 2.38A"
+	(text "9V:\nIOUT_MAX = 9*(5.25-0.994/2)*0.9/24\nIOUT_MAX ≈ 3.20A (IC Limit)\nIOUT (90% efficient) = 3A ??\n\n5V:\nIOUT_MAX ≈ 1.78A (IC Limit)\nReal (90% efficient) = 2.25A ??\nIOUT = 54W / 24V ??\nIOUT ≈ 2.25A ??\n95% → 57W out → 24V @ 2.38A ??"
 		(exclude_from_sim no)
 		(at 81.534 182.626 0)
 		(effects
@@ -8446,7 +8446,7 @@
 		)
 		(uuid "b2a27dc6-4c25-4d67-829b-25676bca655b")
 	)
-	(text "Vin(min) = 9V or 20V\nVout = 24V\nL = 10uH\nfSW = 600kHZ\nnest = 90% = 0.9\nILIM = 5.25A (data sheet pg 16)\n"
+	(text "Vin(min) = 5V or 9V\nVout = 12V\nL = 10uH\nfSW = 600kHZ\nnest = 90% = 0.9\nILIM = 5.25A (data sheet pg 16)\n"
 		(exclude_from_sim no)
 		(at 98.806 147.574 0)
 		(effects
@@ -8456,7 +8456,7 @@
 		)
 		(uuid "bf530d22-26b5-4161-87ef-ed62ad320956")
 	)
-	(text "Vout = 1.229V * (R1/R2 + 1)\nVout = 1.229V * (Rsh/Rsl + 1)\nVout = 1.229V * (187k/10k + 1)\nVout = 24.2113 volts"
+	(text "Vout = 1.229V * (R1/R2 + 1)\nVout = 1.229V * (Rsh/Rsl + 1)\nVout = 1.229V * (88.7k/10k + 1)\nVout = 12.13023 volts"
 		(exclude_from_sim no)
 		(at 81.534 127.254 0)
 		(effects
@@ -13958,7 +13958,7 @@
 		)
 		(uuid "59c8ac4d-18e2-4253-b28c-4d6263eaa299")
 	)
-	(hierarchical_label "+24V"
+	(hierarchical_label "+12V"
 		(shape output)
 		(at 237.49 55.88 0)
 		(effects
@@ -15067,7 +15067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "187k"
+		(property "Value" "88.7k"
 			(at 161.29 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
