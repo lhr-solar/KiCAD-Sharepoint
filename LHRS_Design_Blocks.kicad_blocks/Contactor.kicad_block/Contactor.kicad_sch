@@ -1579,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 87.63) (xy 241.3 87.63)
+			(xy 230.505 52.07) (xy 248.285 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1839,16 +1839,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 78.74) (xy 237.49 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb48760-3a95-4a9a-b329-1ead46991c28")
-	)
-	(wire
-		(pts
 			(xy 184.15 97.79) (xy 184.15 100.33)
 		)
 		(stroke
@@ -1928,7 +1918,7 @@
 		(uuid "08ae40d5-35d8-42cc-b2b7-9ce73f7aa3bf")
 	)
 	(label "HV_CONTROL"
-		(at 226.06 87.63 0)
+		(at 230.505 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,36 +1971,69 @@
 		)
 		(uuid "2b2e58fc-baa4-408d-84ec-ebafc44ea91e")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 184.15 109.22 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e3a4972-9ef3-4517-a59e-366ec0de3c4b")
-	)
-	(hierarchical_label "CONTROL"
+	(hierarchical_label "CONTACTOR+"
 		(shape input)
-		(at 68.58 101.6 180)
+		(at 245.11 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "426e9969-ab45-4991-b37c-8d9e956d2678")
+		(uuid "498130c9-177e-4a96-85b1-7266b4762b83")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 45.085 73.025 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60745580-734e-4702-b73e-dd4ee45daf7a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 114.935 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71c2e11b-ec66-441d-9a1a-b8f5aa924553")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 65.405 118.057 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1c584f2-7885-4d3e-a153-bec54f17805d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 200.025 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abfa46ec-bc11-400d-9b0d-f07d8373b772")
 	)
 	(hierarchical_label "CONTACTOR+"
 		(shape input)
-		(at 96.52 72.39 90)
+		(at 244.475 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "53b3919a-ea2f-492d-ae2a-633f95defcd0")
 	)
@@ -2046,6 +2069,50 @@
 			(justify right)
 		)
 		(uuid "ee6993f9-bdd7-427c-b229-8d02fa197184")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 142.24 114.935 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f83ed12a-80c4-4f97-80c1-80e70dbb2b1a")
+	)
+	(hierarchical_label "CONTACTOR+"
+		(shape input)
+		(at 39.37 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9acdd04-4cb7-4085-af5a-198f62f0492c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 88.9 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcac365c-e9fb-4741-83f4-43b7ba20cc53")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 49.53 112.395 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcdffcd5-96c4-456c-ac37-e8012eac39a6")
 	)
 	(symbol
 		(lib_id "Device:LED")
