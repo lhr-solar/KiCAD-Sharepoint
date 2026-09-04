@@ -1269,12 +1269,6 @@
 		(color 0 0 0 0)
 		(uuid "ed5fb7f4-339a-4a6c-9a2d-d6a3a419713a")
 	)
-	(junction
-		(at 179.07 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa87d3a7-9c97-4bbb-8ab3-ef383c867cf2")
-	)
 	(wire
 		(pts
 			(xy 144.78 86.36) (xy 149.86 86.36)
@@ -1363,16 +1357,6 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4e74139a-15b6-458b-ae89-f7aa9e5308c2")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 179.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
 		(uuid "54af2cc6-7798-40d5-9d2e-5b9856b2d5b2")
 	)
 	(wire
@@ -1384,26 +1368,6 @@
 			(type default)
 		)
 		(uuid "5707fb9f-f988-47e1-b4be-2ec6623ba639")
-	)
-	(wire
-		(pts
-			(xy 170.18 99.06) (xy 179.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60306991-e247-4fe8-9118-f6872e311921")
-	)
-	(wire
-		(pts
-			(xy 179.07 91.44) (xy 186.69 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617245ea-dad1-45ea-b898-e196953e8de2")
 	)
 	(wire
 		(pts
@@ -1447,13 +1411,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 86.36) (xy 187.96 86.36)
+			(xy 93.98 81.28) (xy 102.87 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d01b0ce-5544-4fe6-bab5-82ed08a8aa5b")
+	)
+	(wire
+		(pts
+			(xy 102.87 81.28) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afaa11b-cda0-4845-abd5-0e6d28065b8a")
 	)
 	(wire
 		(pts
@@ -1607,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 179.07 86.36)
+			(xy 163.83 86.36) (xy 181.61 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7939,7 +7913,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 170.18 95.25 180)
+		(at 102.87 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7991,122 +7965,6 @@
 			(justify right)
 		)
 		(uuid "ef887564-29af-4399-9f11-e74e508702f3")
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2306957c-576b-414e-a857-4ce5b852430c")
-		(property "Reference" "C3"
-			(at 172.72 88.9062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33u"
-			(at 172.72 91.4462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "GRM32ER61C476KE15L"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C77101"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "678b7bae-2496-4429-86d0-56105f7be6de")
-		)
-		(pin "2"
-			(uuid "15bd3b8d-fbe4-4e36-be05-dda25fafe86b")
-		)
-		(instances
-			(project "PS-Buck"
-				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "PS-Buck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project "12VBuck"
-				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -8272,7 +8130,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C6962403"
+		(property "LCSC P/N" ""
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +8141,7 @@
 				)
 			)
 		)
-		(property "P/N" "08055D475KAT4A"
+		(property "P/N" "MSASL168SB5475KTNA01"
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8439,7 +8297,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "8.2u"
 			(at 161.29 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8966,7 +8824,7 @@
 				)
 			)
 		)
-		(property "Value" "33u"
+		(property "Value" "47u"
 			(at 184.15 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9009,7 +8867,7 @@
 				)
 			)
 		)
-		(property "P/N" "GRM32ER61C476KE15L"
+		(property "P/N" "ZRB18AC80E476ME01L"
 			(at 181.61 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9020,7 +8878,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C77101"
+		(property "LCSC P/N" ""
 			(at 181.61 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9419,7 +9277,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C6666325"
+		(property "LCSC P/N" ""
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9582,7 +9440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "53.6k"
+		(property "Value" "100k"
 			(at 227.33 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,7 +9484,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE"
+		(property "P/N" "AE1206BR-07100KL"
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9637,7 +9495,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25803"
+		(property "LCSC P/N" ""
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c64f4f-c674-4d50-80a7-5bee03f8aefe")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 105.41 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +9573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9748,7 +9606,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C6666325"
+		(property "LCSC P/N" ""
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9777,12 +9635,6 @@
 			(uuid "0741cb29-3afc-4b8a-9e3d-47ceb8966423")
 		)
 		(instances
-			(project "12-5vBuck"
-				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "12VBuck"
 				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "C5")
@@ -9858,7 +9710,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C844132"
+		(property "LCSC P/N" ""
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9869,7 +9721,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060319K1FKEAHP"
+		(property "P/N" "ERA-2ARB1912X"
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
