@@ -163,229 +163,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D1"
-				(at 0.254 3.048 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SMAF4758A"
-				(at 3.81 1.016 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "UTSVT_Passives:SODFL5026X125N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/3/225/1/SMAF4735A_SMAF4764A_DO_221AC_.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "If" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vf" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser Part Number" "833-SMAF4758A-TP"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "P/N" "SMAF4758A-TP"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC P/N" "C779051"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1463,6 +1240,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lhrs_power:SMAF4758A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAF4758A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LHRS_Passives:SODFL5026X125N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "kicad-embed://SMAF4758A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAF4758A_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAF4758A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lhrs_power:SMBJ15CA"
 			(pin_numbers
 				(hide yes)
@@ -1717,6 +1660,12 @@
 		(uuid "1bf284e5-4120-42a9-8010-d59a01609411")
 	)
 	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c76a0cc-58b1-4c06-b0d9-ee9e63c15e57")
+	)
+	(junction
 		(at 43.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1753,18 +1702,6 @@
 		(uuid "4bf2de47-0582-4482-b8ca-6c9a319ed0da")
 	)
 	(junction
-		(at 115.57 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55a60b2c-4dcb-4b06-a10f-6d8059f63013")
-	)
-	(junction
-		(at 115.57 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c545894-c298-47b8-92f9-2035cf2633f3")
-	)
-	(junction
 		(at 72.39 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1795,6 +1732,12 @@
 		(uuid "bd1a9720-fb99-4847-bca2-7d59f7ee436d")
 	)
 	(junction
+		(at 115.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d69209-f38e-4f7d-b217-7636e4c3ef67")
+	)
+	(junction
 		(at 83.82 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1818,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 109.22 86.36)
+			(xy 110.49 85.09) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1928,6 +1871,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 77.47) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d51f2a-243b-4f91-82d5-c2cd00048be3")
+	)
+	(wire
+		(pts
 			(xy 60.96 57.15) (xy 63.5 57.15)
 		)
 		(stroke
@@ -1978,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 95.25)
+			(xy 110.49 93.98) (xy 110.49 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2058,26 +2011,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 77.47) (xy 43.18 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c6d60e-8383-4a9b-9270-87cc8901b0ff")
-	)
-	(wire
-		(pts
-			(xy 118.11 85.09) (xy 115.57 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71084f46-543d-417f-a3d6-9b6c9b497a93")
-	)
-	(wire
-		(pts
 			(xy 129.54 93.98) (xy 129.54 95.25)
 		)
 		(stroke
@@ -2095,6 +2028,16 @@
 			(type default)
 		)
 		(uuid "790db299-76a0-434a-80c5-01995928d894")
+	)
+	(wire
+		(pts
+			(xy 35.56 80.01) (xy 35.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aff0b31-24d0-44b7-8e25-f1e4d07b7170")
 	)
 	(wire
 		(pts
@@ -2118,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 95.25) (xy 118.11 93.98)
+			(xy 120.65 95.25) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2128,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 85.09) (xy 36.83 88.9)
+			(xy 35.56 87.63) (xy 35.56 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 115.57 85.09)
+			(xy 110.49 85.09) (xy 115.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2308,16 +2251,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 115.57 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3517243-78e5-41c6-9aad-99ddf853fbd7")
-	)
-	(wire
-		(pts
 			(xy 25.4 44.45) (xy 34.29 44.45)
 		)
 		(stroke
@@ -2328,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 118.11 86.36)
+			(xy 120.65 85.09) (xy 120.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2448,6 +2381,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 85.09) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f663a02e-90fd-430f-a693-e67fe2b4fdbf")
+	)
+	(wire
+		(pts
 			(xy 134.62 81.28) (xy 134.62 82.55)
 		)
 		(stroke
@@ -2455,6 +2398,16 @@
 			(type default)
 		)
 		(uuid "f8dd055b-d303-4a1d-8308-7974c919c9c5")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac22fc4-7e9e-4207-bfc0-c7591103cd8f")
 	)
 	(wire
 		(pts
@@ -5262,7 +5215,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 118.11 95.25 270)
+		(at 120.65 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5295,7 +5248,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 109.22 95.25 270)
+		(at 110.49 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,7 +5259,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 36.83 88.9 270)
+		(at 35.56 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5413,6 +5366,87 @@
 			(project "PowerProtection"
 				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_power:SMAF4758A")
+		(at 43.18 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03fbb6c3-15d6-4535-82c3-c84cadec759c")
+		(property "Reference" "D1"
+			(at 40.64 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAF4758A"
+			(at 46.228 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LHRS_Passives:SODFL5026X125N"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://SMAF4758A.pdf"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d02ff4d-a800-4020-aa3d-66b049830cab")
+		)
+		(pin "1"
+			(uuid "5e748cb0-e53f-40b0-91b1-07ac45b63683")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5764,7 +5798,7 @@
 		(dnp no)
 		(uuid "30175d18-769c-4cf5-98fe-c1abd5d1092e")
 		(property "Reference" "R6"
-			(at 141.986 90.17 90)
+			(at 137.668 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5774,7 +5808,7 @@
 			)
 		)
 		(property "Value" "15.8k"
-			(at 136.906 90.424 90)
+			(at 141.986 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6070,7 +6104,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 90.17 180)
+		(at 110.49 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6080,7 +6114,7 @@
 		(dnp no)
 		(uuid "695f9767-116e-48fc-b456-831abf151e72")
 		(property "Reference" "C7"
-			(at 105.918 88.9 90)
+			(at 107.188 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6091,7 +6125,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 112.776 88.392 90)
+			(at 114.046 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6102,7 +6136,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 108.2548 86.36 0)
+			(at 109.5248 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6113,7 +6147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 90.17 0)
+			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6158,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 90.17 0)
+			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6825,7 +6859,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 118.11 90.17 0)
+		(at 120.65 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6835,7 +6869,7 @@
 		(dnp no)
 		(uuid "be94d869-90f2-4669-bef8-7f9b9e85a653")
 		(property "Reference" "R5"
-			(at 116.078 90.424 90)
+			(at 118.618 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6845,7 +6879,7 @@
 			)
 		)
 		(property "Value" "7.32k"
-			(at 120.65 90.17 90)
+			(at 123.19 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6855,7 +6889,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 119.126 90.424 90)
+			(at 121.666 90.424 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,7 +6900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 90.17 0)
+			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +6911,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 118.11 90.17 0)
+			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6888,7 +6922,7 @@
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI"
-			(at 118.11 90.17 0)
+			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6899,7 +6933,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
-			(at 118.11 90.17 90)
+			(at 120.65 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6925,144 +6959,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 43.18 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c14b4f59-05e7-4bf5-84a0-5fbb5a89a522")
-		(property "Reference" "D1"
-			(at 46.228 84.074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAF4758A"
-			(at 44.196 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LHRS_Passives:SODFL5026X125N"
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://SMBJ15CA.pdf"
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" ""
-			(at 43.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 43.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "833-SMAF4758A-TP"
-			(at 43.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "SMAF4758A-TP"
-			(at 43.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C779051"
-			(at 43.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dbc04922-8e67-41e3-a01d-107d63e5190d")
-		)
-		(pin "1"
-			(uuid "f109f6e0-e930-4ea9-914d-36f64421906a")
-		)
-		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 36.83 81.28 0)
+		(at 35.56 83.82 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7073,7 +6971,7 @@
 		(dnp no)
 		(uuid "c99346f3-cf25-4b2b-b50c-e7e063bd40c1")
 		(property "Reference" "C2"
-			(at 33.02 80.0099 0)
+			(at 31.75 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7084,7 +6982,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 33.02 82.5499 0)
+			(at 31.75 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7095,7 +6993,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 37.7952 77.47 0)
+			(at 36.5252 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,7 +7004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 81.28 0)
+			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7117,7 +7015,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 81.28 0)
+			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7026,7 @@
 			)
 		)
 		(property "P/N" "MLASU168SB5105KTNA01"
-			(at 33.655 83.82 0)
+			(at 32.385 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +7037,7 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
-			(at 36.83 81.28 0)
+			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
