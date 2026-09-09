@@ -5291,87 +5291,6 @@
 		(uuid "d4b220b6-0bfb-4e81-a6a0-7446c58193d0")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 129.54 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0080b75d-17e1-44a9-a149-150b85562bd3")
-		(property "Reference" "C6"
-			(at 125.984 89.154 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 132.842 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 128.5748 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6ba7675f-70e1-4383-b79d-d0a5bbe78a63")
-		)
-		(pin "1"
-			(uuid "cfc808ec-88b6-4d23-80c9-72cf227e280d")
-		)
-		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lhrs_power:SMAF4758A")
 		(at 43.18 83.82 270)
 		(unit 1)
@@ -5531,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "963-MSASU168SB7224KT"
+		(property "Mouser Part Number" "CC0603KRX7R9BB224"
 			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5542,7 +5461,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C344195"
+		(property "LCSC P/N" "C107083"
 			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5749,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
+		(property "Mouser Part Number" "0603WAF1002T5E"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5953,7 +5872,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5964,7 +5883,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C14663"
+		(property "LCSC P/N" "C1591"
 			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6097,87 +6016,6 @@
 			(project "PowerProtection"
 				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "695f9767-116e-48fc-b456-831abf151e72")
-		(property "Reference" "C7"
-			(at 107.188 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 114.046 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 109.5248 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2966b97-a24f-4d20-92a4-c931fbb1b711")
-		)
-		(pin "1"
-			(uuid "1f343914-dcdd-4bed-80ca-f3a1a5c02b24")
-		)
-		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6508,6 +6346,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 110.49 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ad8d2ea-210c-4b9b-a887-7ae5ea15f9b5")
+		(property "Reference" "C6"
+			(at 113.284 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 113.03 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 111.4552 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1591"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "895e779b-ef52-4051-a908-67797d19d382")
+		)
+		(pin "2"
+			(uuid "2cc562ca-4b0c-40c7-a2f8-639421910e27")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECE319H:C")
 		(at 60.96 63.5 0)
 		(unit 1)
@@ -6573,7 +6514,7 @@
 				)
 			)
 		)
-		(property "P/N" "MSASH168SB5103KTNA01"
+		(property "P/N" "CC0603KRX7R9BB103"
 			(at 60.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6525,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C57112 "
+		(property "LCSC P/N" "C100042"
 			(at 60.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6676,7 +6617,7 @@
 				)
 			)
 		)
-		(property "P/N" "GRM21BR61H106KE43K"
+		(property "P/N" "GRM21BR61H106KE43L"
 			(at 109.22 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -7025,7 +6966,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 32.385 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7036,7 +6977,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C15849"
+		(property "LCSC P/N" "C559769"
 			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7057,6 +6998,109 @@
 			(project "PowerProtection"
 				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d82c2d9c-5f25-43a3-bd89-29d34615c72c")
+		(property "Reference" "C7"
+			(at 132.08 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 131.826 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 130.5052 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1591"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2f31ea3-a8a2-4336-9b12-f84fa7f3521a")
+		)
+		(pin "2"
+			(uuid "aa9e46f1-16e6-441f-88d2-e09f0d866751")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7128,7 +7172,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE"
+		(property "P/N" "0603WAF1003T5E"
 			(at 115.57 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7273,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE"
+		(property "P/N" "0603WAF1003T5E"
 			(at 134.62 77.47 0)
 			(hide yes)
 			(show_name no)
