@@ -45,6 +45,8 @@ Database columns (matched case-insensitively, aliases accepted):
     Component    Resistors / Capacitors / ...   (selects the library)
     Resistance   the value: 0, 10, 1k, 4k7, 0.1u, 90p, 22u, 0.1uF
     Package      0402 / 0603 / 0805 / 1206 ... or a full "Lib:Footprint"
+                 (hand-solder footprints by default; --reflow-footprints for
+                 the plain IPC land patterns)
     Mfg. P/N     -> "P/N" field
     LCSC P/N     -> "LCSC P/N" field
     Datasheet    -> "Datasheet" field (optional)
@@ -89,31 +91,35 @@ ENG_PREFIXES = {-12: "p", -9: "n", -6: "u", -3: "m", 0: "", 3: "k", 6: "M", 9: "
 # Metric package code -> imperial, for CSVs that say e.g. "1608Metric".
 METRIC_TO_IMPERIAL = {
     "0603": "0201", "1005": "0402", "1608": "0603", "2012": "0805",
-    "3216": "1206", "3225": "1210", "3246": "1218", "5025": "2010",
-    "6332": "2512",
+    "3216": "1206", "3225": "1210", "3246": "1218", "4532": "1812",
+    "5025": "2010", "5650": "2220", "6332": "2512",
 }
 
+# Imperial code -> (reflow footprint, hand-solder footprint).  Hand-solder
+# variants have elongated pads; names are those of the official KiCad
+# footprint libraries (kicad.github.io/footprints, checked September 2026).
 RESISTOR_FOOTPRINTS = {
-    "0201": "R_0201_0603Metric",
-    "0402": "R_0402_1005Metric",
-    "0603": "R_0603_1608Metric",
-    "0805": "R_0805_2012Metric",
-    "1206": "R_1206_3216Metric",
-    "1210": "R_1210_3225Metric",
-    "1218": "R_1218_3246Metric",
-    "2010": "R_2010_5025Metric",
-    "2512": "R_2512_6332Metric",
+    "0201": ("R_0201_0603Metric", "R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"),
+    "0402": ("R_0402_1005Metric", "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"),
+    "0603": ("R_0603_1608Metric", "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"),
+    "0805": ("R_0805_2012Metric", "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"),
+    "1206": ("R_1206_3216Metric", "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"),
+    "1210": ("R_1210_3225Metric", "R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"),
+    "1218": ("R_1218_3246Metric", "R_1218_3246Metric_Pad1.22x4.75mm_HandSolder"),
+    "1812": ("R_1812_4532Metric", "R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"),
+    "2010": ("R_2010_5025Metric", "R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"),
+    "2512": ("R_2512_6332Metric", "R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"),
 }
 
 CAPACITOR_FOOTPRINTS = {
-    "0201": "C_0201_0603Metric",
-    "0402": "C_0402_1005Metric",
-    "0603": "C_0603_1608Metric",
-    "0805": "C_0805_2012Metric",
-    "1206": "C_1206_3216Metric",
-    "1210": "C_1210_3225Metric",
-    "1812": "C_1812_4532Metric",
-    "2220": "C_2220_5650Metric",
+    "0201": ("C_0201_0603Metric", "C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"),
+    "0402": ("C_0402_1005Metric", "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"),
+    "0603": ("C_0603_1608Metric", "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"),
+    "0805": ("C_0805_2012Metric", "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"),
+    "1206": ("C_1206_3216Metric", "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"),
+    "1210": ("C_1210_3225Metric", "C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"),
+    "1812": ("C_1812_4532Metric", "C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"),
+    "2220": ("C_2220_5650Metric", "C_2220_5650Metric_Pad1.97x5.40mm_HandSolder"),
 }
 
 
@@ -527,7 +533,8 @@ def format_eng(magnitude: Decimal) -> str:
     return f"{mant:f}{ENG_PREFIXES[group]}"
 
 
-def resolve_footprint(package: str, comp: ComponentClass) -> tuple[str, str | None]:
+def resolve_footprint(package: str, comp: ComponentClass,
+                      hand_solder: bool = True) -> tuple[str, str | None]:
     """Return (footprint, warning).  Accepts '0603', '1608Metric', 'Lib:FP'."""
     pkg = package.strip()
     if not pkg:
@@ -543,7 +550,8 @@ def resolve_footprint(package: str, comp: ComponentClass) -> tuple[str, str | No
     if key.isdigit():
         key = key.zfill(4)
     if key in comp.footprints:
-        return f"{comp.footprint_lib}:{comp.footprints[key]}", None
+        reflow, handsolder = comp.footprints[key]
+        return f"{comp.footprint_lib}:{handsolder if hand_solder else reflow}", None
     return "", f"unknown package {package!r} (footprint left blank)"
 
 
@@ -589,7 +597,7 @@ def classify(row, cols, classes):
     return None
 
 
-def collect_parts(rows, cols, comp: ComponentClass, warn):
+def collect_parts(rows, cols, comp: ComponentClass, warn, hand_solder=True):
     """Turn the rows of one component class into sorted part dicts."""
     parts, seen = [], {}
     for lineno, row in rows:
@@ -613,7 +621,7 @@ def collect_parts(rows, cols, comp: ComponentClass, warn):
             warn(f"row {lineno}: {raw_value!r} has no SI prefix, reading it as "
                  f"{value} farads -- write e.g. '{raw_value}p' if that is wrong")
 
-        footprint, footprint_warning = resolve_footprint(package, comp)
+        footprint, footprint_warning = resolve_footprint(package, comp, hand_solder)
         if footprint_warning:
             warn(f"row {lineno} ({value}): {footprint_warning}")
 
@@ -782,7 +790,7 @@ def generate_library(comp, rows, cols, args) -> bool:
     def warn(message):
         print(f"  {message}", file=sys.stderr)
 
-    parts = collect_parts(rows, cols, comp, warn)
+    parts = collect_parts(rows, cols, comp, warn, not args.reflow_footprints)
     if not parts:
         print("  skipped: no usable rows", file=sys.stderr)
         return False
@@ -847,6 +855,9 @@ def main(argv=None) -> int:
                     choices=[c.key for c in COMPONENT_CLASSES],
                     help="build only this component class (repeatable): "
                          + ", ".join(c.key for c in COMPONENT_CLASSES))
+    ap.add_argument("--reflow-footprints", action="store_true",
+                    help="use the plain IPC footprints instead of the "
+                         "hand-solder variants with elongated pads")
     ap.add_argument("--keep-templates", action="store_true",
                     help="also copy the *_TEMPLATE symbols into the output libraries")
     ap.add_argument("-n", "--dry-run", action="store_true",
