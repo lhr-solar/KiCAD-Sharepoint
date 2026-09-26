@@ -480,7 +480,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -493,7 +493,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -502,8 +502,8 @@
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "R"
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -513,7 +513,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -534,7 +534,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -567,61 +567,12 @@
 					)
 				)
 			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -629,7 +580,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -7039,7 +6990,7 @@
 				)
 			)
 		)
-		(property "P/N" "-- mixed values --"
+		(property "P/N" "C0805B475K050T"
 			(at 120.65 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7098,7 +7049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 209.2452 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7131,7 +7082,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C5448976 "
+		(property "LCSC P/N" "C778721"
 			(at 208.28 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7142,7 +7093,7 @@
 				)
 			)
 		)
-		(property "P/N" "GGM31CD70J226KE02L "
+		(property "P/N" "GMK325BJ226MM-P"
 			(at 208.28 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7169,7 +7120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 241.3 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -7203,7 +7154,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 242.316 59.944 90)
+			(at 239.522 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7224,7 +7175,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 241.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7353,7 +7304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 208.28 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -7387,7 +7338,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 209.296 62.484 90)
+			(at 206.502 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7408,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 208.28 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7548,7 +7499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 173.99 67.31 180)
 		(unit 1)
 		(body_style 1)
@@ -7582,7 +7533,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.974 67.056 90)
+			(at 175.768 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8077,7 +8028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 197.8152 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8110,7 +8061,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C5448976 "
+		(property "LCSC P/N" "C778721"
 			(at 196.85 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8121,7 +8072,7 @@
 				)
 			)
 		)
-		(property "P/N" "GGM31CD70J226KE02L "
+		(property "P/N" "GMK325BJ226MM-P"
 			(at 196.85 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8148,7 +8099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 241.3 46.99 180)
 		(unit 1)
 		(body_style 1)
@@ -8182,7 +8133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.284 46.736 90)
+			(at 243.078 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,7 +8154,7 @@
 				)
 			)
 		)
-		(property "Description" "-- mixed values --"
+		(property "Description" "Resistor"
 			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8490,7 +8441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 174.9552 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8523,7 +8474,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C5448976 "
+		(property "LCSC P/N" "C778721"
 			(at 173.99 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +8485,7 @@
 				)
 			)
 		)
-		(property "P/N" "GGM31CD70J226KE02L "
+		(property "P/N" "GMK325BJ226MM-P"
 			(at 173.99 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8696,7 +8647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 96.2152 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8729,7 +8680,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C5448976 "
+		(property "LCSC P/N" "C778721"
 			(at 95.25 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8740,7 +8691,7 @@
 				)
 			)
 		)
-		(property "P/N" "GGM31CD70J226KE02L "
+		(property "P/N" "GMK325BJ226MM-P"
 			(at 95.25 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8799,7 +8750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 186.3852 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8832,7 +8783,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C5448976 "
+		(property "LCSC P/N" "C778721"
 			(at 185.42 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8843,7 +8794,7 @@
 				)
 			)
 		)
-		(property "P/N" "GGM31CD70J226KE02L "
+		(property "P/N" "GMK325BJ226MM-P"
 			(at 185.42 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +8821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 229.87 35.56 90)
 		(unit 1)
 		(body_style 1)
@@ -8902,7 +8853,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 230.124 34.544 90)
+			(at 229.87 37.338 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8923,7 +8874,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 229.87 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8972,7 +8923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 120.65 69.85 0)
 		(mirror x)
 		(unit 1)
@@ -9007,7 +8958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 121.666 69.596 90)
+			(at 118.872 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +8979,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
