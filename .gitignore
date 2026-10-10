@@ -1,25 +1,50 @@
+# -----------------------------------------------------------------------------
+# HARDWARE (KICAD)
+# -----------------------------------------------------------------------------
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
-# Temporary files
+# Temporary / backup files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
-*.kicad_prl
+*.kicad_sym-bak
+*.kicad_mod-bak
+*.kicad_pro-bak
+*.kicad_wks-bak
 *.sch-bak
+*.pro-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
 *~
+~*
 _autosave-*
+\#auto_saved_files\#
+\#auto_saved_files#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*-rescue.lib
+*-rescue.dcm
+*-rescue.kicad_sym
 fp-info-cache
+sym-info-cache
+
+# Lock files (KiCad creates ~name.kicad_pcb.lck, ~name.kicad_sch.lck, etc.)
 ~*.lck
-\#auto_saved_files#
-*.log
-*.history*
+*.lck
+
+# Local history / autosave snapshots (KiCad 9+/10)
+.history/
+*.kicad_prl.bak
+
+# Archived backups (KiCad 6.0+ zip snapshots in <project>-backups/)
+**/*-backups/
+**/*-backups/*.zip
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -28,26 +53,47 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
-#Mac Specific
-.DS_Store
-
-# JLCPCB Production Files
-Production/
+# Local project settings
+*.kicad_prl
 
 # Whitelist production files directory
 !**/jlcpcb/production_files/
 !**/jlcpcb/production_files/**
 
-# Backups
-*-backups/*
+# Exported BOM files -- keep these tracked (case-insensitive "BOM")
+!**/*[Bb][Oo][Mm]*.csv
+!**/*[Bb][Oo][Mm]*.xls
+!**/*[Bb][Oo][Mm]*.xlsx
 
-# Virtual Environments
+# -----------------------------------------------------------------------------
+# FIRMWARE
+# -----------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+compile_commands.json
+
+# Build files
+build
+.dockerfile.hash
+.cache
+/can/CANMetaData.*
+Madefile
+
+# Python
 *venv
+__pycache__/
+.env
 
-# Documentation
-/site
-.history
+# Nix
+flake.lock
+
+# Documentation toolset
+docs/doxygen/
+site/*
+!site/empty.a
+Zone.Identifier
+
+# Mac specific files
+.DS_Store
+.history*

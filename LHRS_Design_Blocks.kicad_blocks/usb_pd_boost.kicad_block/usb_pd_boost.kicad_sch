@@ -8511,12 +8511,6 @@
 		(uuid "0fbc6b6f-31e7-4fb7-bedc-0750394091cc")
 	)
 	(junction
-		(at 156.21 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10c17e00-9d7e-42db-a822-e9b52d385e22")
-	)
-	(junction
 		(at 114.3 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8685,18 +8679,6 @@
 		(uuid "97902d4a-3ed1-4ffa-a08b-72d2dd7a6a53")
 	)
 	(junction
-		(at 60.96 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa3144fe-5ddb-4f79-9024-5897c18e4311")
-	)
-	(junction
-		(at 67.31 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab4f01c2-bcd4-46fb-acaa-605bd3f6dc62")
-	)
-	(junction
 		(at 217.17 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8721,12 +8703,6 @@
 		(uuid "d982a04d-0bbf-47d6-a095-bb7bdf0e8589")
 	)
 	(junction
-		(at 116.84 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9a15a12-bf89-4c6a-a2cb-f647d1cbc7c5")
-	)
-	(junction
 		(at 217.17 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8737,12 +8713,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e812be8c-350b-4b59-910b-841cee0309d3")
-	)
-	(junction
-		(at 115.57 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecea03d0-886f-4ad8-b900-abc2703225e0")
 	)
 	(junction
 		(at 29.21 55.88)
@@ -8832,7 +8802,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 67.31 69.85)
+			(xy 62.23 69.85) (xy 83.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8882,7 +8852,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 116.84 55.88)
+			(xy 114.3 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9132,7 +9102,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 77.47) (xy 115.57 77.47)
+			(xy 114.3 77.47) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9149,16 +9119,6 @@
 			(type default)
 		)
 		(uuid "5c65a7bd-799b-4277-9fb8-29808106a649")
-	)
-	(wire
-		(pts
-			(xy 114.3 74.93) (xy 156.21 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb5d7e7-1201-4411-9b32-f1e991847927")
 	)
 	(wire
 		(pts
@@ -9282,16 +9242,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 69.85) (xy 62.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b6f27e-8244-4250-8f6e-5e81275b3815")
-	)
-	(wire
-		(pts
 			(xy 57.15 67.31) (xy 53.34 67.31)
 		)
 		(stroke
@@ -9412,16 +9362,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 134.62 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeadb960-a9e9-41a0-b749-77bf926d18e9")
-	)
-	(wire
-		(pts
 			(xy 184.15 55.88) (xy 184.15 62.23)
 		)
 		(stroke
@@ -9462,16 +9402,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 67.31) (xy 83.82 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bab0d02b-3647-4408-8f75-b9e5da5d6482")
-	)
-	(wire
-		(pts
 			(xy 184.15 62.23) (xy 195.58 62.23)
 		)
 		(stroke
@@ -9482,7 +9412,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 67.31) (xy 60.96 67.31)
+			(xy 57.15 67.31) (xy 83.82 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9512,7 +9442,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 158.75 74.93)
+			(xy 114.3 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9599,16 +9529,6 @@
 			(type default)
 		)
 		(uuid "e8816ea5-5069-42f8-be2b-7d1e81c67c52")
-	)
-	(wire
-		(pts
-			(xy 115.57 77.47) (xy 120.65 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e91342c1-08e9-4739-9d20-e1255701d600")
 	)
 	(wire
 		(pts
@@ -14002,7 +13922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 198.12 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14047,28 +13967,6 @@
 			)
 		)
 		(property "P/N" "08055D475KAT4A"
-			(at 195.58 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 195.58 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 195.58 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14127,7 +14025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 44.958 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14172,28 +14070,6 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
-			(at 41.91 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 41.91 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14294,28 +14170,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 57.15 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 57.15 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "P/N" "RC0603JR-070RL"
 			(at 57.15 76.2 0)
 			(hide yes)
@@ -14354,96 +14208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20b23865-4729-44f6-8a86-b282605092a0")
-		(property "Reference" "TP2"
-			(at 63.5 62.7379 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EN"
-			(at 59.69 61.722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 66.04 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 60.96 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0abf96b5-62a7-4f39-b861-45ea2c7c02e8")
-		)
-		(instances
-			(project "usb_pd_boost"
-				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 82.55 0)
 		(unit 1)
@@ -14465,7 +14229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.047uF"
+		(property "Value" "0.047u"
 			(at 65.024 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14510,28 +14274,6 @@
 			)
 		)
 		(property "P/N" "CC0603KRX7R9BB473"
-			(at 62.23 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 62.23 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 62.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14636,90 +14378,8 @@
 				)
 			)
 		)
-		(property "Height" "1.2"
-			(at 110.49 459.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS55340PWP"
-			(at 110.49 559.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS55340PWP?qs=E2%2FxqS9xjzrrmgnZHtk0VA%3D%3D"
-			(at 110.49 659.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 110.49 759.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS55340PWP"
-			(at 110.49 859.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "P/N" "TPS55340PWP"
 			(at 114.3 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 83.82 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 83.82 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14860,28 +14520,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 53.34 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 53.34 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "P/N" "CRCW060351K1FKEA"
 			(at 53.34 76.2 0)
 			(hide yes)
@@ -14941,7 +14579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1nF"
+		(property "Value" "0.1n"
 			(at 123.698 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14986,28 +14624,6 @@
 			)
 		)
 		(property "P/N" "CC0603JRNPO9BN101"
-			(at 120.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 120.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15122,28 +14738,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 158.75 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 158.75 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C2085290"
 			(at 158.75 66.04 0)
 			(hide yes)
@@ -15245,28 +14839,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 130.81 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C3961380"
 			(at 130.81 72.39 90)
 			(hide yes)
@@ -15315,7 +14887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 21.844 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15370,28 +14942,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 24.13 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 24.13 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C3840574"
 			(at 24.13 83.82 0)
 			(hide yes)
@@ -15419,96 +14969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 156.21 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80f9684a-25ec-4228-ada9-9b8b0e49aeb8")
-		(property "Reference" "TP6"
-			(at 158.75 70.3579 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FB"
-			(at 154.178 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 161.29 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 156.21 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 156.21 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b609f0a-c9db-41fd-b057-158ba6a237ff")
-		)
-		(instances
-			(project "usb_pd_boost"
-				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 83.82 0)
 		(unit 1)
@@ -15530,7 +14990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 32.004 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15575,28 +15035,6 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
-			(at 34.29 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 34.29 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 34.29 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15655,7 +15093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 225.298 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15700,28 +15138,6 @@
 			)
 		)
 		(property "P/N" "CC0603KRX7R9BB105"
-			(at 222.25 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 222.25 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 222.25 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15780,7 +15196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 176.53 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15825,28 +15241,6 @@
 			)
 		)
 		(property "P/N" "08055D475KAT4A"
-			(at 173.99 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 173.99 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 173.99 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15948,7 +15342,7 @@
 				)
 			)
 		)
-		(property "Height" "2.5"
+		(property "P/N" "B540C-13-F"
 			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15959,40 +15353,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "621-B540C-F"
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stockl" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B540C-13-F?qs=v2dnQLbuoRZXHN%2FK4ft5%252Bg%3D%3D"
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B540C-13-F"
+		(property "LCSC P/N" "C908244"
 			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16013,186 +15374,6 @@
 			(project "usb_pd_boost"
 				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 115.57 77.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "902f0e56-9046-405c-bf1f-d7549a325ba7")
-		(property "Reference" "TP8"
-			(at 118.11 79.5019 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "COMP"
-			(at 114.554 82.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 110.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 115.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 115.57 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e744b59-e0f4-44e0-90ec-50a24a3d93c9")
-		)
-		(instances
-			(project "usb_pd_boost"
-				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 67.31 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9198740b-1732-4ae3-8638-3b7bb2522ed5")
-		(property "Reference" "TP7"
-			(at 69.85 71.8819 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS"
-			(at 68.58 73.152 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 62.23 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 67.31 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 67.31 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3099ae91-5def-4bf3-8fd8-c9d4037495f7")
-		)
-		(instances
-			(project "usb_pd_boost"
-				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -16363,28 +15544,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 130.81 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C705758"
 			(at 130.81 77.47 90)
 			(hide yes)
@@ -16523,7 +15682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 213.868 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16568,28 +15727,6 @@
 			)
 		)
 		(property "P/N" "CC0603KRX7R9BB105"
-			(at 210.82 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 210.82 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16702,28 +15839,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 99.06 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 99.06 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C49672242"
 			(at 99.06 55.88 90)
 			(hide yes)
@@ -16772,7 +15887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 186.69 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16817,28 +15932,6 @@
 			)
 		)
 		(property "P/N" "08055D475KAT4A"
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 184.15 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 184.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16931,28 +16024,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 53.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 53.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17078,28 +16149,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 158.75 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 158.75 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C843841"
 			(at 158.75 81.28 0)
 			(hide yes)
@@ -17148,7 +16197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 142.494 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17203,28 +16252,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC P/N" "C6666325"
 			(at 139.7 87.63 0)
 			(hide yes)
@@ -17246,96 +16273,6 @@
 			(project "usb_pd_boost"
 				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.84 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed023e48-eff8-4258-b075-f9e2843d464e")
-		(property "Reference" "TP5"
-			(at 119.38 51.3079 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW"
-			(at 115.57 50.546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 121.92 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 116.84 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9d24cc5-9020-408e-be6f-09f9fcd0dd1d")
-		)
-		(instances
-			(project "usb_pd_boost"
-				(path "/2b3ef5e9-c974-44d2-8d28-cda88c383d02"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
