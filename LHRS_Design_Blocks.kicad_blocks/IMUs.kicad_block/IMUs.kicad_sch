@@ -2023,6 +2023,36 @@
 		)
 		(uuid "e3e9eafd-44a5-4d28-a660-dae15b4ed9c5")
 	)
+	(text "Max Voltage: 3.6V\n\nMin Voltage: 1.71V\n\nTyp Current: 1.3mA\n\nMax Current: 1.6mA\n"
+		(exclude_from_sim no)
+		(at 61.214 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0213b4d3-d4c5-4986-995e-a1f3afe38953")
+	)
+	(text "Max Voltage: 3.6V\n\nMin Voltage: 2.8V\n\nTyp Current: 450uA\n\nMax Current: 450uA\n"
+		(exclude_from_sim no)
+		(at 153.67 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "302ffe2b-d093-4e78-b1e7-fe89749e9b3f")
+	)
+	(text "MAG_DRDY is an interupt letting MCU know when a new reading is ready"
+		(exclude_from_sim no)
+		(at 60.96 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e2aaff8-275f-42ff-99a4-9a8cb4516d08")
+	)
 	(text "3-Axis Magnetometer"
 		(exclude_from_sim no)
 		(at 156.464 16.51 0)
@@ -2047,9 +2077,9 @@
 		)
 		(uuid "777c88f2-c12f-4868-a739-f96026bb116d")
 	)
-	(text "SPI Protection"
+	(text "ESD Protection"
 		(exclude_from_sim no)
-		(at 181.61 110.49 0)
+		(at 181.864 110.49 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6163,8 +6193,8 @@
 		)
 	)
 	(image
-		(at 74.93 127)
-		(scale 0.384416)
+		(at 72.39 97.79)
+		(scale 0.280196)
 		(uuid "5905e241-0e5b-427b-a523-1e515c8a4ad6")
 		(data "iVBORw0KGgoAAAANSUhEUgAABnIAAAT4CAYAAAAsDFyTAAAMUmlDQ1BJQ0MgUHJvZmlsZQAASImV"
 			"VwdYU8kWnlvSgNACCEgJvYkiUgJICT303kQlJAFCCTEhqIgNXVRwLahYsKKLIgpWmh0bKoti74sF"
@@ -13539,6 +13569,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13646,6 +13682,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13659,7 +13701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "168c8129-2c9a-48f4-aa21-4242875bc7cf")
-		(property "Reference" "C26"
+		(property "Reference" "C44"
 			(at 88.9 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13727,6 +13769,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13740,7 +13788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30ede51d-5287-4bfa-b65f-5ee20ebb6195")
-		(property "Reference" "C25"
+		(property "Reference" "C42"
 			(at 22.86 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13808,6 +13856,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "C42")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13821,7 +13875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66fe7152-0582-4bcd-a7a4-0e402a057d55")
-		(property "Reference" "C28"
+		(property "Reference" "C49"
 			(at 209.804 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13889,6 +13943,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "C49")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13903,7 +13963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67af51a7-d0ba-4af0-9385-a25c3cd564f3")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 194.31 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13996,6 +14056,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14009,7 +14075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aab6397-4098-45a1-b713-c17327c341d9")
-		(property "Reference" "C27"
+		(property "Reference" "C45"
 			(at 183.134 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14077,6 +14143,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "C45")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14091,7 +14163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adc2de4a-e3b7-485f-a277-3019c687ca65")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 63.5 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14195,6 +14267,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14209,7 +14287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdfd8102-88ff-4183-881b-2065df9008f3")
-		(property "Reference" "R25"
+		(property "Reference" "R35"
 			(at 172.466 20.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14275,6 +14353,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14288,7 +14372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec300c8-a076-41b3-8880-099d5419cebd")
-		(property "Reference" "C40"
+		(property "Reference" "C48"
 			(at 207.264 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14353,6 +14437,12 @@
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -14436,6 +14526,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14449,7 +14545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2f9279c-7305-47d6-b7d8-8e76bfb9d01a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 218.44 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14513,6 +14609,12 @@
 					(unit 1)
 				)
 			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14527,7 +14629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4329cca-1a2d-4b6d-be82-de027f562bcf")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 96.52 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14592,6 +14694,12 @@
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
+					(reference "C43")
 					(unit 1)
 				)
 			)
