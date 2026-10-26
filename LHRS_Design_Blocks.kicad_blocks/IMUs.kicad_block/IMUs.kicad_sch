@@ -1871,121 +1871,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 171.45 113.03)
@@ -2025,7 +1910,7 @@
 	)
 	(text "Max Voltage: 3.6V\n\nMin Voltage: 1.71V\n\nTyp Current: 1.3mA\n\nMax Current: 1.6mA\n"
 		(exclude_from_sim no)
-		(at 61.214 146.304 0)
+		(at 72.009 161.163 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2045,7 +1930,7 @@
 	)
 	(text "MAG_DRDY is an interupt letting MCU know when a new reading is ready"
 		(exclude_from_sim no)
-		(at 60.96 136.906 0)
+		(at 71.755 151.765 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2099,17 +1984,23 @@
 		)
 		(uuid "d77f5b89-2388-4fc7-baaf-48417e8539ee")
 	)
+	(text "ADD EXTERNAL SPI DAMPNING R's IF NEEDED\nSPI CLK: 10MHz ---> 22 Ohm RECOMMENDED"
+		(exclude_from_sim no)
+		(at 71.755 140.97 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dc3f789d-61e2-41fd-b32d-d632554f270e")
+	)
 	(junction
 		(at 176.53 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0728d133-ae3f-4660-b7f2-49b58b7d4766")
-	)
-	(junction
-		(at 29.21 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16afd228-3fbc-48cd-b2bf-7391254c0914")
 	)
 	(junction
 		(at 207.01 24.13)
@@ -2134,6 +2025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2f4d57b-d8ad-4161-b021-ad860fdcad2d")
+	)
+	(junction
+		(at 33.02 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c3ecaa-d90a-4536-9273-6dcb0276e3c9")
 	)
 	(junction
 		(at 180.34 90.17)
@@ -2232,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "03f9cd96-6aec-4549-a638-50f5abc0407f")
-	)
-	(wire
-		(pts
-			(xy 33.02 48.26) (xy 33.02 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a460b0a-22c6-4b6d-a988-b5bb4ba632d0")
 	)
 	(wire
 		(pts
@@ -2355,16 +2242,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 54.61) (xy 25.4 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359e382d-bfb8-4fc5-b789-a1eda3af8c8b")
-	)
-	(wire
-		(pts
 			(xy 177.8 78.74) (xy 177.8 90.17)
 		)
 		(stroke
@@ -2382,16 +2259,6 @@
 			(type default)
 		)
 		(uuid "3db1d2ea-6457-4e38-9b77-e0777a53ebfb")
-	)
-	(wire
-		(pts
-			(xy 218.44 144.78) (xy 218.44 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e944d62-60dd-4aa8-ab6b-379708381013")
 	)
 	(wire
 		(pts
@@ -2665,6 +2532,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 144.78) (xy 218.44 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86facd3-b9c3-4668-87d1-6896dfa3ee5d")
+	)
+	(wire
+		(pts
 			(xy 219.71 132.08) (xy 228.6 132.08)
 		)
 		(stroke
@@ -2715,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 54.61) (xy 29.21 54.61)
+			(xy 29.21 54.61) (xy 33.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 92.71 57.15)
+			(xy 95.25 57.15) (xy 97.79 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2875,6 +2752,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 54.61) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f535d0c8-c862-447d-a6f7-14eef1bfb962")
+	)
+	(wire
+		(pts
 			(xy 86.36 38.1) (xy 100.33 38.1)
 		)
 		(stroke
@@ -2882,6 +2769,16 @@
 			(type default)
 		)
 		(uuid "fa7e12ac-7ae4-40ed-aea2-79b8ed1b4d26")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 33.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa12b22-d652-4363-b7f1-7ecdd7dd2ef3")
 	)
 	(image
 		(at 256.54 59.69)
@@ -13156,6 +13053,17 @@
 		)
 		(uuid "208da874-da7f-40bb-840e-7967b72b0822")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 218.44 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "226ee533-68e8-483f-b093-3e18eb6bcaa2")
+	)
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 213.36 24.13 0)
@@ -13180,12 +13088,12 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 92.71 57.15 180)
+		(at 97.79 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4bfa98f7-718f-4ca0-b3c2-d707ec39da2a")
 	)
@@ -13213,12 +13121,12 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 25.4 54.61 180)
+		(at 36.83 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "840f784a-ddb3-433d-87ab-6eb21023412d")
 	)
@@ -13563,6 +13471,12 @@
 			(uuid "5ce0a10a-d79d-4fbf-8da4-8b2b47e263b8")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "IC3")
@@ -13676,6 +13590,12 @@
 			(uuid "09719fc2-a7e3-4583-b9d3-fc08aeb59de6")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "U8")
@@ -13701,7 +13621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "168c8129-2c9a-48f4-aa21-4242875bc7cf")
-		(property "Reference" "C44"
+		(property "Reference" "C26"
 			(at 88.9 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13712,7 +13632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 97.282 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13723,7 +13643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Converter:Balun_Johanson_0900PC15J0013"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 96.2152 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13763,6 +13683,12 @@
 			(uuid "d740660b-06a0-42e8-84be-d0ab2f10f6d8")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C26")
@@ -13788,7 +13714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30ede51d-5287-4bfa-b65f-5ee20ebb6195")
-		(property "Reference" "C42"
+		(property "Reference" "C25"
 			(at 22.86 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13799,7 +13725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 20.574 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13810,7 +13736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Converter:Balun_Johanson_0900PC15J0013"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 30.1752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13850,6 +13776,12 @@
 			(uuid "deb81605-98f3-485f-86d5-cdf8ed09e7c9")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C25")
@@ -13875,7 +13807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66fe7152-0582-4bcd-a7a4-0e402a057d55")
-		(property "Reference" "C49"
+		(property "Reference" "C28"
 			(at 209.804 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +13818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 209.804 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13897,7 +13829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 207.9752 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13937,6 +13869,12 @@
 			(uuid "5dd69f9d-7960-4399-90b1-e5f42f76d34e")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C28")
@@ -13963,7 +13901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67af51a7-d0ba-4af0-9385-a25c3cd564f3")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 194.31 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14050,6 +13988,12 @@
 			(uuid "f88eeb15-d692-4f94-883e-3958af11e5c6")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "U7")
@@ -14075,7 +14019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aab6397-4098-45a1-b713-c17327c341d9")
-		(property "Reference" "C45"
+		(property "Reference" "C27"
 			(at 183.134 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14086,7 +14030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 183.134 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +14041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.3052 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14137,6 +14081,12 @@
 			(uuid "5723b2b0-a757-4510-bef9-b19d3bb798d9")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C27")
@@ -14163,7 +14113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adc2de4a-e3b7-485f-a277-3019c687ca65")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 63.5 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14261,6 +14211,12 @@
 			(uuid "cfc3c708-1527-4c98-849a-c6396981fbf6")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "U4")
@@ -14287,7 +14243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdfd8102-88ff-4183-881b-2065df9008f3")
-		(property "Reference" "R35"
+		(property "Reference" "R25"
 			(at 172.466 20.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14307,7 +14263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 172.72 24.638 90)
 			(hide yes)
 			(show_name no)
@@ -14347,6 +14303,12 @@
 			(uuid "33388f5d-3865-41ad-9adc-7d95509e836e")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "R25")
@@ -14372,7 +14334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec300c8-a076-41b3-8880-099d5419cebd")
-		(property "Reference" "C48"
+		(property "Reference" "C40"
 			(at 207.264 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14383,7 +14345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 207.264 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14394,7 +14356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 205.4352 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14434,6 +14396,12 @@
 			(uuid "a4e211b0-530f-45c9-8f39-d5134924da01")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "C40")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C40")
@@ -14480,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.872 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -14520,6 +14488,12 @@
 			(uuid "6943e4ee-4297-46f8-82a5-737f705c782f")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "R33")
@@ -14529,89 +14503,6 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2f9279c-7305-47d6-b7d8-8e76bfb9d01a")
-		(property "Reference" "#PWR01"
-			(at 218.44 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 152.908 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71a37a63-444e-4ffe-a75b-766e0ce3fa56")
-		)
-		(instances
-			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -14629,7 +14520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4329cca-1a2d-4b6d-be82-de027f562bcf")
-		(property "Reference" "C43"
+		(property "Reference" "C41"
 			(at 96.52 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14640,7 +14531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 96.52 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14691,6 +14582,12 @@
 			(uuid "be17baae-ead2-4cf0-8bc7-e84a1777693b")
 		)
 		(instances
+			(project "IMUs"
+				(path "/2f632b57-3ef6-4dbe-afd2-1b439a02c3c6"
+					(reference "C41")
+					(unit 1)
+				)
+			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C41")
@@ -14705,4 +14602,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
